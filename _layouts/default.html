@@ -1,92 +1,94 @@
 <!DOCTYPE html>
 <html>
-	<!-- head -->
-        <head>
-            <title>{{ page.title }}</title>
+	<!-- header -->
+    <head>
+        <title>{{ page.title }}</title>
 
-            <!-- Import Bootstrap Files -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Import Bootstrap Files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="/bootstrap/js/bootstrap.min.js"></script>
-            <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
-        </head>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/bootstrap/js/bootstrap.js"></script>
+        <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+    </head>
+
+    
+    <body>
         <!-- nav bar -->
-        <body>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                </ul>
-            </nav>
+        <nav class="container">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/team">Team</a></li>
+            </ul>
+        </nav>
 
-            <!-- embed content from child pages -->
-            {{ content }}
-            <!-- footer -->
-            <footer class = "footerstyle">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="col-sm-1">
-                            </div>
-                            <div class="col-sm-2">
-                                <ul>
-                                    <strong><li>About</li></strong>
-                                    <li>Spark! Staff</li>
-                                    <li>Ignite Student Council</li>
-                                    <li>Innovator in Residence</li>
-                                    <li>Technical Experts</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-2">
-                                <ul>
-                                    <li>About</li>
-                                    <li>Spark! Staff</li>
-                                    <li>Ignite Student Council</li>
-                                    <li>Innovator in Residence</li>
-                                    <li>Technical Experts</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-2">
-                                <ul>
-                                    <li>About</li>
-                                    <li>Spark! Staff</li>
-                                    <li>Ignite Student Council</li>
-                                    <li>Innovator in Residence</li>
-                                    <li>Technical Experts</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-2">
-                                <ul>
-                                    <li>About</li>
-                                    <li>Spark! Staff</li>
-                                    <li>Ignite Student Council</li>
-                                    <li>Innovator in Residence</li>
-                                    <li>Technical Experts</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-2">
-                                <ul>
-                                    <li>About</li>
-                                    <li>Spark! Staff</li>
-                                    <li>Ignite Student Council</li>
-                                    <li>Innovator in Residence</li>
-                                    <li>Technical Experts</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-1">
-                            </div>
-                        </div>
+        <!-- embed content from child pages -->
+        {{ content }}
+
+        <!-- footer -->
+        <footer class="footerstyle">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-1">
+                        <!-- padding -->
                     </div>
-                    <!--Finally you made it to the bottom of the page, congrats-->
+                    <div class="col-sm-2">
+                        <ul>
+                            <strong><li>About</li></strong>
+                            <li>Spark! Staff</li>
+                            <li>Ignite Student Council</li>
+                            <li>Innovator in Residence</li>
+                            <li>Technical Experts</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <ul>
+                            <li>About</li>
+                            <li>Spark! Staff</li>
+                            <li>Ignite Student Council</li>
+                            <li>Innovator in Residence</li>
+                            <li>Technical Experts</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <ul>
+                            <li>About</li>
+                            <li>Spark! Staff</li>
+                            <li>Ignite Student Council</li>
+                            <li>Innovator in Residence</li>
+                            <li>Technical Experts</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <ul>
+                            <li>About</li>
+                            <li>Spark! Staff</li>
+                            <li>Ignite Student Council</li>
+                            <li>Innovator in Residence</li>
+                            <li>Technical Experts</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2">
+                        <ul>
+                            <li>About</li>
+                            <li>Spark! Staff</li>
+                            <li>Ignite Student Council</li>
+                            <li>Innovator in Residence</li>
+                            <li>Technical Experts</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-1">
+                        <!-- padding -->
+                    </div>
                 </div>
+            </div>
+            <!--Finally you made it to the bottom of the page, congrats-->
         </footer>
-                <div class = "bottomfooter">
-                    <div class = "row">
-                        <div class = "col-sm-12">
-                            <img src = "/img/Logo/logo.png" style="padding-left:50%; padding-right:50%; padding-top:10px; padding-bottom:10px;">
-                        </div>
-                    </div>
-                </div>
-        </body>
+
+        <div class="row bottomfooter">
+            <div class="col-sm-12">
+                <img src="/img/Logo/logo.png" style="padding-left:50%; padding-right:50%; padding-top:10px; padding-bottom:10px;">
+            </div>
+        </div>
+    </body>
 </html>
