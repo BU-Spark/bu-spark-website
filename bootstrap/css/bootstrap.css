@@ -16,10 +16,20 @@ ul {
   color: #fff;
   text-align: center;
 }
-.btn-primary.outline {
+.btn.sharp {
+    border-radius: 0;
+    color: #fff;
+}
+.btn-sharp.outline {
 	border: 4px solid #ffffff;
 	color: #ffffff;
 }
+.btn-sharp:hover {
+  color: black;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 
 .hero-unit {
     background-image: url(../../img/Headers/resource-header-2.jpg);
@@ -282,6 +292,7 @@ th {
   }
   .navbar {
     display: none;
+    background: none
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -3157,8 +3168,8 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #000;
-  border-color: #fff;
+  background-color: blue;
+  border-color: darkblue;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -4208,7 +4219,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4367,7 +4378,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav > li > a {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 10px; /* reduce padding */
   line-height: 20px;
 }
 @media (max-width: 767px) {
@@ -4535,8 +4546,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: none; /* transparent */
+  border-color: none; /* transparent */
 }
 .navbar-default .navbar-brand {
   color: #777;

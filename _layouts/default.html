@@ -10,85 +10,76 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="/bootstrap/js/bootstrap.js"></script>
         <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+        
+        {% include navbar.html %}
     </head>
 
-    
+    <!-- Body: embed content from child pages -->
     <body>
-        <!-- nav bar -->
-        <nav class="container">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/team">Team</a></li>
-            </ul>
-        </nav>
-
-        <!-- embed content from child pages -->
         {{ content }}
-
-        <!-- footer -->
-        <footer class="footerstyle">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="col-sm-1">
-                        <!-- padding -->
-                    </div>
-                    <div class="col-sm-2">
-                        <ul>
-                            <strong><li>About</li></strong>
-                            <li>Spark! Staff</li>
-                            <li>Ignite Student Council</li>
-                            <li>Innovator in Residence</li>
-                            <li>Technical Experts</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <ul>
-                            <li>About</li>
-                            <li>Spark! Staff</li>
-                            <li>Ignite Student Council</li>
-                            <li>Innovator in Residence</li>
-                            <li>Technical Experts</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <ul>
-                            <li>About</li>
-                            <li>Spark! Staff</li>
-                            <li>Ignite Student Council</li>
-                            <li>Innovator in Residence</li>
-                            <li>Technical Experts</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <ul>
-                            <li>About</li>
-                            <li>Spark! Staff</li>
-                            <li>Ignite Student Council</li>
-                            <li>Innovator in Residence</li>
-                            <li>Technical Experts</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <ul>
-                            <li>About</li>
-                            <li>Spark! Staff</li>
-                            <li>Ignite Student Council</li>
-                            <li>Innovator in Residence</li>
-                            <li>Technical Experts</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-1">
-                        <!-- padding -->
-                    </div>
-                </div>
+    </body>
+    
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="row footerstyle">
+            <div class="col-sm-1">
+                <!-- padding -->
             </div>
-            <!--Finally you made it to the bottom of the page, congrats-->
-        </footer>
-
-        <div class="row bottomfooter">
-            <div class="col-sm-12">
-                <img src="/img/Logo/logo.png" style="padding-left:50%; padding-right:50%; padding-top:10px; padding-bottom:10px;">
+            <div class="col-sm-2">
+                <ul>
+                    <strong><li>About</li></strong>
+                    <li>Spark! Staff</li>
+                    <li>Ignite Student Council</li>
+                    <li>Innovator in Residence</li>
+                    <li>Technical Experts</li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ul>
+                    <li>About</li>
+                    <li>Spark! Staff</li>
+                    <li>Ignite Student Council</li>
+                    <li>Innovator in Residence</li>
+                    <li>Technical Experts</li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ul>
+                    <li>About</li>
+                    <li>Spark! Staff</li>
+                    <li>Ignite Student Council</li>
+                    <li>Innovator in Residence</li>
+                    <li>Technical Experts</li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ul>
+                    <li>About</li>
+                    <li>Spark! Staff</li>
+                    <li>Ignite Student Council</li>
+                    <li>Innovator in Residence</li>
+                    <li>Technical Experts</li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <ul>
+                    <li>About</li>
+                    <li>Spark! Staff</li>
+                    <li>Ignite Student Council</li>
+                    <li>Innovator in Residence</li>
+                    <li>Technical Experts</li>
+                </ul>
+            </div>
+            <div class="col-sm-1">
+                <!-- padding -->
             </div>
         </div>
-    </body>
+
+        <div class="row footerstyle">
+            <!--DON'T use padding-right and padding-left, it breaks the container -->
+            <!-- using style position:absolute breaks the background, why? -->
+            <img src="/img/Logo/logo.png">
+        </div>
+    </footer>
+    <!--Finally you made it to the bottom of the page, congrats-->
 </html>
