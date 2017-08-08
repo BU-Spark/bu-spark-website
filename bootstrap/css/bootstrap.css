@@ -1,3 +1,77 @@
+/* Side Navigation */
+
+#sideNav {
+    background-color: #00a897;
+    width: 200px;
+    position: absolute;
+    height: 100%;
+}
+.resources a {
+    color:white;
+    font-family:"Karbon";
+}
+.resources ul{
+    text-align: left;
+}
+.resources li{
+    padding-bottom: 10px;
+}
+
+#mainContent {
+    float: left;
+    width: 84%;
+    margin-left: 200px;
+}
+/* Resources Page */
+
+.resourcetitle a{
+    color:black;
+}
+.resources img {
+    width:inherit;
+    height: inherit;
+}
+.resources button {
+    background-color:#434343;
+    color:white;
+    padding:10px;
+    font-family:"Karbon";
+    font-size:16pt;
+}
+.resources p{
+    font-size:16pt;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+/* Contact Page */
+.contact{
+    background-image:url("../../img/Background_Images/contact_background.png");
+    background-size: 100% 200px;
+    width:max-width;
+    height:max-height;
+    background-repeat: no-repeat;
+    background-position: inherit; 
+}
+.icon{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.contactstyle p{
+    font-family:"Karbon Regular";
+}
+.contact{
+    background-image:url(img/Background Images/contact_background.png);
+}
+.contact p{
+    color:#535353;
+}
+.bottomfooter{
+    background-color:black;
+}
+/* Break */
+.break {
+    background:#00a897;
+}
 /* Start Custom CSS Down Under #Australian? */
 ul {
     list-style-type: none;
@@ -5,8 +79,9 @@ ul {
     display:inline;
 }
 .footerstyle{
-    background-color:black;
+    background-color:#00a897;
     color:white;
+    font-family:"Raleway";
 }
 .carousel-caption-custom {
   position: absolute;
