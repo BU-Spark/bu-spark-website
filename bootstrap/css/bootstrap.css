@@ -1,5 +1,10 @@
-/* Side Navigation */
-.resources a:hover, a:focus
+/* Icon Styles*/
+#icon{
+    vertical-align: none;
+}
+
+/* Side Navigation and Main Page Content*/
+.mainstyle a:hover, a:focus
 {
     color:black; 
 }
@@ -11,16 +16,15 @@
     background-color: #00a897;
     width: 200px;
     position: absolute;
-    height: 100%;
 }
-.resources a {
+.mainstyle a {
     color:white;
     font-family:"Karbon";
 }
-.resources ul{
+.mainstyle ul{
     text-align: left;
 }
-.resources li{
+.mainstyle li{
     padding-bottom: 10px;
 }
 
@@ -29,11 +33,26 @@
     width: 84%;
     margin-left: 200px;
 }
+
+#sectiontitle{
+    color: #434343;
+    font-family: "bebas";
+    font-size: 24px;
+}
+
+#subsectiontitle{
+    color: #434343;
+    font-family:"bebas";
+    font-size: 16px;
+}
+
+p{
+    font-size:12pt;
+    padding-top:10px;
+    padding-bottom:10px;  
+}
 /* Resources Page */
 
-.resourcetitle a{
-    color:black;
-}
 .resources img {
     width:inherit;
     height: inherit;
@@ -45,12 +64,12 @@
     font-family:"Karbon";
     font-size:16pt;
 }
-.resources p{
-    font-size:16pt;
-    padding-top:10px;
-    padding-bottom:10px;
+/* Footer */
+
+#footertitle {
+    font-family: "bebas";
+    font-size: 12px;
 }
-/* Contact Page */
 .contact{
     background-image:url("../../img/Background_Images/contact_background.png");
     background-size: 100% 200px;
@@ -70,11 +89,15 @@
     background-image:url(img/Background Images/contact_background.png);
 }
 .contact p{
-    color:#535353;
+    color:white;
+    padding:0px;
+    font-size:10px;
+    
 }
-.bottomfooter{
-    background-color:black;
+.contact li{
+    font-size:10px;
 }
+
 /* Break */
 .break {
     background:#00a897;
@@ -86,7 +109,7 @@ ul {
     display:inline;
 }
 .footerstyle{
-    background-color:#00a897;
+    background-color:black;
     color:white;
     font-family:"Raleway";
 }
@@ -194,8 +217,9 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin: .67em 0;
-  font-size: 2em;
+    margin: .67em 0;
+    font-size: 2em;
+    font-family: "bebas";
 }
 mark {
   color: #000;
@@ -1306,7 +1330,7 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
-h1,
+/*Lawrence I took out h1 here to change the font - I hope this does not break anything*/
 h2,
 h3,
 h4,
