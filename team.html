@@ -3,13 +3,27 @@ layout: default
 title: BU Spark! - Team
 ---
 <!--big and beautiful header image-->
-<img src="img/Headers/team_header.png" alt="test" class="img-responsive" style="max-height: 100%; max-width: 100%;"> 
-<div class="carousel-caption-custom">
-    <h1 style="text-align: left">WE KEEP THE FLAME LIT.</h1>
-    <p style="text-align: left">BU Spark! is an initiative to support student-driven innovation and entrepreneurship in computer science, computer engineering and related disciples.</p>
+<div id="homeCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators: dots at the bottom of carousel indicating current and total slides -->
+    <!-- data-target indicates id of carousel div -->
+    <ol class="carousel-indicators">
+        <!-- use none class to hide element -->
+        <none data-target="#homeCarousel" data-slide-to="0" class="active"></none>
+    </ol>
+
+    <!-- Slides are wrapped in div with class "carousel-inner" -->
+    <!-- Each slides must be in div with class item, and one slide must be active -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="img/Headers/team_header.png" alt="We help you ignite ideas.">
+            <div class="carousel-caption-custom">
+                <h1>We keep the flame lit.</h1>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
     <!-- Staff -->
     <div class="row">
         <div class="col-sm-6">

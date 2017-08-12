@@ -51,6 +51,7 @@ p{
     padding-top:10px;
     padding-bottom:10px;  
 }
+
 /* Resources Page */
 
 .resources img {
@@ -64,8 +65,60 @@ p{
     font-family:"Karbon";
     font-size:16pt;
 }
-/* Footer */
 
+/* Carousel */
+.home-carousel .slides .slide-1, 
+.home-carousel .slides .slide-2,
+.home-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Background images for individual slides */
+.home-carousel .slides .slide-1 {
+  background-image: url("../../img/Headers/team_header_home_cut.png"); 
+}
+.home-carousel .slides .slide-2 {
+  background-image: url("../../img/Headers/resource-header-2.jpg");
+}
+.home-carousel .slides .slide-3 {
+  background-image: url("../../img/Headers/team_header_home_cut.png"); 
+}
+
+/* Hero Image styling for each slide */
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+
+.hero h1 {
+    font-size: 4em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Nav bar */
+#nav-logo {
+    background-image: url("../../img/Logo/spark_logo_round.png");
+
+}
+
+/* Footer */
 #footertitle {
     font-family: "bebas";
     font-size: 12px;
@@ -135,24 +188,8 @@ ul {
   border-color: #fff;
 }
 
-
-.hero-unit {
-    background-image: url(../../img/Headers/resource-header-2.jpg);
-    height: 100%;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.hero-text {
-    /* Place text in the middle of the hero image */
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+.test {
+    background-image: blue;
 }
 
 /*!
@@ -398,7 +435,7 @@ th {
   }
   .navbar {
     display: none;
-    background: none
+    background: none;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -1280,7 +1317,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 .img-rounded {
@@ -4143,6 +4180,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+  color: #fff; /* set color of navbar link items */
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4325,7 +4363,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 10px;
+  /* margin-bottom: -20px; HACKY WAY to allow for overlap between content and navbar */
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4433,7 +4471,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 0; /* changed padding to 0 to align with page */
   font-size: 18px;
   line-height: 20px;
 }
@@ -4652,7 +4690,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: none; /* transparent */
+  background-color: #000; /* transparent */
   border-color: none; /* transparent */
 }
 .navbar-default .navbar-brand {
@@ -4667,11 +4705,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #fff; /* navbar link colors */
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #00a897; /* spark green for hover, focus */
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,

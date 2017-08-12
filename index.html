@@ -5,7 +5,7 @@ title: BU Spark! - Home
 <!-- Carousel Documentation: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
 <!-- Carousels require for carousel controls to function properly. -->
 <!-- slide class adds animation, data-ride="carousel" makes animation begin on page load -->
-<div id="homeCarousel" class="carousel slide" data-ride="carousel">
+<div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
     <!-- Indicators: dots at the bottom of carousel indicating current and total slides -->
     <!-- data-target indicates id of carousel div -->
     <ol class="carousel-indicators">
@@ -17,33 +17,39 @@ title: BU Spark! - Home
     <!-- Slides are wrapped in div with class "carousel-inner" -->
     <!-- Each slides must be in div with class item, and one slide must be active -->
     <div class="carousel-inner">
-        <div class="item active">
-            <img src="img/Headers/team_header_home_cut.png" alt="We help you ignite ideas.">
-            <div class="carousel-caption-custom">
-                <h1>Welcome to BU Spark!</h1>
-                <h2>We help you ignite ideas.</h2>
-                <p>BU Spark! is an initiative to support student-drive innovation in computer science, engineering, and related</p>
-                <a class="btn btn-sharp outline">Learn More</a> <!-- custom classes btn-sharp, outline-->
+        <div class="item slides active"> <!-- include styling for each slide -->
+            <div class="slide-1"></div> <!-- load image in this div -->
+            <div class="hero">
+                <hgroup>
+                    <h1>BU Spark!</h1>        
+                    <h3>We help you ignite ideas </h3>
+                    <p>BU Spark! is an initiative to support student-drive innovation in computer science, engineering, and related disciplines.</p>
+                    <a class="btn btn-sharp outline">Learn More</a> <!-- custom classes btn-sharp, outline -->
+                </hgroup>
             </div>
         </div>
 
-        <div class="item">
-            <img src="img/Headers/resource-header-2.jpg" alt="We help you build projects.">
-            <div class="carousel-caption-custom">
-                <h1>Welcome to BU Spark!</h1>
-                <h2>We help you build projects.</h2>
-                <p>BU Spark! is an initiative to support student-drive innovation in computer science, engineering, and related</p>
-                <a class="btn btn-sharp outline">Learn More</a>
+        <div class="item slides">
+            <div class="slide-2"></div>
+            <div class="hero">
+                <hgroup>
+                    <h1>BU Spark!</h1>        
+                    <h3>We help you build projects</h3>
+                    <p>BU Spark! is an initiative to support student-drive innovation in computer science, engineering, and related disciplines.</p>
+                    <a class="btn btn-sharp outline">Learn More</a>
+                </hgroup>
             </div>
         </div>
-
-        <div class="item">
-            <img src="img/Headers/team_header_home_cut.png" alt="We help you launch projects.">
-            <div class="carousel-caption-custom">
-                <h1>Welcome to BU Spark!</h1>
-                <h2>We help you launch projects.</h2>
-                <p>BU Spark! is an initiative to support student-drive innovation in computer science, engineering, and related</p>
-                <a class="btn btn-sharp outline">Learn More</a>
+             
+        <div class="item slides">
+            <div class="slide-3"></div>
+            <div class="hero">
+                <hgroup>
+                    <h1>BU Spark!</h1>        
+                    <h3>We help you launch projects</h3>
+                    <p>BU Spark! is an initiative to support student-drive innovation in computer science, engineering, and related disciplines.</p>
+                    <a class="btn btn-sharp outline">Learn More</a>
+                </hgroup>
             </div>
         </div>
     </div>
