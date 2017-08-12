@@ -2,22 +2,16 @@
 layout: default
 title: BU Spark! - Team
 ---
-<!--big and beautiful header image-->
-<div id="homeCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators: dots at the bottom of carousel indicating current and total slides -->
-    <!-- data-target indicates id of carousel div -->
-    <ol class="carousel-indicators">
-        <!-- use none class to hide element -->
-        <none data-target="#homeCarousel" data-slide-to="0" class="active"></none>
-    </ol>
-
-    <!-- Slides are wrapped in div with class "carousel-inner" -->
-    <!-- Each slides must be in div with class item, and one slide must be active -->
+<!-- Carousel with one image to function as a header image -->
+<div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-        <div class="item active">
-            <img src="img/Headers/team_header.png" alt="We help you ignite ideas.">
-            <div class="carousel-caption-custom">
-                <h1>We keep the flame lit.</h1>
+        <div class="item slides active"> <!-- include styling for each slide -->
+            <div class="team-header"></div> <!-- load image in this div -->
+            <div class="hero">
+                <hgroup>
+                    <h1>The Team</h1>        
+                    <h3>We keep the flame lit</h3>
+                </hgroup>
             </div>
         </div>
     </div>
