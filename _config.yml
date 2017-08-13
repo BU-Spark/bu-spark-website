@@ -1,2 +1,3 @@
 name: BU Spark! 
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
