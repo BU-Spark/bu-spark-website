@@ -6,50 +6,45 @@
 /* Side Navigation and Main Page Content*/
 .mainstyle a:hover, a:focus
 {
-    color:black; 
+    color: #000; 
+}
+.mainstyle a {
+    color: #fff;
+    font-family: "Karbon";
+}
+.mainstyle ul {
+    text-align: left;
+}
+.mainstyle li {
+    padding-bottom: 10px;
 }
 
 .sublink {
-    padding-left:15px;
+    padding-left: 15px;
 }
+
 #sideNav {
     background-color: #00a897;
     width: 200px;
     position: absolute;
 }
-.mainstyle a {
-    color:white;
-    font-family:"Karbon";
-}
-.mainstyle ul{
-    text-align: left;
-}
-.mainstyle li{
-    padding-bottom: 10px;
-}
 
-#mainContent {
-    float: left;
-    width: 84%;
-    margin-left: 200px;
-}
-
-#sectiontitle{
+#sectiontitle {
     color: #434343;
     font-family: "bebas";
     font-size: 24px;
 }
 
-#subsectiontitle{
+#subsectiontitle {
     color: #434343;
-    font-family:"bebas";
+    font-family: "bebas";
     font-size: 16px;
 }
 
-p{
-    font-size:12pt;
-    padding-top:10px;
-    padding-bottom:10px;  
+p {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-bottom: 10px;  
 }
 
 /* Resources Page */

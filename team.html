@@ -42,11 +42,11 @@ title: BU Spark! - Team
 </div>
 
 <div class="container-fluid">
-    <!-- Staff -->
-    <div class="row">
+    <!-- Nav Sidebar -->
+    <div class="mainstyle row">
         <nav id="sideNav" class="col-sm-3 hidden-sm hidden-xs">
             <ul>
-                <li><a href="#Staff">Staff</a></li>
+                <li><a href="#Staff">Staff</a></li> <!-- on click, jumps to div with id="Staff" -->
                 <li><a href="#StudentCouncil">Student Council</a></li>
                 <li><a href="#Mentors">Mentors</a></li>
                 <li><a href="#Partners">Partners</a></li>
@@ -56,8 +56,8 @@ title: BU Spark! - Team
     
     <br>
     
-    
-    <div class="row">
+    <!-- Staff -->
+    <div id="Staff" class="row">
         <div class="col-sm-offset-2 col-sm-9">
             <!-- Image half of container -->
             <div class="col-sm-6">
@@ -92,7 +92,7 @@ title: BU Spark! - Team
     <br>
     
     <!-- Student Council -->
-    <div class="row">
+    <div id="StudentCouncil" class="row">
         <div class="col-sm-offset-2 col-sm-9">
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
@@ -113,4 +113,6 @@ title: BU Spark! - Team
             </div>
         </div>
     </div>
+    
+    <br>
 </div>
