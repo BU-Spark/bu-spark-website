@@ -1,4 +1,4 @@
-/* Import Fonts */
+
 @font-face {
 font-family: "Bebas";
 src: url("../../bootstrap/fonts/Bebas/BebasNeue.otf");
@@ -31,40 +31,14 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
     padding-bottom: 10px;
 }
 
-/* Side Navbar */
-#sideNav {
-    background-color: #00a897;
-    width: 200px;
-    position: absolute;
-}
-
-#sectiontitle {
-    color: #434343;
-    font-family: "bebas";
-    font-size: 24px;
-}
-
-#subsectiontitle {
-    color: #434343;
-    font-family: "bebas";
-    font-size: 16px;
-}
-
-.sublink {
-    padding-left: 15px;
-}
-
 /* Resources Page */
-.resources img {
-    width: inherit;
-    height: inherit;
-}
-.resources button {
-    background-color: #434343;
-    color: white;
-    padding: 10px;
-    font-family: "Karbon";
-    font-size: 16pt;
+.imageoption{
+    border-radius:50%;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:20px;
+    
 }
 
 /* Carousel */
