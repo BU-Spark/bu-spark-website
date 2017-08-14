@@ -9,14 +9,15 @@ font-family: "Karbon";
 src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 
+/* Start Custom CSS Down Under #Australian? */
+
 /* Icon Styles*/
-#icon{
+#icon {
     vertical-align: none;
 }
 
 /* Side Navigation and Main Page Content*/
-.mainstyle a:hover, a:focus
-{
+.mainstyle a:hover, a:focus {
     color: #000; 
 }
 .mainstyle a {
@@ -30,10 +31,7 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
     padding-bottom: 10px;
 }
 
-.sublink {
-    padding-left: 15px;
-}
-
+/* Side Navbar */
 #sideNav {
     background-color: #00a897;
     width: 200px;
@@ -52,23 +50,21 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
     font-size: 16px;
 }
 
-p {
-    font-size: 12pt;
-    padding-top: 10px;
-    padding-bottom: 10px;  
+.sublink {
+    padding-left: 15px;
 }
 
 /* Resources Page */
 .resources img {
-    width:inherit;
+    width: inherit;
     height: inherit;
 }
 .resources button {
-    background-color:#434343;
-    color:white;
-    padding:10px;
-    font-family:"Karbon";
-    font-size:16pt;
+    background-color: #434343;
+    color: white;
+    padding: 10px;
+    font-family: "Karbon";
+    font-size: 16pt;
 }
 
 /* Carousel */
@@ -107,6 +103,15 @@ p {
     background-image: url("../../img/Headers/resource-header-2.jpg");
 }
 
+.carousel-caption-custom {
+  position: absolute;
+  right: 15%;
+  bottom: 35%;
+  left: 15%;
+  color: #fff;
+  text-align: center;
+}
+
 /* Hero Image styling for each slide */
 .hero {
     position: absolute;
@@ -135,7 +140,6 @@ p {
 /* Nav bar */
 #nav-logo {
     background-image: url("../../img/Logo/spark_logo_round.png");
-
 }
 
 /* Footer */
@@ -143,6 +147,18 @@ p {
     font-family: "bebas";
     font-size: 12px;
 }
+
+.footerstyle{
+    background-color: black;
+    color: white;
+    font-family: "Raleway";
+}
+
+.icon{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
 .contact{
     background-image:url("../../img/Background_Images/contact_background.png");
     background-size: 100% 200px;
@@ -151,49 +167,28 @@ p {
     background-repeat: no-repeat;
     background-position: inherit; 
 }
-.icon{
-    padding-top: 20px;
-    padding-bottom: 70px;
-}
-.contactstyle p{
-    font-family:"Karbon Regular";
-}
 .contact{
     background-image:url(img/Background Images/contact_background.png);
 }
 .contact p{
-    color:white;
-    padding:0px;
-    font-size:10px;
+    color: white;
+    padding: 0px;
+    font-size: 10px;
     
 }
 .contact li{
-    font-size:10px;
+    font-size: 10px;
+}
+.contactstyle p {
+    font-family: "Karbon Regular";
 }
 
 /* Break */
 .break {
-    background:#00a897;
+    background: #00a897;
 }
-/* Start Custom CSS Down Under #Australian? */
-ul {
-    list-style-type: none;
-    text-align: center;
-    display:inline;
-}
-.footerstyle{
-    background-color:black;
-    color:white;
-    font-family:"Raleway";
-}
-.carousel-caption-custom {
-  position: absolute;
-  right: 15%;
-  bottom: 35%;
-  left: 15%;
-  color: #fff;
-  text-align: center;
-}
+
+/* Call to Action button */
 .btn.sharp {
     border-radius: 0;
     color: #fff;
@@ -208,8 +203,16 @@ ul {
   border-color: #fff;
 }
 
-.test {
-    background-image: blue;
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+}
+
+p {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-bottom: 10px;  
 }
 
 /*!
@@ -4202,11 +4205,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
   padding: 10px 15px;
   color: #fff; /* set color of navbar link items */
+  font-size: 18px; /* set fontsize of navbar link items */
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #000; /* set to black */
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4471,7 +4475,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-bottom {
   position: fixed;
   right: 0;
-  left: 0;
+  left: 20px; /* move away from page margin */
   z-index: 1030;
 }
 @media (min-width: 768px) {
@@ -4481,7 +4485,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-fixed-top {
-  top: 0;
+  top: 20px; /* move away from page margin */
   border-width: 0 0 1px;
 }
 .navbar-fixed-bottom {
