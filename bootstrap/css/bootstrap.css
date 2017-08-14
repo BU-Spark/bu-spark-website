@@ -81,6 +81,7 @@ p {
   background-repeat: no-repeat;
 }
 
+/* Smaller carousel image for non-home pages */
 .home-carousel .slides .team-header,
 .home-carousel .slides .resources-header {
   height: 50vh;
