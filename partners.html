@@ -1,6 +1,6 @@
 ---
 layout: default
-title: BU Spark! - Resources
+title: BU Spark! - Parnter
 ---
 
 <!-- changeText function takes input resource, and chooses which name to display -->
@@ -8,8 +8,11 @@ title: BU Spark! - Resources
     function changeText(name) {
         switch (name) {
             case "collab":
-                document.getElementById("resource").innerHTML = "Spark! Conference Room"
-                document.getElementById("description").innerHTML = "A space for our community of innovators to meet with their teammates and mentors. Advanced level access to space is limited to individuals engaged formally in a Spark! program or through leaders on the Ignite Student Council.";
+                document.getElementById("resource").innerHTML = "Microsfot Sports Analytics";
+                document.getElementById("subsectiontitle-1").innerHTML = "Problem";
+                document.getElementById("description").innerHTML = "With the inherent complexity of recruitment processes in the sports industry, where teams must synthesize an abundance of player data to make judgments on how they should manage their teams, there is a need for innovative and streamlined ways to derive player data.";
+                document.getElementById("subsectiontitle-2").innerHTML = "Scope";
+                document.getElementById("description2").innerHTML = "To solve this problem, BU Spark! assisted a team of student innovators and provided them with the resources and expertise to propose a new medium to discover undervalued players. By focusing its efforts on one medium, sports video games, the team was determined to see if games like EA Sports FIFA 17 could prove to be an accurate predictor of undervalued players in the industry.";
                 break;
             case "conference":
                 document.getElementById("resource").innerHTML = "Spark! Innovator Co-Working Space"
@@ -33,7 +36,7 @@ title: BU Spark! - Resources
             <div class="team-header"></div> <!-- load image in this div -->
             <div class="hero">
                 <hgroup>
-                    <h1>Tools to Innovate</h1>
+                    <h1>Partner With US</h1>
                 </hgroup>
             </div>
         </div>
@@ -48,9 +51,9 @@ title: BU Spark! - Resources
             <!-- Image half of container -->
             <div class="col-sm-6">
                 <!-- onclick function changeText takes img id and changes text in description placeholder -->
-                    <img id="collab" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-                    <img id="conference" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-                    <img id="cowork" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
+                    <img id="collab" class = "imageoption" onclick="changeText(this.id);" src="img/Partners/microsoft-logo.jpg" style="max-height:200px; max-width:200px">
+                    <img id="conference" onclick="changeText(this.id);" src="img/Partners/converse_logo.png" style="max-height:200px; max-width:200px">
+                    <img id="cowork" onclick="changeText(this.id);" src="img/Partners/alcu_logo.png" style="max-height:200px; max-width:200px">
             </div>
             
             <!--
@@ -68,9 +71,12 @@ title: BU Spark! - Resources
             
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="resource">Resources</h1>
-                <hr class="title-seperation">
-                <p id="description">Being a part of the Spark! community provides you with a breadth of resources and opportunities to cultivate learning and help realize your ideas.</p>
+                <h1 id="resource" style="text-align:right; padding-right:70px">Case Studies</h1>
+                <hr class="title-seperation" style="margin-left:149px;">
+                <p id ="subsectiontitle-1" style="text-align:right; padding-right:70px; padding-top:50px;"></p>
+                <p id="description" style="text-align:right; padding-right:70px">Browse through our various industry partners and see how Spark! students are impacting these organizations</p>
+                <p id ="subsectiontitle-2" style="text-align:right; padding-right:70px"></p>
+                <p id="description2" style="text-align:right; padding-right:70px"></p>
             </div>
         </div>
     </div>
@@ -83,7 +89,7 @@ title: BU Spark! - Resources
         <div class="col-sm-offset-2 col-sm-9">
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="resource">Locker Rental</h1>
+                <h1 id="resource">Submit a Project</h1>
                 <hr class="title-seperation-white">
                  <p id="description">Being a part of the Spark! community provides you with a breadth of resources and opportunities to cultivate learning and help realize your ideas.</p>
             </div>
@@ -91,7 +97,7 @@ title: BU Spark! - Resources
             <!-- Image half of container -->
             <div class="col-sm-6">
                 <!-- Add onclick -->
-                <img src="img/Resources/lock_icon.png" class = "imageoption" style="max-height:200px; max-width:200px">
+                <img src="img/Partners/paper_plane.png" style="max-height:200px; max-width:200px">
             </div>
         </div>
     </div>
@@ -113,7 +119,7 @@ title: BU Spark! - Resources
             
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="resource">Request a Consultation</h1>
+                <h1 id="resource">Partners</h1>
                 <hr class="title-seperation">
                 <p id="description">Spark! hosts a variety of consulting options to answer any questions you may have regarding your project. To request a consultation, fill out the form below to pick between our three consulting areas:</p>
             </div>
@@ -128,7 +134,7 @@ title: BU Spark! - Resources
         <div class="col-sm-offset-2 col-sm-9">
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="resource">Mentorship Program</h1>
+                <h1 id="resource">Get Invovled</h1>
                 <hr class="title-seperation-white">
                 <p id="description">Spark! hosts a variety of consulting options to answer any questions you may have regarding your project. To request a consultation, fill out the form below to pick between our three consulting areas:</p>
             </div>
@@ -136,7 +142,7 @@ title: BU Spark! - Resources
             <!-- Image half of container -->
             <div class="col-sm-6">
                 <!-- Add onclick -->
-                <img src="img/Resources/mentorship_icon.png" style="max-height:200px; max-width:200px">
+                <img src="img/Partners/get_involved.png" class = "imageoption" style="max-height:200px; max-width:200px">
             </div>
         </div>
     </div>

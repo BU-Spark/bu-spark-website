@@ -11,6 +11,68 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 
 /* Start Custom CSS Down Under #Australian? */
 
+/* About Page */
+#infographic{
+    padding-top:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:100px;
+}
+img#collab{
+    margin-left:200px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(img/Resources/collab_icon.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+.top h2 {
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.lr p {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  margin: 0;
+}
+
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.cap p {
+  padding: 20px;
+  color: white;
+  font: 12px Monaco, Mono-Space;
+  margin: 0;
+}
+
 /* Icon Styles*/
 #icon {
     vertical-align: none;
@@ -32,6 +94,14 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 
 /* Resources Page */
+div#LockerRental{
+    background-color:#00a897;
+    color:white;
+}
+div#Fellows{
+    background-color:#00a897;
+    color:white;
+}
 .imageoption{
     border-radius:50%;
     padding-bottom:10px;
@@ -39,6 +109,18 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
     padding-right:10px;
     padding-top:20px;
     
+}
+.title-seperation {
+    border-top: 2px solid #00a897;
+    width:200px;
+    margin: 0px;
+    padding: 0px;
+}
+.title-seperation-white {
+    border-top: 2px solid white;
+    width:200px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Carousel */
@@ -108,6 +190,7 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
     font-weight: bold;
     margin: 0;
     padding: 0;
+    letter-spacing: 5px;
 }
 
 
@@ -115,11 +198,50 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 #nav-logo {
     background-image: url("../../img/Logo/spark_logo_round.png");
 }
+#footer-navigation {
+    display:block;
+}
+#footer-navigation-link{
+    color:#00a897;
+}
 
 /* Footer */
+#space{
+    padding-top:30px;
+}
+hr#footer {
+    padding-bottom: 10px;
+    margin:0px;
+    color: ##434343;
+}
+
+#footer-navigation {
+    text-align: left;
+    font-size:12px;
+    
+}
+#footer-core-information{
+    font-size:12px;
+    text-align:center;
+    font-family:arial;
+}
+#subscription-description{
+    padding-left:50px;
+}
+#middle-footer-title {
+    font-family: "bebas";
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-top:50px;
+    text-align: left;
+}
 #footertitle {
     font-family: "bebas";
-    font-size: 12px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-top:50px;
+    padding-left:50px;
+    text-align: left;
 }
 
 .footerstyle{
@@ -131,6 +253,7 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 .icon{
     padding-top: 20px;
     padding-bottom: 70px;
+    padding-left:50px;
 }
 
 .contact{
@@ -254,6 +377,7 @@ h1 {
     margin: .67em 0;
     font-size: 2em;
     font-family: "bebas";
+    letter-spacing:2px;
 }
 mark {
   color: #000;
