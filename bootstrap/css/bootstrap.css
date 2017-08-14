@@ -1,3 +1,14 @@
+/* Import Fonts */
+@font-face {
+font-family: "Bebas";
+src: url("../../bootstrap/fonts/Bebas/BebasNeue.otf");
+}
+
+@font-face {
+font-family: "Karbon";
+src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
+}
+
 /* Icon Styles*/
 #icon{
     vertical-align: none;
@@ -48,7 +59,6 @@ p {
 }
 
 /* Resources Page */
-
 .resources img {
     width:inherit;
     height: inherit;
@@ -64,10 +74,16 @@ p {
 /* Carousel */
 .home-carousel .slides .slide-1, 
 .home-carousel .slides .slide-2,
-.home-carousel .slides .slide-3,
+.home-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .home-carousel .slides .team-header,
 .home-carousel .slides .resources-header {
-  height: 100vh;
+  height: 50vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -459,6 +475,7 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+
 @font-face {
   font-family: 'Glyphicons Halflings';
 
