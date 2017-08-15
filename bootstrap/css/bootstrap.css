@@ -10,6 +10,24 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 
 /* Start Custom CSS Down Under #Australian? */
+/* Home Page */
+#welcome-title{
+    font-size:100px;
+    white-space: nowrap;
+    font-family:"bebas";
+    padding:0px;
+}
+#welcome-subtitle{
+    font-size:70px;
+    white-space: nowrap;
+    font-family:"bebas";
+    padding-top:110px;
+}
+img#code-is-cool{
+    margin-top:90px;
+    position: absolute;
+    margin-left:-450px;
+}
 
 /* About Page */
 #infographic{
@@ -20,57 +38,6 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 img#collab{
     margin-left:200px;
-}
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
-
-.module {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(img/Resources/collab_icon.jpg);
-  background-size: cover;
-  width: 300px;
-  height: 200px;
-  margin: 10px 0 0 10px;
-  position: relative;
-  float: left;
-}
-
-.top h2 {
-  color: white;
-  margin: 0;
-  padding: 20px;
-}
-
-.lr p {
-  font-family: 'Roboto', sans-serif;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: white;
-  margin: 0;
-}
-
-.mid h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  color: white;
-  text-transform: uppercase;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 2rem;
-  transform: translate(-50%, -50%);
-}
-
-.cap p {
-  padding: 20px;
-  color: white;
-  font: 12px Monaco, Mono-Space;
-  margin: 0;
 }
 
 /* Icon Styles*/
