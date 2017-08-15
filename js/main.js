@@ -10,7 +10,6 @@ $(document).ready(function() {
   function changeWord() {
     index = (index >= wordList.length-1) ? 0 : index+1;
     currentWord = wordList[index];
-    console.log(currentWord)
   }
   
   var lettersShow = 0; //Store how many letters are currently displayed

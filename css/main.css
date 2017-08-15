@@ -16,3 +16,16 @@
 .hero {
   left: 45%;
 }
+
+#hero-subtext {
+  width: 50vw;
+  left: 25vw;
+  position: relative;
+}
+
+@media(max-width:500px) {
+  #hero-subtext {
+    width: 80vw;
+    left: 10vw;
+  }
+}
