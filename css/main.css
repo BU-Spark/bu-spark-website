@@ -1,0 +1,18 @@
+#anim-text {
+    border-bottom: 15px cyan solid;
+    display: inline-block;
+    line-height: 30px;
+    
+}
+
+#welcome-subtitle {
+  text-align: left;
+  overflow: visible;
+  position: relative;
+  left: 30%;
+  width: 100vw;
+}
+
+.hero {
+  left: 45%;
+}
