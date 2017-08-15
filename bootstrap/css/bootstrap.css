@@ -101,7 +101,8 @@ div#Fellows{
 
 /* Smaller carousel image for non-home pages */
 .home-carousel .slides .team-header,
-.home-carousel .slides .resources-header {
+.home-carousel .slides .resources-header,
+.home-carousel .slides .news-header {
   height: 50vh;
   background-size: cover;
   background-position: center center;
@@ -123,6 +124,9 @@ div#Fellows{
 }
 .home-carousel .slides .resources-header {
     background-image: url("../../img/Headers/resource-header-2.jpg");
+}
+.home-carousel .slides .news-header {
+    background-image: url("../../img/Headers/newsevents-header.jpg");
 }
 
 .carousel-caption-custom {
