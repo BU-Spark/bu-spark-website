@@ -179,7 +179,7 @@ img#collab{
 hr#footer {
     padding-bottom: 10px;
     margin:0px;
-    color: ##434343;
+    color: #434343;
 }
 
 #footer-navigation {
@@ -190,7 +190,7 @@ hr#footer {
 #footer-core-information{
     font-size:12px;
     text-align:center;
-    font-family:arial;
+    font-family:"karbon";
 }
 #subscription-description{
     padding-left:50px;
@@ -202,21 +202,19 @@ hr#footer {
     padding-top:50px;
     text-align: left;
 }
-#footertitle {
+.footertitle {
     font-family: "bebas";
     font-size: 24px;
     letter-spacing: 2px;
-    padding-top:50px;
-    padding-left:50px;
     text-align: left;
 }
-
 .footerstyle{
     background-color: black;
     color: white;
     font-family: "Raleway";
 }
 
+/* TODO: I'm no longer using this in footer. Are we using it elsewhere? */
 .icon{
     padding-top: 20px;
     padding-bottom: 70px;
