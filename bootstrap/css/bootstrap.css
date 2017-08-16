@@ -265,10 +265,10 @@ hr#footer {
   border:2px solid #00a897;
 }
 .box span.box-title {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 300;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 .box .box-content {
   border-radius: 0 0 2px 2px;
@@ -282,6 +282,11 @@ hr#footer {
   text-overflow:ellipsis; /* truncate overflow with ellipsis for text */
 }
 
+.blog {
+  color: #fff;
+  font-size: 20px;
+  font-family: "bebas";
+}
 
 /* Call to Action button */
 .btn.sharp {
