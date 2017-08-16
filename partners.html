@@ -3,32 +3,6 @@ layout: default
 title: BU Spark! - Parnter
 ---
 
-<!-- changeText function takes input resource, and chooses which name to display -->
-<script type="text/javascript">
-    function changeText(name) {
-        switch (name) {
-            case "collab":
-                document.getElementById("resource").innerHTML = "Microsfot Sports Analytics";
-                document.getElementById("subsectiontitle-1").innerHTML = "Problem";
-                document.getElementById("description").innerHTML = "With the inherent complexity of recruitment processes in the sports industry, where teams must synthesize an abundance of player data to make judgments on how they should manage their teams, there is a need for innovative and streamlined ways to derive player data.";
-                document.getElementById("subsectiontitle-2").innerHTML = "Scope";
-                document.getElementById("description2").innerHTML = "To solve this problem, BU Spark! assisted a team of student innovators and provided them with the resources and expertise to propose a new medium to discover undervalued players. By focusing its efforts on one medium, sports video games, the team was determined to see if games like EA Sports FIFA 17 could prove to be an accurate predictor of undervalued players in the industry.";
-                break;
-            case "conference":
-                document.getElementById("resource").innerHTML = "Spark! Innovator Co-Working Space"
-                document.getElementById("description").innerHTML = "A coworking space in the BU Spark! office that our community of innovators and their team members can reserve to work on their projects.  Spark! Innovators can access desk space, lockers, or reserve the conference room or lounge for a community event. You can apply on our website for access to this space!";
-                break;
-            case "cowork":
-                document.getElementById("resource").innerHTML = "Spark! Collaboratory";
-                document.getElementById("description").innerHTML = "Get to know our community of innovators and visit our collaboratory open from 9 am - 5 pm to all students. Hang out on a beanie bag and talk to other like-minded individuals about your emerging product ideas or the latest technology trends. For students formally participating in a BU Spark! Program, visit our resource page on our website to apply for the use of the office after hours as well as to reserve it for community events.";
-                break;
-            default:
-                document.getElementById("resource").innerHTML = "Resources";
-                document.getElementById("description").innerHTML = "Being a part of the Spark! community provides you with a breadth of resources and opportunities to cultivate learning and help realize your ideas"
-        }
-    }
-</script>
-
 <!-- Carousel with one image to function as a header image -->
 <div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -43,40 +17,29 @@ title: BU Spark! - Parnter
     </div>
 </div>
 
+<!-- Case Studies-->
+
 <div class="container-fluid">
-    <!-- Nav Sidebar -->
-    <!-- Staff -->
     <div class="row" id ="space">
-        <div class="col-sm-offset-1 col-sm-9">
+        <div class="col-sm-12">
             <!-- Image half of container -->
-            <div class="col-sm-6">
+            <div class="col-sm-offset-2 col-sm-6 col-sm-3">
                 <!-- onclick function changeText takes img id and changes text in description placeholder -->
-                    <img id="collab" class = "imageoption" onclick="changeText(this.id);" src="img/Partners/microsoft-logo.jpg" style="max-height:200px; max-width:200px">
-                    <img id="conference" onclick="changeText(this.id);" src="img/Partners/converse_logo.png" style="max-height:200px; max-width:200px">
-                    <img id="cowork" onclick="changeText(this.id);" src="img/Partners/alcu_logo.png" style="max-height:200px; max-width:200px">
+                    <img id="microsoft" class = "partner-logo" onclick="changeText(this.id);" src="img/Partners/temporary_logo_solution.png" style="max-height:150px; max-width:150px">
+                    <img id="microsoft" class = "partner-logo" onclick="changeText(this.id);" src="img/Partners/microsoft-logo.jpg" style="max-height:150px; max-width:150px">
+                    <img id="converse" class = "partner-logo" onclick="changeText(this.id);" src="img/Partners/converse_logo.png" style="max-height:150px; max-width:150px">
+                    <img id="aclu" class = "partner-logo" onclick="changeText(this.id);" src="img/Partners/aclu_logo.png" style="max-height:150px; max-width:150px">
             </div>
-            
-            <!--
-            <div class="table-responsive col-sm-6">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td><img src="img/Headshots/fiona.jpg" style="max-height:200px; max-width:200px"></td>
-                            <td><img src="img/Headshots/lawrence.jpg" style="max-height:200px; max-width:200px"></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>   
-            -->
-            
-            <!-- Text half of container: Load this dynamically on click -->
-            <div class="col-sm-6">
-                <h1 id="resource" style="text-align:right; padding-right:70px">Case Studies</h1>
-                <hr class="title-seperation" style="margin-left:149px;">
-                <p id ="subsectiontitle-1" style="text-align:right; padding-right:70px; padding-top:50px;"></p>
-                <p id="description" style="text-align:right; padding-right:70px">Browse through our various industry partners and see how Spark! students are impacting these organizations</p>
-                <p id ="subsectiontitle-2" style="text-align:right; padding-right:70px"></p>
-                <p id="description2" style="text-align:right; padding-right:70px"></p>
+      
+            <!-- Text half of container -->
+            <div class="col-offset-sm-3 col-sm-6">
+                <h1 id="case-study">Case Studies</h1>
+                <hr class="title-seperation">
+                <p id ="student-name"></p>
+                <p id ="subsectiontitle-1"></p>
+                <p id="description">Browse through our various industry partners and see how Spark! students are impacting these organizations</p>
+                <p id ="subsectiontitle-2"></p>
+                <p id="description2"></p>
             </div>
         </div>
     </div>
@@ -84,70 +47,50 @@ title: BU Spark! - Parnter
     <br>
     <br>
     
-    <!-- Locker Rental -->
-    <div id="LockerRental" class="row">
+    <!-- Submit A Project -->
+    <div id="LockerRental" class="row row highlight">
         <div class="col-sm-offset-2 col-sm-9">
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="resource">Submit a Project</h1>
+                <h1 id="resource">Advance Your Technology</h1>
                 <hr class="title-seperation-white">
-                 <p id="description">Being a part of the Spark! community provides you with a breadth of resources and opportunities to cultivate learning and help realize your ideas.</p>
+                 <p id="description">BU Spark! offers a unique opportunity for organizations to advance their technology projects by partnering wih a diverse team(s) of Boston University computer science and computer engineering students.</p>
             </div>
             
             <!-- Image half of container -->
-            <div class="col-sm-6">
+          <div class="col-sm-6">
                 <!-- Add onclick -->
-                <img src="img/Partners/paper_plane.png" style="max-height:200px; max-width:200px">
-            </div>
+              <img src="img/Partners/paper_plane.png" style="max-height:200px; max-width:200px">
+          </div>
         </div>
     </div>
     
     <br>
     <br>
     
-    <!-- Consultation -->
+    <!-- Partners  -->
     
     <div id="consultation" class="row">
         <div class="col-sm-offset-2 col-sm-9">
             <!-- Image half of container -->
             <div class="col-sm-6">
                 <!-- Add onclick -->
-                <img id="collab" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-                <img id="conference" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-                <img id="cowork" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
+                <img id="class-project" class = "imageoption" onclick="changeText(this.id);" src="img/Partners/temporary_logo_solution.png" style="max-height:200px; max-width:200px">
+                <img id="class-project" class = "imageoption" onclick="changeText(this.id);" src="img/Partners/class-project-hold.png" style="max-height:200px; max-width:200px">
+                <img id="consulting-project" class = "imageoption" onclick="changeText(this.id);" src="img/Partners/consulting-project-hold.png" style="max-height:200px; max-width:200px">
+                <img id="hackathon-project" class = "imageoption" onclick="changeText(this.id);" src="img/Partners/hackathon-project-hold.png" style="max-height:200px; max-width:200px">
             </div>
             
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="resource">Partners</h1>
-                <hr class="title-seperation">
-                <p id="description">Spark! hosts a variety of consulting options to answer any questions you may have regarding your project. To request a consultation, fill out the form below to pick between our three consulting areas:</p>
+                <h1 id="project-name">Submit a Tech Project</h1>
+                <!--<hr class="title-seperation">-->
+                <p id="project-description">Do you have data that needs to be scraped and analyzed? A machine learning model that needs to be improved or tested? An app developed? BU Spark! offers a unique opportunity for organizations to advance their technology projects by partnering with a diverse team(s) of Boston University computer science or engineering students.</p>
             </div>
         </div>
     </div>
     
     <br>
     <br>
-    
-    <!-- Mentorship Program -->
-    <div id="Fellows" class="row">
-        <div class="col-sm-offset-2 col-sm-9">
-            <!-- Text half of container: Load this dynamically on click -->
-            <div class="col-sm-6">
-                <h1 id="resource">Get Invovled</h1>
-                <hr class="title-seperation-white">
-                <p id="description">Spark! hosts a variety of consulting options to answer any questions you may have regarding your project. To request a consultation, fill out the form below to pick between our three consulting areas:</p>
-            </div>
-            
-            <!-- Image half of container -->
-            <div class="col-sm-6">
-                <!-- Add onclick -->
-                <img src="img/Partners/get_involved.png" class = "imageoption" style="max-height:200px; max-width:200px">
-            </div>
-        </div>
-    </div>
-    
-    <br>
-    <br>
-    
+  
 </div>
