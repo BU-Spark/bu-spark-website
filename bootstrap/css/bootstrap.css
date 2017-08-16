@@ -60,13 +60,10 @@ img#collab{
 }
 
 /* Resources Page */
-div#LockerRental{
-    background-color:#00a897;
-    color:white;
-}
-div#Fellows{
-    background-color:#00a897;
-    color:white;
+
+.highlight {
+  background-color:#00a897;
+  color:white;
 }
 .imageoption{
     border-radius:50%;
@@ -250,24 +247,65 @@ hr#footer {
     font-family: "Karbon Regular";
 }
 
-/* Break */
-.break {
-    background: #00a897;
+/* News */
+/* "Services Blocks" based on: https://bootsnipp.com/snippets/featured/services-blocks */
+.box {
+  background:#fff;
+  transition:all 0.2s ease;
+  border:2px solid #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  height:340px; /* Set standard height for each panel */
+  overflow:hidden; /* truncate overflow */
 }
+.box:hover {
+  border:2px solid #00a897;
+}
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.box .box-content {
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  height:240px; /* set height of the heading and paragraph content */
+  overflow:hidden; /* truncate overflow */
+}
+.box .box-content p {
+  color: #515c66;
+  text-overflow:ellipsis; /* truncate overflow with ellipsis for text */
+}
+
 
 /* Call to Action button */
 .btn.sharp {
-    border-radius: 0;
-    color: #fff;
+  border-radius: 0;
+  color: #fff;
 }
 .btn-sharp.outline {
-	border: 4px solid #ffffff;
-	color: #ffffff;
+  border: 4px solid #ffffff;
+  color: #ffffff;
 }
 .btn-sharp:hover {
   color: black;
   background-color: #fff;
   border-color: #fff;
+}
+
+/* Read More Button */
+.btn-read {
+  background-color: #00a897;
+  color: #fff;
+}
+.btn-read:hover {
+  color: black;
+  background-color: aquamarine;
 }
 
 ul {
@@ -1437,6 +1475,13 @@ hr {
   border: 0;
   border-top: 1px solid #eee;
 }
+hr.unpadded { /* no margins */
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
