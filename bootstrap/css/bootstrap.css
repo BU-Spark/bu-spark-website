@@ -9,6 +9,18 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 
 /* Start Custom CSS Down Under #Australian? */
+
+/* STANDARD body block in all pages */
+.body-block {
+  min-height: 500px;
+}
+.body-block h1 {
+  font-size: 7vh;
+}
+.body-block p {
+  font-size: 18px;
+}
+
 /* Partner Page */
 
 /* Case Studies Section */
@@ -41,7 +53,7 @@ p#subsectiontitle-1 {
 }
 /* Styling the Divider s*/
 hr.title-seperation {
-  
+
 }
 
 p#subsectiontitle-2 {
@@ -128,13 +140,13 @@ img#code-is-cool {
 }
 .title-seperation {
     border-top: 2px solid #00a897;
-    width:200px;
+    width:50%;
     margin: 0px;
     padding: 0px;
 }
 .title-seperation-white {
     border-top: 2px solid white;
-    width:200px;
+    width:50%;
     margin: 0px;
     padding: 0px;
 }
@@ -206,7 +218,7 @@ img#code-is-cool {
 }
 
 .hero h1 {
-    font-size: 4em;    
+    font-size: 9vh;    
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -332,7 +344,7 @@ hr#footer {
 }
 
 .blog {
-  color: #fff;
+  color: black;
   font-size: 20px;
   font-family: "bebas";
 }

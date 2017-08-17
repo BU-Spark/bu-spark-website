@@ -1,7 +1,7 @@
 function changeText(name) {
-		switch (name) {
-				case "microsoft":
-						document.getElementById("case-study").innerHTML = "Microsfot Sports Analytics";
+    switch (name) {
+        case "microsoft":
+            document.getElementById("case-study").innerHTML = "Microsoft Sports Analytics";
             document.getElementById("student-name").innerHTML = "Created by: Yaqin Huang, Sherman Y.L. Sze";
             document.getElementById("subsectiontitle-1").innerHTML = "Problem";
             document.getElementById("description").innerHTML = "With the inherent complexity of recruitment processes in the sports industry, where teams must synthesize an abundance of player data to make judgments on how they should manage their teams, there is a need for innovative and streamlined ways to derive player data.";
