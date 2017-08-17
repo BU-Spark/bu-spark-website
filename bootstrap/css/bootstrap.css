@@ -21,11 +21,30 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
   font-size: 18px;
 }
 
+/* Team Page */
+/* Styling Sections with Only One Headshot */
+#single-headshot {
+	border-radius:50%;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+/* Styling Professional Titles*/
+#person-title{
+	font-size:24px;
+}
+/* Styling Project Titles*/
+#project-title{
+	font-size:24px;
+	color:white;
+}
+
+
 /* Partner Page */
 
 /* Case Studies Section */
 /* Styling the Partner Logos*/
-.partner-logo{
+.partner-logo {
   margin:20px;
 }
 
@@ -130,7 +149,7 @@ img#code-is-cool {
   background-color:#00a897;
   color:white;
 }
-.imageoption{
+.imageoption {
     border-radius:50%;
     padding-bottom:10px;
     padding-left:10px;
@@ -246,7 +265,7 @@ img#code-is-cool {
 }
 
 /* Footer */
-#social-icon{
+#social-icon {
 		width:40px;
 		height:40px;
 		margin-bottom: 20px;
@@ -278,13 +297,13 @@ hr#footer {
 }
 
 /* TODO: I'm no longer using this in footer. Are we using it elsewhere? */
-.icon{
+.icon {
     padding-top: 20px;
     padding-bottom: 70px;
     padding-left:50px;
 }
 
-.contact{
+.contact {
     background-image:url("../../img/Background_Images/contact_background.png");
     background-size: 100% 200px;
     width:max-width;
@@ -292,7 +311,7 @@ hr#footer {
     background-repeat: no-repeat;
     background-position: inherit; 
 }
-.contact{
+.contact {
     background-image:url(img/Background Images/contact_background.png);
 }
 .contact p{
@@ -301,7 +320,7 @@ hr#footer {
     font-size: 10px;
     
 }
-.contact li{
+.contact li {
     font-size: 10px;
 }
 .contactstyle p {
@@ -429,9 +448,11 @@ audio:not([controls]) {
 template {
   display: none;
 }
+/*
 a {
   background-color: transparent;
 }
+*/
 a:active,
 a:hover {
   outline: 0;
@@ -3958,7 +3979,7 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #262626;
+  color: #00A99E;
   text-decoration: none;
   background-color: #f5f5f5;
 }
@@ -4381,7 +4402,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  margin: 10px 15px;/* Lawrence changed this from padding to margin */
   color: #fff; /* set color of navbar link items */
   font-size: 18px; /* set fontsize of navbar link items */
 }
@@ -4732,8 +4753,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin: 7.5px -15px;
 }
 .navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px; /* reduce padding */
+  padding: 8px; /* reduce padding */ /* Fiona Change from padding on top and bottom 10px*/
   line-height: 20px;
 }
 @media (max-width: 767px) {
@@ -4768,8 +4788,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding:8px; /*Fiona Change to be consistent with other changes */ 
   }
 }
 .navbar-form {

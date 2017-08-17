@@ -4,27 +4,6 @@ title: BU Spark! - Team
 ---
 
 <!-- changeText function takes input name, and chooses which description to display -->
-<script type="text/javascript">
-    function changeText(name) {
-        switch (name) {
-            case "fiona":
-                document.getElementById("person").innerHTML = "Fiona Whittington - Head of Student Operations"
-                document.getElementById("description").innerHTML = "Fiona is a sophomore at Boston University studying advertising and computer science. She is currently the President & Founder of Girls Who Code BU, Vice President of the Global App Initiative and Boston University Representative for InnovateEDU. She is passionate about science, technology, communications and travel. Her dream job would combine her interests in science and technology and her passion for design and innovation with the goal of bettering communities around the world.";
-                break;
-            case "lawrence":
-                document.getElementById("person").innerHTML = "Lawrence Luo - Head of Technical Operations"
-                document.getElementById("description").innerHTML = "Lawrence is a junior at Boston University studying computer science. BU Spark! allows him to combine his passion for building creative, practical apps with his desire to empower his peers to develop their own projects. As a Student Ventures Consultant for Spark!, he connects companies with real-world projects that help motivated teams of students who want to work on them and provides students who have budding projects with technical suggestions. In his free time, Lawrence develops his own applications with the help of Open Web, BU’s most intimate app development group, and enjoys singing and performing with his cappella group In Achord.";
-                break;
-            case "ziba":
-                document.getElementById("person").innerHTML = "Ziba Cranmer - Director";
-                document.getElementById("description").innerHTML = "Ziba is an innovation leader with a diverse range of experience spanning the public and private sectors. Prior to BU, Ziba served as Executive Director of a multimillion dollar initiative supporting public sector innovators in cities across the United States to combat trafficking through technology. Ziba spent over 11 years working in business including at Nike Inc. where she was a Portfolio Director in the Sustainable Business and Innovation Lab, an internal venture unit responsible for making investments with the potential for business and social impact. As a Vice President at Cone Communications, Ziba served as an advisor and account lead to technology startups and many leading global brands including Fedex, Disney, and Hilton Worldwide.";
-                break;
-            default:
-                document.getElementById("person").innerHTML = "STAFF";
-                document.getElementById("description").innerHTML = "BU Spark! Staff"
-        }
-    }
-</script>
 
 <!-- Carousel with one image to function as a header image -->
 <div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
@@ -49,14 +28,16 @@ title: BU Spark! - Team
             <!-- Image half of container -->
             <div class="col-sm-6">
                 <!-- onclick function changeText takes img id and changes text in description placeholder -->
-                <img id="fiona" class="imageoption" onclick="changeText(this.id);" src="img/Headshots/fiona.jpg" style="max-height:200px; max-width:200px">
-                <img id="lawrence" class="imageoption" onclick="changeText(this.id);" src="img/Headshots/lawrence.jpg" style="max-height:200px; max-width:200px">
-                <img id="ziba" class="imageoption" onclick="changeText(this.id);" src="img/Headshots/ziba.jpg" style="max-height:200px; max-width:200px">
+                <img id="fiona" class="imageoption" onclick="changeText(this.id);" src="img/Headshots/team/fiona_headshot.png" style="max-height:200px; max-width:200px">
+                <img id="lawrence" class="imageoption" onclick="changeText(this.id);" src="img/Headshots/team/lawrence_headshot.png" style="max-height:200px; max-width:200px">
+                <img id="ziba" class="imageoption" onclick="changeText(this.id);" src="img/Headshots/team/ziba_headshot.png" style="max-height:200px; max-width:200px">
             </div>
             
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
                 <h1 id="person">STAFF</h1>
+								<hr class="title-seperation">
+								<h1 id ="person-title"></h1>
                 <p id="description">BU Spark! Staff</p>
             </div>
         </div>
@@ -69,6 +50,7 @@ title: BU Spark! - Team
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
                 <h1>Ignite Student Council</h1>
+								<hr class="title-seperation-white">
             </div>
             
             <!-- Image half of container -->
@@ -92,12 +74,21 @@ title: BU Spark! - Team
             <!-- Image half of container -->
             <div class="col-sm-6">
                 <!-- Add onclick -->
-                <img src="img/Icons/facebook_icon.png" style="max-height:250px; max-width:250px">
+                <img src="img/Headshots/innovator/Rebecca_Headshot.png" id="single-headshot">
             </div>
             
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
                 <h1>Innovator In Residence</h1>
+								<hr class="title-seperation-white">
+								<p>Rebecca Norlander, CEO at Samepage Health</p>
+									
+								<p>Rebecca has more than twenty-five years of experience as a technologist and technology executive in the software and healthcare IT sectors. She has an extensive background in software and cloud product development, system and software architecture, system platform design, technology incubation, product strategy formulation, and has startup experience as both an investor and operator.</p>
+									
+								<p>Rebecca has a BS degree in Computer Science from Boston University, two Distinguished Alumna Awards from Boston University, and extensive senior executive training from Microsoft and the Forum for Executive Women. She lives and works in Seattle, WA, with strong business ties to Boston, New York, D.C. and the Bay Area.</p>
+									
+								<p>Rebecca has served on numerous non-profit boards. She currently serves as Venture Partner for Illuminate Ventures, Board of Overseer member for Boston University, Director on the Board of Directors for AAUW, as well as an advisor to several Seattle-based startups. In addition to her board activities, Rebecca is an accomplished public speaker. She cycles, runs, and is an AASI Level II Snowboard Instructor.</p>
+							
             </div>
         </div>
     </div>
@@ -108,15 +99,18 @@ title: BU Spark! - Team
         <div class="col-sm-offset-1 col-sm-10">
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1>Spark! Fellows</h1>
+                <h1 id="fellow-name">Fall 2017 Fellows</h1>
+								<hr class="title-seperation-white">
+								<h1 id="project-title"></h1>
+							 	<p id="fellow-description">Do you want to pursue a project of your own? If so, BU Spark! Fellowship could help you and your team jumpstart the development of your ideas. The program aims to provide you with a collaborative coworking space, access to mentors, and skill building to help ignite your ideas.</p>
             </div>
             
             <!-- Image half of container -->
             <div class="col-sm-6">
                 <!-- Add onclick -->
-                <img src="img/Icons/facebook_icon.png" style="max-height:250px; max-width:250px">
-                <img src="img/Icons/facebook_icon.png" style="max-height:250px; max-width:250px">
-                <img src="img/Icons/facebook_icon.png" style="max-height:250px; max-width:250px">
+                <img id="taylor" class="imageoption" onclick="changeText(this.id);" src="img/Headshots/fellows/taylor_headshot.png" style="max-height:200px; max-width:200px">
+                <img id="helen" class="imageoption" onclick="changeText(this.id);" src="img/Headshots/fellows/helen%20headshot.png" style="max-height:200px; max-width:200px">
+                <img id="dharmesh" class="imageoption" onclick="changeText(this.id);" src="img/Headshots/fellows/dharmesh_headshot.png" style="max-height:200px; max-width:200px">
             </div>
         </div>
     </div>
