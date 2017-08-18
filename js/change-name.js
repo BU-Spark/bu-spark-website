@@ -70,20 +70,61 @@ function changeText(name) {
 						document.getElementById("resource").innerHTML = "Spark! Collaboratory";
 						document.getElementById("description").innerHTML = "Get to know our community of innovators and visit our collaboratory open from 9 am - 5 pm to all students. Hang out on a beanie bag and talk to other like-minded individuals about your emerging product ideas or the latest technology trends. For students formally participating in a BU Spark! Program, visit our resource page on our website to apply for the use of the office after hours as well as to reserve it for community events.";
 						break;
-				
-					case "class-project":
-						document.getElementById("project-name").innerHTML = "Class Project";
-						document.getElementById("project-description").innerHTML = "Projects are typically focused on one technical skill. A student team typically works for 50-80 hours over the course of a 6-8 week period as part of a class assignment. Technical focus determined by the class assignment and varies by semester";
-						break;  
-
-					case "consulting-project":
-						document.getElementById("project-name").innerHTML = "Consulting Project";
-						document.getElementById("project-description").innerHTML = "Scope and technical focus driven by project partner. Past projects range from app development, evaluation of machine learning models, and creating a image filtering microservice.";
-						break; 
-
-					case "hackathon-project":
-						document.getElementById("project-name").innerHTML = "Hackathon Project";
-						document.getElementById("project-description").innerHTML = "Sumbit a project that can be project on in 24 hours. Help us provide prizes and event costs for sponsored hackathons, such as BostonHacks, Hack the Gap, or SheHacks Boston.";
+					case "sean":
+						document.getElementById("council-name").innerHTML = "Sean Zheng";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "brooke":
+						document.getElementById("council-name").innerHTML = "Brooke Mullen";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "council-fiona":
+						document.getElementById("council-name").innerHTML = "Fiona Whittington";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "council-lawrence":
+						document.getElementById("council-name").innerHTML = "Lawrence Luo";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "lucas":
+						document.getElementById("council-name").innerHTML = "Lucas Watson";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "max":
+						document.getElementById("council-name").innerHTML = "Max Mesirow";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "rudy":
+						document.getElementById("council-name").innerHTML = "Rudy Lastname";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "anna":
+						document.getElementById("council-name").innerHTML = "Ana Lastname";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "chandler":
+						document.getElementById("council-name").innerHTML = "Rudy Lastname";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "alicia":
+						document.getElementById("council-name").innerHTML = "Alicia Hoang";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "chloe":
+						document.getElementById("council-name").innerHTML = "Chole Lastname";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "charles":
+						document.getElementById("council-name").innerHTML = "Charles Ma";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "freddie":
+						document.getElementById("council-name").innerHTML = "Freddie Vargus";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
+						break;
+					case "ryan":
+						document.getElementById("council-name").innerHTML = "Ryan Chen";
+						document.getElementById("council-description").innerHTML = "Insert Bio";
 						break;
 				default:
 						document.getElementById("person").innerHTML = "STAFF";

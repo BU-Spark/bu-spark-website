@@ -70,9 +70,42 @@ p#subsectiontitle-1 {
   letter-spacing: 2px;
   width:50%;
 }
-/* Styling the Divider s*/
-hr.title-seperation {
+#project-name {
+  font-size:24px;
+}
+  /* Styling Buttons*/
 
+#program-button{
+  background:transparent;
+  border-color:black;
+  font-family:"bebas",arial;
+  letter-spacing: 5px;
+}
+#program-button-link{
+  color:black;
+}
+a#program-button-link:hover{
+  background-color: #00a897;
+}
+/* Styling the Dividers*/
+
+.sub-title-seperation{
+    border-top: 2px solid grey;
+    width:50%;
+    margin: 0px;
+    padding: 0px;
+}
+.title-seperation {
+    border-top: 2px solid #00a897;
+    width:50%;
+    margin: 0px;
+    padding: 0px;
+}
+.title-seperation-white {
+    border-top: 2px solid white;
+    width:50%;
+    margin: 0px;
+    padding: 0px;
 }
 
 p#subsectiontitle-2 {
@@ -156,18 +189,6 @@ img#code-is-cool {
     padding-right:10px;
     padding-top:20px;
     
-}
-.title-seperation {
-    border-top: 2px solid #00a897;
-    width:50%;
-    margin: 0px;
-    padding: 0px;
-}
-.title-seperation-white {
-    border-top: 2px solid white;
-    width:50%;
-    margin: 0px;
-    padding: 0px;
 }
 
 /* Carousel */
@@ -1509,7 +1530,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #00a897;
   text-decoration: none;
 }
 a:hover,
