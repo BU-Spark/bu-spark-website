@@ -19,19 +19,19 @@ title: BU Spark! - Resources
 
 <div class="container-fluid">
     <div class="row body-block" id="space">
-        <div class="col-sm-offset-1 col-sm-10">
+        <div class="col-sm-offset-1 col-xs-10 col-sm-10">
             <!-- Image half of container -->
             <div class="col-sm-6">
                 <!-- onclick function changeText takes img id and changes text in description placeholder -->
-                    <img id="space" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-                    <img id="collab" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-                    <img id="conference" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-                    <img id="cowork" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
+                    <img src="img/Assets/fiona_working_beanie.jpg" alt="Avatar" class="imageoption" width="200" height="200">
+                    <img src="img/Resources/collab_icon.jpg" alt="Avatar" class="imageoption" width="200" height="200">
+                    <img id="conference" class = "imageoption" onclick="changeText(this.id);" src="img/Assets/involved.jpg" width="200" height="200">
+                    <img id="cowork" class = "imageoption" onclick="changeText(this.id);" src="img/Assets/square_team_meeting.png" width="200" height="200">
             </div>
             
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="resource">Use our Innovation Space</h1>
+                <h1 id="resource">Space to Innovate</h1>
                 <hr class="title-seperation">
                 <p id="description">Want to reserve a room in the Spark! office? Make a reservation through our portal!</p>
             </div>
@@ -61,18 +61,36 @@ title: BU Spark! - Resources
         <br>
         <div class="col-sm-offset-2 col-sm-9">
             <!-- Image half of container -->
-            <div class="col-sm-6">
-                <img id="general" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-                <img id="technical" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-                <img id="marketing" class = "imageoption" onclick="changeText(this.id);" src="img/Resources/collab_icon.jpg" style="max-height:200px; max-width:200px">
-            </div>
             
             <!-- Text half of container: Load this dynamically on click -->
-            <div class="col-sm-6">
-                <h1 id="consultation">Request a Consultation</h1>
-                <hr class="title-seperation">
-                <p id="description">Spark! hosts a variety of consulting options to answer any questions you may have regarding your project. To request a consultation, fill out the form below to pick between our three consulting areas.</p>
+            <h1 id="consultation">Request a Consultation</h1>
+            <hr class="title-seperation">
+            <p id="description">Spark! hosts a variety of consulting options to answer any questions you may have regarding your project. To request a consultation, fill out the form below to pick between our three consulting areas.</p>
+
+                        <!-- Text half of container: Load this dynamically on click -->
+            <div class = "row">
+                <div class="col-sm-4">
+                    <h1 id="project-name">General Consultation</h1>
+                    <hr class="sub-title-seperation">
+                    <p id="project-description">The classes available this semester are Machien Learning, App Development, and data science. Subscribe to our Newsletter for Updates on what classes are available in the Spring. </p>
+                    <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
+                </div>
+
+                <div class="col-sm-4">
+                    <h1 id="project-name">Technical Consultation</h1>
+                    <hr class="sub-title-seperation">
+                    <p id="project-description">Scope and technical focus driven by project partner. Past projects range from app development, evaluation of machine learning models, and creating a image filtering microservice.</p>
+                    <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
+                </div>
+
+                <div class="col-sm-4">
+                    <h1 id="project-name">Marketing Consultation</h1>
+                    <hr class="sub-title-seperation">
+                    <p id="project-description"></p>
+                    <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
+                </div>
             </div>
+
         </div>
     </div>
     
@@ -92,7 +110,7 @@ title: BU Spark! - Resources
             
             <!-- Image half of container -->
             <div class="col-sm-6">
-                <img src="img/Resources/mentorship_icon.png" style="max-height:200px; max-width:200px">
+                <img src="img/Assets/fiona_working_beanie.jpg" class="imageoption" style="max-height:200px; max-width:200px" >
             </div>
         </div>
     </div>

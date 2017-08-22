@@ -63,6 +63,24 @@ img#microsoft-profile-1 {
   margin-top:20px;
   margin-bottom:20px;
 }
+/* Styling the Programs Page s*/
+#program-image-example {
+  margin-top:35px;
+}
+#icon-left-title {
+  margin-right:10px;
+}
+/* Styling FAQ questions Programs Page*/
+#faq-question-1, #faq-question-2, #project-faq-question-1, #project-faq-question-2 {
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:16px;
+  background-color: #00a897;
+  color:white;
+  font-family:bebas;
+  letter-spacing:2px;
+  border: 2px black;
+}
 /* Styling the Sub Headers s*/
 p#subsectiontitle-1 {
   font-weight: bold;
@@ -75,13 +93,13 @@ p#subsectiontitle-1 {
 }
   /* Styling Buttons*/
 
-#program-button{
+#program-button {
   background:transparent;
   border-color:black;
   font-family:"bebas",arial;
   letter-spacing: 5px;
 }
-#program-button-link{
+#program-button-link {
   color:black;
 }
 a#program-button-link:hover{
@@ -89,7 +107,7 @@ a#program-button-link:hover{
 }
 /* Styling the Dividers*/
 
-.sub-title-seperation{
+.sub-title-seperation {
     border-top: 2px solid grey;
     width:50%;
     margin: 0px;
@@ -156,6 +174,20 @@ img#code-is-cool {
     margin-right:100px;
 }
 
+#quote {
+  background-image:url("../../img/break.png");
+  width:100%;
+  height:100%;
+}
+
+p#quote {
+  color:white;
+  font-size:26px;
+  padding-top:50px;
+  text-align:right;
+  padding-right:0px;
+  overflow: wrap;
+}
 /* Icon Styles*/
 #icon {
     vertical-align: none;
@@ -184,11 +216,14 @@ img#code-is-cool {
 }
 .imageoption {
     border-radius:50%;
-    padding-bottom:10px;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:20px;
-    
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;   
+}
+.imageoption:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=50);  
 }
 
 /* Carousel */
@@ -292,7 +327,7 @@ img#code-is-cool {
 		margin-bottom: 20px;
 }
 #space{
-    padding-top:30px;
+    margin-top:30px;
 }
 hr#footer {
     padding-bottom: 10px;
@@ -356,7 +391,7 @@ hr#footer {
   border:2px solid #dadada;
   margin-top: 10px;
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 50px;
   background-clip: padding-box;
   padding:0 20px 20px 20px;
   height:340px; /* Set standard height for each panel */

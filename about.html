@@ -24,6 +24,12 @@ title: BU Spark! - About
     <!-- Staff -->
     <div class="row">
         <div class="col-sm-offset-2 col-sm-10">
+
+            <!-- Image half of container -->
+            <div class="col-sm-4">
+                <!-- onclick function changeText takes img id and changes text in description placeholder -->
+                <img id="collab" class = "imageoption" onclick="changeText(this.id);" src="img/About/mission_icon.jpg" style="max-height:200px; max-width:200px">
+            </div>
             
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-8">
@@ -32,20 +38,24 @@ title: BU Spark! - About
                 <p>BU Spark! is an initiative to support student-driven innovation in computer science, engineering, and related disciplines.</p>
             </div>
 
-            <!-- Image half of container -->
-            <div class="col-sm-4">
-                <!-- onclick function changeText takes img id and changes text in description placeholder -->
-                <img id="collab" class = "imageoption" onclick="changeText(this.id);" src="img/About/mission_icon.jpg" style="max-height:200px; max-width:200px">
-            </div>
+
         </div>
     </div>
     
     <br>
     <br>
 
-    <div class="row">
+    <div class="row" id="quote">
         <div class="col-sm-12">
-            <img src="img/break.png" style="width:100%; height:200px;">
+            
+            <div class="col-sm-8">
+                <p id="quote">"BU Spark! gave me the tools, knowledge, and skills I needed to pursue my passion for technology and dance. The team at BU Spark! is incredibly supportive, passionate, and fun to work with."</p>
+            </div>
+
+            <div class="col-sm-3">
+                <img src="img/Headshots/team/fiona_headshot.png" width="150" height="150" style="border-radius:50%; margin-top:25px; margin-bottom:15px; text-align:right;">
+            </div>
+
         </div>
     </div>
     
@@ -58,6 +68,7 @@ title: BU Spark! - About
         <div class="col-sm-offset-2 col-sm-10">
             <!-- Image half of container -->
             <div class="col-sm-6">
+                <img src="img/Assets/square_team_meeting.png" width="250" height="250" style="border-radius:50%;">
             </div>
             
             <!-- Text half of container: Load this dynamically on click -->
@@ -78,14 +89,14 @@ title: BU Spark! - About
         <div class="col-sm-offset-2 col-sm-10">
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="project-name">Spark! X-Lab</h1>
+                <h1 id="project-name"><img src="img/Icons/x-lab_icon.png" width="50" height="50" id="icon-left-title">Spark! X-Lab</h1>
                 <hr class="title-seperation">
                 <p id="description">Sometimes, the best way to learn is through experience. BU Spark! is driven to provide you a comprehensive, hands-on approach in pursuing technology projects. BU Spark! hosts experiential learning courses that are designed to match you with a project and teach you the skills necessary to see that project come to life.<br><a href ="/projects">Learn More</a></p>
             </div>
             
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="project-name">Project Matching Website</h1>
+                <h1 id="project-name"><h1 id="project-name"><img src="img/Icons/fellowship_icon.png" width="50" height="50" id="icon-left-title">Project Matching Website</h1>
                 <hr class="title-seperation">
                 <p id="description">Sometimes, the best way to learn is through experience. BU Spark! is driven to provide you a comprehensive, hands-on approach in pursuing technology projects. BU Spark! hosts experiential learning courses that are designed to match you with a project and teach you the skills necessary to see that project come to life.<br><a href ="/projects">Find me a Project</a></p>
             </div>
@@ -107,6 +118,7 @@ title: BU Spark! - About
             
             <!-- Image half of container -->
             <div class="col-sm-6">
+                <img src="img/Assets/square_team_meeting.png" width="250" height="250" style="border-radius:50%;position: absolute; margin-top:20px;">
             </div>
         </div>
     </div>
@@ -120,7 +132,7 @@ title: BU Spark! - About
             <!-- Image half of container -->
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-6">
-                <h1 id="project-name">Fellowship Program</h1>
+                <h1 id="project-name"><img src="img/Icons/fellowship_icon.png" width="50" height="50" id="icon-left-title">Fellowship Program</h1>
                 <hr class="title-seperation">
                 <p id="description">Do you want to pursue a project of your own? If so, BU Spark!’s Fellowship could help you and your team jumpstart the development of your ideas. The program aims to provide you with a collaborative co-working space, access to mentors, and skill building to help ignite your ideas. A limited number of paid internships are available for the Spark! Fellowship, so sign up today!<br><a href ="/projects">Learn More</a></p>
             </div>
