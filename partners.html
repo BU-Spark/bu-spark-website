@@ -1,42 +1,11 @@
 ---
 layout: default
-title: BU Spark! - Parnter
+title: BU Spark! - Partner
 ---
 
+<script src="../js/changeText.js"></script>
+
 <!-- Carousel with one image to function as a header image -->
-<script type="text/javascript">
-function changeText(name) {
-    switch (name) {
-        case "microsoft":
-            document.getElementById("case-study").innerHTML = "Microsoft Sports Analytics";
-            document.getElementById("student-name").innerHTML = "Created by: Yaqin Huang, Sherman Y.L. Sze";
-            document.getElementById("subsectiontitle-1").innerHTML = "Problem";
-            document.getElementById("description").innerHTML = "With the inherent complexity of recruitment processes in the sports industry, where teams must synthesize an abundance of player data to make judgments on how they should manage their teams, there is a need for innovative and streamlined ways to derive player data.";
-            document.getElementById("subsectiontitle-2").innerHTML = "Scope";
-            document.getElementById("description2").innerHTML = "To solve this problem, BU Spark! assisted a team of student innovators and provided them with the resources and expertise to propose a new medium to discover undervalued players. By focusing its efforts on one medium, sports video games, the team was determined to see if games like EA Sports FIFA 17 could prove to be an accurate predictor of undervalued players in the industry.";
-            break;  
-        case "converse":
-            document.getElementById("case-study").innerHTML = "Optimizing Converse’s Social Media  Strategy";
-            document.getElementById("student-name").innerHTML = "Created by: Mingxiang Cai, Junyi Du";
-            document.getElementById("subsectiontitle-1").innerHTML = "Problem";
-            document.getElementById("description").innerHTML = "Due to the slowing of sales in the Converse footwear brand, overlapped by competitors Adidas and Puma, there is a demand to understand how this competition manifest and where it is leading. As required by Converse, BU Spark! recruited a student team of innovators to find the cause of Converse’s slowed sales.";
-            document.getElementById("subsectiontitle-2").innerHTML = "Scope";
-            document.getElementById("description2").innerHTML = "The purpose of this project for the team was to use data analysis techniques to observe the current performance of the trend generating processes of Converse and their competitors on major social media platforms and develop product launch social media marketing strategies.";
-            break;  
-        case "aclu":
-            document.getElementById("case-study").innerHTML = "Trends in Boston Policing and Crime Data";
-            document.getElementById("student-name").innerHTML = "Created by: Kylie Moses, Eli Saracino";
-            document.getElementById("subsectiontitle-1").innerHTML = "Problem";
-            document.getElementById("description").innerHTML = "According to the on Field Interrogation and Observation reports given by the Boston Police Department, there are certain patterns in which the Boston Police patrols areas within and outside Boston. The ACLU reached out to BU Spark! To better understand what these patterns mean, as well as their implications on minorities in the Boston area. As a result, we recruited a team of talented student innovators to analyze the FIO reports and understand the implications of the Boston Police’s patrol patterns.";
-            document.getElementById("subsectiontitle-2").innerHTML = "Scope";
-            document.getElementById("description2").innerHTML = "Using reports provided by the Boston Police Department and the ACLU, we analyzed crime and policing trends in the Boston area from 2012-June 2015. We examined if the patterns surrounding crime in the area justified and explained the policing behavior determined by reports on Field Interrogation and Observation reports (FIO) given by the BPD. Understanding the age, race, and gender of individuals committing crimes compared to that of those who are being stopped was essential in identifying these patterns, as was looking into the districts that the crime and stops are taking place.";
-            break;
-        default:
-           document.getElementById("case-study").innerHTML = "Case Studies";
-           document.getElementById("description").innerHTML = "Being a part of the Spark! community provides you with a breadth of resources and opportunities to cultivate learning and help realize your ideas"
-        }
-}
-</script>
 <div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="item slides active"> <!-- include styling for each slide -->
@@ -52,24 +21,24 @@ function changeText(name) {
 
 <!-- Case Studies-->
 <div class="container-fluid">
-    <div class="row" id ="space">
-        <div class="col-sm-12">
+    <div class="row body-block">
+        <div class="col-offset-sm-1 col-sm-10">
             <!-- Image half of container -->
-            <div class="col-sm-offset-1 col-sm-6 col-sm-3">
+            <div class="col-sm-6">
                 <!-- onclick function changeText takes img id and changes text in description placeholder -->
-                <img id="microsoft" class = "partner-logo" onclick="changeText(this.id);" src="img/Partners/temporary_logo_solution.png" style="max-height:150px; max-width:150px">
+                <img class="partner-logo" src="img/Partners/temporary_logo_solution.png" style="max-height:150px; max-width:150px">
                 <img id="microsoft" class = "partner-logo" onclick="changeText(this.id);" src="img/Partners/microsoft-logo.jpg" style="max-height:150px; max-width:150px">
                 <img id="converse" class = "partner-logo" onclick="changeText(this.id);" src="img/Partners/converse_logo.png" style="max-height:150px; max-width:150px">
                 <img id="aclu" class = "partner-logo" onclick="changeText(this.id);" src="img/Partners/aclu_logo.png" style="max-height:150px; max-width:150px">
             </div>
-      
+            
             <!-- Text half of container -->
-            <div class="col-offset-sm-3 col-sm-6">
+            <div class="col-sm-6">
                 <h1 id="case-study">Case Studies</h1>
                 <hr class="title-seperation">
-                <p id ="student-name"></p>
+                <p id ="student-name">Browse through our various industry partners and see how Spark! students are impacting these organizations</p>
                 <p id ="subsectiontitle-1"></p>
-                <p id="description">Browse through our various industry partners and see how Spark! students are impacting these organizations</p>
+                <p id="description"></p>
                 <p id ="subsectiontitle-2"></p>
                 <p id="description2"></p>
             </div>
@@ -80,20 +49,17 @@ function changeText(name) {
     <br>
     
     <!-- Submit A Project -->
-    <div id="LockerRental" class="row row highlight">
+    <div class="row body-block highlight">
         <div class="col-sm-offset-1 col-sm-10">
-            <!-- Text half of container: Load this dynamically on click -->
-            <div class="col-sm-6">
-                <!-- Add onclick -->
-                <img src="img/Partners/paper_plane.png" width="200" height="200">
+            <div class="col-sm-6 hidden-sm">
+                <img src="img/Partners/paper_plane.png" width="400" height="400">
             </div>
+            
             <div class="col-sm-6">
                 <h1 id="resource">Advance Your Technology</h1>
                 <hr class="title-seperation-white">
                  <p id="description">BU Spark! offers a unique opportunity for organizations to advance their technology projects by partnering wih a diverse team(s) of Boston University computer science and computer engineering students.</p>
             </div>
-            
-            <!-- Image half of container -->
         </div>
     </div>
     
@@ -101,20 +67,18 @@ function changeText(name) {
     <br>
     
     <!-- Projects -->
-    <div id="consultation" class="row">
+    <div class="row body-block">
         <div class="col-sm-offset-1 col-sm-10">
             <div class="col-sm-6">
                 <h1><img src="img/Icons/x-lab_icon.png" width="50" height="50" id="icon-left-title">Submit a Tech Project</h1>
                 <hr class="title-seperation">
                 <p id="project-description">Do you have data that needs to be scraped and analyzed? A machine learning model that needs to be improved or tested? An app developed? BU Spark! offers a unique opportunity for organizations to advance their technology projects by partnering with a diverse team(s) of Boston University computer science or engineering students.</p>
             </div>
-            <div class="col-sm-6">
-                <img src="img/Assets/lawrence_brianna.png" width="200" height="200" style="border-radius:50%;position: absolute;">
+            <div class="col-sm-offset-2 col-sm-4 hidden-xs">
+                <img src="img/Assets/lawrence_brianna.png" width="200" height="200" style="border-radius:50%;">
             </div>
         </div>
-    </div>
 
-    <div id="consultation" class="row">
         <div class="col-sm-offset-1 col-sm-10">
             <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-4">
