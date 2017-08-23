@@ -1,0 +1,57 @@
+---
+layout: default
+title: BU Spark! - Calendar
+---
+
+<!-- Carousel with one image to function as a header image -->
+<div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item slides active"> <!-- include styling for each slide -->
+            <div class="news-header"></div> <!-- load image in this div -->
+            <div class="hero">
+                <hgroup>
+                    <h1>Calendar</h1>        
+                </hgroup>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <br>
+    <!-- "Services Blocks": https://bootsnipp.com/snippets/featured/services-blocks -->
+    <div class="container">
+        <div class="col-sm-12">
+
+            <div class="col-sm-6">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bostonuniversityspark%40gmail.com&amp;color=%230F4B38&amp;ctz=America%2FNew_York" style="border-width:0" width="500" height="500" frameborder="0" scrolling="no"></iframe>
+            </div>
+         
+
+            <div class="col-sm-6">
+                <h1>Upcoming Events</h1>
+                <hr class="title-seperation">
+
+                <table class="table blog">
+                    <tbody>
+                        <!-- Automate this using for loop -->
+                        <tr>
+                            <td class="col-sm-2">August 8, 2017</td>
+                            <td class="col-sm-10" style="text-overflow:ellipsis">Announcing Fall 2017 BU Spark! Fellows</td>
+                        </tr>
+
+                        <tr>
+                            <td class="col-sm-2">August 15, 2017</td>
+                            <td class="col-sm-10" style="text-overflow:ellipsis">My Summer as an Intern at BU Spark!</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <button id ="program-button"><a href="/calendar" id="program-button-link">view calendar</a></button>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>

@@ -2,50 +2,26 @@
 layout: default
 title: BU Spark! - Home
 ---
-
-<!DOCTYPE html>
-<html>
-	<!-- Header -->
-    <head>
-        <title>BU Spark! - Home</title>
-
-        <!-- Import Bootstrap Files -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="/bootstrap/js/bootstrap.js"></script>
-        <script src="../js/main.js"></script>
-			
-				<script src="../js/change-name.js"></script>
-			
-        <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
-        <link href="../css/main.css" rel="stylesheet">
-        
-        <!-- import Bebas font -->
-        <!--        <link href='/bootstrap/fonts/Bebas/BebasNeue.otf' rel='stylesheet' type='text/css'> -->
-        
-    </head>
   
-    <!-- Carousel Documentation: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
-    <!-- Carousels require for carousel controls to function properly. -->
-    <!-- slide class adds animation, data-ride="carousel" makes animation begin on page load -->
-    <div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
-        <!-- Slides are wrapped in div with class "carousel-inner" -->
-        <!-- Each slides must be in div with class item, and one slide must be active -->
-        <div class="carousel-inner">
-            <div class="item slides active"> <!-- include styling for each slide -->
-                <div class="slide-1"></div> <!-- load image in this div -->
-                <div class="hero">
-                    <hgroup>  
-                        <img src="img/Home/code-is-cool.png" width=180 height=180 id="code-is-cool">
-                        <h2 id="welcome-subtitle">Welcome to BU Spark!<br>We help you <span id="anim-text">ignite ideas</span> </h2>
-                        <p id="hero-subtext">BU Spark! is an initiative to support student-drive innovation in computer science, engineering, and related disciplines.</p>
-                        <a class="btn btn-sharp outline" href="/about">Learn More</a> <!-- custom classes btn-sharp, outline -->
-                    </hgroup>
-                </div>
+<!-- Carousel Documentation: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
+<!-- Carousels require for carousel controls to function properly. -->
+<!-- slide class adds animation, data-ride="carousel" makes animation begin on page load -->
+<div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
+    <!-- Slides are wrapped in div with class "carousel-inner" -->
+    <!-- Each slides must be in div with class item, and one slide must be active -->
+    <div class="carousel-inner">
+        <div class="item slides active"> <!-- include styling for each slide -->
+            <div class="slide-1"></div> <!-- load image in this div -->
+            <div class="hero">
+                <hgroup>  
+                    <img src="img/Home/code-is-cool.png" width=180 height=180 id="code-is-cool">
+                    <h2 id="welcome-subtitle">Welcome to BU Spark!<br>We help you <span id="anim-text">ignite ideas</span> </h2>
+                    <p id="hero-subtext">BU Spark! is an initiative to support student-drive innovation in computer science, engineering, and related disciplines.</p>
+                    <a class="btn btn-sharp outline" href="/about">Learn More</a> <!-- custom classes btn-sharp, outline -->
+                </hgroup>
             </div>
         </div>
     </div>
+</div>
 
-    <!--Finally you made it to the bottom of the page, congrats-->
-</html>
+<!--Finally you made it to the bottom of the page, congrats-->

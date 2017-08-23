@@ -17,6 +17,11 @@ function changeText(name) {
 						document.getElementById("person-title").innerHTML = "Director";
 						document.getElementById("description").innerHTML = "Ziba is an innovation leader with a diverse range of experience spanning the public and private sectors. Prior to BU, Ziba served as Executive Director of a multimillion dollar initiative supporting public sector innovators in cities across the United States to combat trafficking through technology. Ziba spent over 11 years working in business including at Nike Inc. where she was a Portfolio Director in the Sustainable Business and Innovation Lab, an internal venture unit responsible for making investments with the potential for business and social impact. As a Vice President at Cone Communications, Ziba served as an advisor and account lead to technology startups and many leading global brands including Fedex, Disney, and Hilton Worldwide.";
 						break;
+				case "sofia":
+						document.getElementById("person").innerHTML = "Sofía Cintrón-Schroeder";
+						document.getElementById("person-title").innerHTML = "Head of Finance";
+						document.getElementById("description").innerHTML = "Sofía Cintrón-Schroeder is currently an undergraduate student at Boston University. She is 20 years old, originally from San Juan, Puerto Rico, entering her Junior year in college. She studies Mathematics with a concentration in Statistics and a minor in Economics, which motivated her to apply for an internship at BU Spark!.";
+						break;
 				
 				case "taylor":
 						document.getElementById("fellow-name").innerHTML = "Taylor Potye";
@@ -116,7 +121,7 @@ function changeText(name) {
 						break;
 					case "charles":
 						document.getElementById("council-name").innerHTML = "Charles Ma";
-						document.getElementById("council-description").innerHTML = "Insert Bio";
+						document.getElementById("council-description").innerHTML = "Charles is a sophomore at Boston University studying finance and computer science. As a part of the council, Charles represents BU's newly formed Machine Intelligence Community, and hopes to help BU's tech community embrace machine learning and end imposter syndrome among students.";
 						break;
 					case "freddie":
 						document.getElementById("council-name").innerHTML = "Freddie Vargus";

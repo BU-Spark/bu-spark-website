@@ -385,6 +385,10 @@ hr#footer {
 
 /* News */
 /* "Services Blocks" based on: https://bootsnipp.com/snippets/featured/services-blocks */
+
+.box-content h1 {
+  font-size:16px;
+}
 .box {
   background:#fff;
   transition:all 0.2s ease;
