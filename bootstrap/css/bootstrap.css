@@ -81,6 +81,7 @@ img#microsoft-profile-1 {
   letter-spacing:2px;
   border: 2px black;
 }
+
 /* Styling the Sub Headers s*/
 p#subsectiontitle-1 {
   font-weight: bold;
@@ -91,20 +92,20 @@ p#subsectiontitle-1 {
 #project-name {
   font-size:24px;
 }
-  /* Styling Buttons*/
 
-#program-button {
+/* Styling Buttons*/
+.program-button {
+  color:black;
   background:transparent;
   border-color:black;
   font-family:"bebas",arial;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
-#program-button-link {
-  color:black;
+.program-button:hover {
+  color: white;
+  background-color: black;
 }
-a#program-button-link:hover{
-  background-color: #00a897;
-}
+
 /* Styling the Dividers*/
 
 .sub-title-seperation {
