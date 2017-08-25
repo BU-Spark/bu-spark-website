@@ -71,6 +71,9 @@ img#microsoft-profile-1 {
 /* Styling the Programs Page s*/
 #program-image-example {
   margin-top:35px;
+  border-radius:50%;
+  width:200px;
+  height:200px;
 }
 #icon-left-title {
   margin-right:10px;
@@ -86,6 +89,7 @@ img#microsoft-profile-1 {
   letter-spacing:2px;
   border: 2px black;
 }
+
 /* Styling the Sub Headers s*/
 p#subsectiontitle-1 {
   font-weight: bold;
@@ -96,19 +100,24 @@ p#subsectiontitle-1 {
 #project-name {
   font-size:24px;
 }
-  /* Styling Buttons*/
 
+/* Styling Buttons*/
 #program-button {
+  color: black;
   background:transparent;
   border-color:black;
   font-family:"bebas",arial;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
+#program-button:hover {
+  background-color: #00b0a1;
+}
+
 #program-button-link {
-  color:black;
+  color: black;
 }
-a#program-button-link:hover{
-  background-color: #00a897;
+#program-button-link:hover {
+  color: white;
 }
 /* Styling the Dividers*/
 
