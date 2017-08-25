@@ -1,0 +1,163 @@
+---
+layout: default
+title: BU Spark! - Programs
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+    $("#faq-description-1").hide();
+    $("#faq-description-2").hide();
+    $("#project-faq-description-1").hide();
+    $("#project-faq-description-2").hide();
+
+
+    $("#faq-question-1").click(function(){
+        $("#faq-description-1").toggle();
+    });
+
+    $("#faq-question-2").click(function(){
+        $("#faq-description-2").toggle();
+    });
+
+    $("#project-faq-question-1").click(function(){
+        $("#project-faq-description-1").toggle();
+    });
+
+    $("#project-faq-question-2").click(function(){
+        $("#project-faq-description-2").toggle();
+    });
+});
+</script>
+
+<!-- Carousel with one image to function as a header image -->
+<div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item slides active"> <!-- include styling for each slide -->
+            <div class="team-header"></div> <!-- load image in this div -->
+            <div class="hero">
+                <hgroup>
+                    <h1>Programs</h1>
+                </hgroup>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Programs -->
+
+<div class="container-fluid"> 
+    <div id="consultation" class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-6">
+                <h1><img src="img/Icons/x-lab_icon.png" width="50" height="50" id="icon-left-title">BU Spark! X-Lab</h1>
+                <hr class="title-seperation">
+                <p id="project-description">Do you have data that needs to be scraped and analyzed? A machine learning model that needs to be improved or tested? An app developed? BU Spark! offers a unique opportunity for organizations to advance their technology projects by partnering with a diverse team(s) of Boston University computer science or engineering students.</p>
+            </div>
+            <div class="col-sm-6">
+                <img id ="program-image-example" src="img/Assets/involved.jpg" width="270" height="200">
+            </div>
+        </div>
+    </div>
+
+    <div id="consultation" class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-4">
+                <h1 id="project-name">Class Project</h1>
+                <hr class="sub-title-seperation">
+                <p id="project-description">The classes available this semester are Machien Learning, App Development, and data science. Subscribe to our Newsletter for Updates on what classes are available in the Spring. </p>
+                <button id ="program-button"><a href="" id="program-button-link">Subscribe</a></button>
+            </div>
+            <div class="col-sm-4">
+                <h1 id="project-name">Consulting Project</h1>
+                <hr class="sub-title-seperation">
+                <p id="project-description">Scope and technical focus driven by project partner. Past projects range from app development, evaluation of machine learning models, and creating a image filtering microservice.</p>
+                <button id ="program-button"><a href="" id="program-button-link">Apply</a></button>
+            </div>
+            <div class="col-sm-4">
+                <h1 id="project-name">Hackathon Project</h1>
+                <hr class="sub-title-seperation">
+                <p id="project-description">"Sumbit a project that can be project on in 24 hours. Help us provide prizes and event costs for sponsored hackathons, such as <a href="">BostonHacks, </a><a href="">Hack the Gap, </a>or <a href"">SheHacks Boston."</a>a</p>
+            </div>
+        </div>
+		</div>
+
+    <br>
+    <br>
+
+    <div id="consultation" class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-6">
+                <h1 id="project-name">FAQ</h1>
+                <hr class="sub-title-seperation">
+                <!---Cause Chaos Here-->
+                <button id ="project-faq-question-1">What are the relevant dates I need to know?</button>
+                <p id="project-faq-description-1" >Rolling Admissions, Complete First Round Interviews (Monday, July 31st), Application Decision Released (Monday, July 31st), Program Begins (Monday, September, 18th), Program Ends (Tuesday, December 12th)
+                </p>
+                <button id ="project-faq-question-2">What is the format of the program?</button>
+                <p id="project-faq-description-2">The Spark! Fellowship is an internship program that will be held between September 18th to December 12th. Fellows will have access to the following: One-on-one mentoring, group activities with other members of the Spark! Innovation community, support to launch a crowdfunding project, and priority access to our collaborative coworking space (111 Cummington Mall, Boston, MA, 02215, Room 150A).
+                </p>
+                <!---End Chaos Here-->
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+
+    <div id="consultation" class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-6">
+                <h1><img src="img/Icons/fellowship_icon.png" width="50" height="50" id="icon-left-title">BU Spark! Fellowship</h1>
+                <hr class="title-seperation">
+                <p id="project-description">The Spark! Fellowship is dedicated to catalyzing Boston University student innovators who are passionate about solving a problem (or creating an opportunity) and committed to building a technological solution. The program aims to provide students a collaborative co-working space in which they can build out their solution.</p>
+                 <button id ="program-button"><a href="" id="program-button-link">Apply</a></button>
+            </div>
+            <div class="col-sm-6">
+                <img id ="program-image-example" src="img/Assets/fiona_working_beanie.jpg" width="270" height="200">
+            </div>
+        </div>
+    </div>
+
+    <div id="consultation" class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-4">
+                <h1 id="project-name">One-on-One Mentorship</h1>
+                <hr class="sub-title-seperation">
+                <p id="project-description">Projects are typically focused on one technical skill. A student team typically works for 50-80 hours over the course of a 6-8 week period as part of a class assignment. Technical focus determined by the class assignment and varies by semester</p>
+            </div>
+            <div class="col-sm-4">
+                <h1 id="project-name">Co-Working Space</h1>
+                <hr class="sub-title-seperation">
+                <p id="project-description">Scope and technical focus driven by project partner. Past projects range from app development, evaluation of machine learning models, and creating a image filtering microservice.</p>
+            </div>
+            <div class="col-sm-4">
+                <h1 id="project-name">Semester Stipend</h1>
+                <hr class="sub-title-seperation">
+                <p id="project-description">"Sumbit a project that can be project on in 24 hours. Help us provide prizes and event costs for sponsored hackathons, such as BostonHacks, Hack the Gap, or SheHacks Boston."</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="consultation" class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-6">
+                <h1 id="project-name">FAQ</h1>
+                <hr class="sub-title-seperation">
+                <!---Cause Chaos Here-->
+                <button id ="faq-question-1">What are the relevant dates I need to know?</button>
+                <p id="faq-description-1" >Rolling Admissions, Complete First Round Interviews (Monday, July 31st), Application Decision Released (Monday, July 31st), Program Begins (Monday, September, 18th), Program Ends (Tuesday, December 12th)
+                </p>
+                <button id ="faq-question-2">What is the format of the program?</button>
+                <p id="faq-description-2">The Spark! Fellowship is an internship program that will be held between September 18th to December 12th. Fellows will have access to the following: One-on-one mentoring, group activities with other members of the Spark! Innovation community, support to launch a crowdfunding project, and priority access to our collaborative coworking space (111 Cummington Mall, Boston, MA, 02215, Room 150A).
+                </p>
+                <!---End Chaos Here-->
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+  
+</div>

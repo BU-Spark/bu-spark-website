@@ -10,7 +10,7 @@ title: BU Spark! - About
             <div class="team-header"></div> <!-- load image in this div -->
             <div class="hero">
                 <hgroup>
-                    <h1>Innovators are made, not born</h1>
+                    <h1>Igniting Student Innovation</h1>
                 </hgroup>
             </div>
         </div>
@@ -20,25 +20,21 @@ title: BU Spark! - About
 <div class="container-fluid">
     <!-- Staff -->
     <div class="row">
-        <div class="col-sm-offset-2 col-sm-10">
+        <div class="col-sm-offset-1 col-sm-12">
 
-            <!-- Image half of container -->
-            <div class="col-sm-4">
-                <!-- onclick function changeText takes img id and changes text in description placeholder -->
-                <img id="collab" class = "imageoption" onclick="changeText(this.id);" src="img/About/mission_icon.jpg" style="max-height:200px; max-width:200px">
-            </div>
-            
-            <!-- Text half of container: Load this dynamically on click -->
             <div class="col-sm-8">
                 <h1>Our Mission</h1>
                 <hr class="title-seperation">
                 <p>BU Spark! is an initiative to support student-driven innovation in computer science, engineering, and related disciplines.</p>
             </div>
+
         </div>
     </div>
-    
+
+
     <br>
-    <br>
+    <br>   
+
 
     <div class="row" id="quote">
         <div class="col-sm-12">
@@ -50,28 +46,99 @@ title: BU Spark! - About
             <div class="col-sm-3">
                 <img src="img/Headshots/team/fiona_headshot.png" width="150" height="150" style="border-radius:50%; margin-top:25px; margin-bottom:15px; text-align:right;">
             </div>
-
-            <img src="img/break.png" style="width:100%; height:200px;">
         </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row" style="background-color:#d9eadf;">
+        <div class="col-sm-offset-1 col-sm-12">
+
+            <div class="col-sm-8" style="margin-bottom: 80px;">
+
+            <div class="row">
+                <h1>Start your Innovation Journey</h1>
+                <hr class="title-seperation">
+                <p>In a prestigious university setting like Boston University, there is no shortage of good ideas. Through BU Spark!, you can engage with fellow students to take their innovations to the next level or complete projects on behalf of an external partner.</p>
+                <img src="img/About/spark_journey.png" width="600" height="180">
+            </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <button id ="about-button"><a href="#start" id="about-button-link">Start a Project</a></button>
+                    </div>
+                    <div class="col-sm-4"> 
+                        <button id ="about-button"><a href="#join" id="about-button-link">Join a Project</a></button>
+                    </div>
+                </div>
+
+            </div>
+         </div>
+    </div>
+
+
+    <br>
+    <br>   
+
+
+    <!-- Start A Project! -->
+    <div id="Fellows" class="row">
+
+        <div class="col-sm-offset-1 col-sm-10">
+            <!-- Text half of container: Load this dynamically on click -->
+
+                        <!-- Image half of container -->
+
+            <div class="col-sm-12">
+                <h1 id="resource start"><a id="start">Start a Project</a></h1>
+                <hr class="title-seperation">
+                <p id="description">The Project Matching Website aims to give you the opportunity to join a wide range of ongoing technical projects.</p>
+            </div>
+            
+        </div>
+
     </div>
     
     <br>
     <br>
     
+    <!-- Fellowship Program -->
+    <div id="about-start-project" class="row">
+
+        <div class="col-sm-offset-1 col-sm-10">
+            <!-- Image half of container -->
+            <!-- Text half of container: Load this dynamically on click -->
+            <div class="col-sm-6">
+                <h1 id="project-name"><img src="img/Icons/fellowship_icon.png" width="50" height="50" id="icon-left-title">Fellowship Program</h1>
+                <hr class="title-seperation">
+                <p id="description">Do you want to pursue a project of your own? If so, BU Spark!’s Fellowship could help you and your team jumpstart the development of your ideas. The program aims to provide you with a collaborative co-working space, access to mentors, and skill building to help ignite your ideas. A limited number of paid internships are available for the Spark! Fellowship, so sign up today!<br><a href ="/projects">Learn More</a></p>
+            </div>
+
+            <div class="col-sm-6">
+                <h1 id="project-name"><img src="img/Icons/fellowship_icon.png" width="50" height="50" id="icon-left-title">491 Innovation Ventures</h1>
+                <hr class="title-seperation">
+                <p id="description">Do you want to pursue a project of your own? If so, BU Spark!’s Fellowship could help you and your team jumpstart the development of your ideas. The program aims to provide you with a collaborative co-working space, access to mentors, and skill building to help ignite your ideas. A limited number of paid internships are available for the Spark! Fellowship, so sign up today!<br><a href ="/projects">Learn More</a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <br>
+    <br>   
+    
     <!-- Join A Project! -->
     <div id= "about-start-project" class="row">
 
-        <div class="col-sm-offset-2 col-sm-10">
+        <div class="col-sm-offset-1 col-sm-10">
             <!-- Image half of container -->
 
-            <div class="col-sm-6">
-                <h1 id="resource">Join a Project</h1>
+            <div class="col-sm-12">
+                <h1 id="resource start"><a id="join" id="innovation-link">Join a Project</a></h1>
                 <hr class="title-seperation">
                 <p id="description">In a prestigious university setting like Boston University, there is no shortage of good ideas. Through BU Spark!, you can engage with fellow students to take their innovations to the next level or complete projects on behalf of an external partner.</p>
-            </div>
-
-            <div class="col-sm-3">
-                <img src="img/Assets/square_team_meeting.png" width="200" height="200" style="border-radius:50%;">
             </div>
 
         </div>
@@ -100,47 +167,10 @@ title: BU Spark! - About
             </div>
 
         </div>
+        
     </div>
     
     <br>
     <br>
-	   
-	<!-- Start A Project! -->
-    <div id="Fellows" class="row">
 
-        <div class="col-sm-offset-1 col-sm-10">
-            <!-- Text half of container: Load this dynamically on click -->
-
-                        <!-- Image half of container -->
-            <div class="col-sm-3">
-                <img src="img/Assets/square_team_meeting.png" width="200" height="200" style="border-radius:50%;position: absolute; margin-top:20px;">
-            </div>
-
-            <div class="col-sm-6">
-                <h1 id="resource">Start a Project</h1>
-                <hr class="title-seperation">
-                <p id="description">The Project Matching Website aims to give you the opportunity to join a wide range of ongoing technical projects.</p>
-            </div>
-            
-        </div>
-    </div>
-    
-    <br>
-    <br>
-	
-    <!-- Fellowship Program -->
-    <div id="about-start-project" class="row">
-
-        <div class="col-sm-offset-1 col-sm-10">
-            <!-- Image half of container -->
-            <!-- Text half of container: Load this dynamically on click -->
-            <div class="col-sm-6">
-                <h1 id="project-name"><img src="img/Icons/fellowship_icon.png" width="50" height="50" id="icon-left-title">Fellowship Program</h1>
-                <hr class="title-seperation">
-                <p id="description">Do you want to pursue a project of your own? If so, BU Spark!’s Fellowship could help you and your team jumpstart the development of your ideas. The program aims to provide you with a collaborative co-working space, access to mentors, and skill building to help ignite your ideas. A limited number of paid internships are available for the Spark! Fellowship, so sign up today!<br><a href ="/projects">Learn More</a></p>
-            </div>
-
-        </div>
-
-    </div>
 </div>

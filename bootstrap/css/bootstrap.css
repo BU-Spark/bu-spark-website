@@ -39,6 +39,11 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 	color:white;
 }
 
+/* Styling Club Titles*/
+#club-title{
+  font-size:24px;
+}
+
 
 /* Partner Page */
 
@@ -167,6 +172,24 @@ img#code-is-cool {
 }
 
 /* About Page */
+
+/* Styling Buttons */
+#about-button {
+  background:white;
+  border-color:black;
+  font-family:"bebas",arial;
+  letter-spacing: 5px;
+  margin:10px;
+}
+#about-button-link {
+  color:black;
+}
+
+/* Styling Links */
+#start, #join {
+  color:black;
+}
+
 #infographic {
     padding-top:10px;
     margin-top:20px;
@@ -298,6 +321,7 @@ p#quote {
     margin: 0;
     padding: 0;
     letter-spacing: 5px;
+    white-space:nowrap;
 }
 
 
