@@ -17,45 +17,77 @@ title: BU Spark! - Resources
     </div>
 </div>
 
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
 <div class="container-fluid">
-    <div class="row body-block" id="space">
-        <div class="col-sm-offset-1 col-xs-10 col-sm-10">
-            <!-- Image half of container -->
-            <div class="col-sm-6">
-                <!-- onclick function changeText takes img id and changes text in description placeholder -->
-                    <img src="img/Assets/fiona_working_beanie.jpg" alt="Avatar" class="imageoption" width="200" height="200">
-                    <img src="img/Resources/collab_icon.jpg" alt="Avatar" class="imageoption" width="200" height="200">
-                    <img id="conference" class = "imageoption" onclick="changeText(this.id);" src="img/Assets/involved.jpg" width="200" height="200">
-                    <img id="cowork" class = "imageoption" onclick="changeText(this.id);" src="img/Assets/square_team_meeting.png" width="200" height="200">
-            </div>
-            
-            <!-- Text half of container: Load this dynamically on click -->
-            <div class="col-sm-6">
-                <h1 id="resource">Space to Innovate</h1>
-                <hr class="title-seperation">
-                <p id="description">Want to reserve a room in the Spark! office? Make a reservation through our portal!</p>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Locker Rental -->
-    <div id="locker" class="row body-block highlight">
-        <br>
+    <div id="consultation" class="row">
         <div class="col-sm-offset-1 col-sm-10">
-            <!-- Text half of container -->
             <div class="col-sm-6">
-                <h1 id="resource">Locker Rental</h1>
-                <hr class="title-seperation-white">
-                 <p id="description">Do you need a storage solution for your hardware? Rent a locker through Spark!</p>
-            </div>
-            
-            <!-- Image half of container -->
-            <div class="col-sm-6">
-                <img src="img/Resources/lock_icon.png" class="imageoption" style="max-height:200px; max-width:200px">
+                <h1>Reserve a Space</h1>
+                <hr class="title-seperation">
+                <p id="project-description">Spark! Conference Room: A space for our community of innovators to meet with their teammates and mentors. Advanced level access to space is limited to individuals engaged formally in a Spark! program or through leaders on the Ignite Student </p>
             </div>
         </div>
     </div>
-    
+
+    <div id="consultation" class="row">
+        <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-4">
+                <h1 id="project-name">Spark! Conference Room</h1>
+                <hr class="sub-title-seperation">
+                <p id="project-description">A space for our community of innovators to meet with their teammates and mentors. Advanced level access to space is limited to individuals engaged formally in a Spark! program or through leaders on the Ignite Student </p>
+                <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
+            </div>
+            <div class="col-sm-4">
+                <h1 id="project-name">Spark! Innovator Co-Working Space</h1>
+                <hr class="sub-title-seperation">
+                <p id="project-description">A coworking space in the BU Spark! office that our community of innovators and their team members can reserve to work on their projects.  Spark! Innovators can access desk space, lockers, or reserve the conference room or lounge for a community event. You can apply on our website for access to this space!</p>
+                <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
+            </div>
+            <div class="col-sm-4">
+                <h1 id="project-name">Spark! Collaboratory</h1>
+                <hr class="sub-title-seperation">
+                <p id="project-description">"Get to know our community of innovators and visit our collaboratory open from 9 am - 5 pm to all students. Hang out on a beanie bag and talk to other like-minded individuals about your emerging product ideas or the latest technology trends. For students formally participating in a BU Spark! Program, visit our resource page on our website to apply for the use of the office after hours as well as to reserve it for community events."</p>
+                <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="consultation" class="row body-block highlight">
+        <div class="col-sm-offset-1 col-sm-10">
+            <div class="w3-content w3-display-container">
+              <img class="mySlides" src="img/Assets/involved.jpg">
+              <img class="mySlides" src="img/Assets/involved.jpg">
+              <img class="mySlides" src="img/Assets/involved.jpg">
+              <img class="mySlides" src="img/Assets/involved.jpg">
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Consultation -->
     <div class="row body-block" id="space">
         <br>
@@ -73,21 +105,21 @@ title: BU Spark! - Resources
                     <h1 id="project-name">General Consultation</h1>
                     <hr class="sub-title-seperation">
                     <p id="project-description">The classes available this semester are Machien Learning, App Development, and data science. Subscribe to our Newsletter for Updates on what classes are available in the Spring. </p>
-                    <button class="program-button">Sign Up</button>
+                    <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
                 </div>
 
                 <div class="col-sm-4">
                     <h1 id="project-name">Technical Consultation</h1>
                     <hr class="sub-title-seperation">
                     <p id="project-description">Scope and technical focus driven by project partner. Past projects range from app development, evaluation of machine learning models, and creating a image filtering microservice.</p>
-                    <button class="program-button">Sign Up</button>
+                    <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
                 </div>
 
                 <div class="col-sm-4">
                     <h1 id="project-name">Marketing Consultation</h1>
                     <hr class="sub-title-seperation">
                     <p id="project-description"></p>
-                    <button class="program-button">Sign Up</button>
+                    <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
                 </div>
             </div>
 
@@ -103,14 +135,15 @@ title: BU Spark! - Resources
         <div class="col-sm-offset-1 col-sm-10">
             <!-- Text half of container -->
             <div class="col-sm-6">
-                <h1 id="resource">Mentorship Program</h1>
+                <h1 id="resource">CS Mentorship Program</h1>
                 <hr class="title-seperation-white">
                 <p id="description">BU Spark! has partnered with individuals, companies, and organizations in the city of Boston to provide technical mentorship to Spark! innovators. Students who sign up to receive a mentor will be matched with a professional to assist in the development of their technology. Mentors can help with the following topic areas: app development, web development, software development and more!</p>
+                <button id ="resource-button-white"><a href="" id="resource-button-link">Sign Up</a></button>
             </div>
             
             <!-- Image half of container -->
             <div class="col-sm-6">
-                <img src="img/Assets/fiona_working_beanie.jpg" class="imageoption" style="max-height:200px; max-width:200px" >
+                <img src="img/Assets/involved_square.png" class="imageoption" width="300" height="300">
             </div>
         </div>
     </div>    
