@@ -1,9 +1,107 @@
----
-layout: default
-title: BU Spark! - News and Events
----
+<!DOCTYPE html>
+<html>
+	<!-- Header -->
+    <head>
+        <title>BU Spark! - News and Events</title>
 
-<!-- Carousel with one image to function as a header image -->
+        <!-- Import Bootstrap Files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/bootstrap/js/bootstrap.js"></script>
+        <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+        
+        <!-- import Bebas font -->
+        <!--        <link href='/bootstrap/fonts/Bebas/BebasNeue.otf' rel='stylesheet' type='text/css'> -->
+        
+        <!-- include navbar from _includes folder -->
+        <!-- Default navbar - documentation: https://getbootstrap.com/components/#navbar -->
+<div class="navbar navbar-default navbar-fixed-top"> <!-- navbar-default non-overlapping navbar -->
+    <div class="container-fluid">
+
+        <!-- MOBILE HEADER: Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="/img/Logo/spark_logo_round.png" style="max-height: 50px; max-width: 50px;">
+            </a>
+        </div>
+
+        <!-- NAV CONTENT -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                
+                <li class="dropdown">
+                    <a href="/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+						<li><a href="/about">Our Mission</a></li>
+						<li role="separator" class="divider"></li>
+                        <li><a href="/about">Join A Project</a></li>
+						<li><a href="/about">Start A Project</a></li>
+                        <li role="separator" class="divider"></li>
+                       <li><a href="/team">The Team</a></li>
+                    </ul>
+
+                </li>
+
+                <li class="dropdown">
+                    <a href="/team.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="/x-lab">X-Lab</a></li>
+                        <li><a href="/project-matching">Project Matching Website</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/fellowship">Fellowship</a></li>
+                        <li><a href="/CS491">CS492: Innovation Ventures</a></li>
+                    </ul>
+
+                </li>
+
+                <li class="dropdown">
+                    <a href="/resources" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="/resources">Reserve a Space</a></li>
+						<li><a href="/resources">Sign up for a Consultation</a></li>
+                        <li><a href="/resources">Apply for a CS Mentor</a></li>
+                    </ul>
+
+                </li>
+					<li class="dropdown">
+                    <a href="/partners" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Partners<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="/partners">Case Studies</a></li>
+						<li><a href="/partners">Submit a Tech Project</a></li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a href="/news" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News &#38; Events<span class="caret"></span></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="/calendar">Events</a></li>
+						<li><a href="/news">Spark! Notes</a></li>
+                    </ul>
+
+                </li>
+							
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</div>
+        
+    </head>
+
+    <!-- Body: embed content from child pages. Consider making black background -->
+    <body>
+        <!-- Carousel with one image to function as a header image -->
 <div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="item slides active"> <!-- include styling for each slide -->
@@ -29,7 +127,7 @@ title: BU Spark! - News and Events
                     <img src="img/Headshots/team/fiona_headshot.png" width=100 height=100 style="border-radius:50%; margin-top:20px">
                     <h1>Announcing Fall 2017 BU Spark! Fellows</h1>
                     <!-- Consider placing <hr> here -->
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p id="blog-description">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
 
                 <!-- Button separate from paragraph content: will appear after truncated content -->
@@ -86,3 +184,111 @@ title: BU Spark! - News and Events
         
     </div>
 </div>
+
+    </body>
+    
+    <!-- Include footer from _includes folder -->
+    <footer class="container-fluid contact footerstyle">
+    <div class="row">
+        <div class="col-sm-2 col-xs-offset-1"> <!-- xs-offset allows for "padding" in mobile -->
+            <h3 class="footertitle">STAY CONNECTED</h3>
+            <!--Begin mc_embed_signup-->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup .mc-field-group{
+        padding:0px;
+    }
+    #mc_embed_signup form{
+        padding:0px; /* override padding of normal form */
+    }
+    #mc_embed_signup .mc-field-group input{
+        width:100%;
+    }
+    #mc_embed_signup .button {
+        background-color: #00a897;
+        font-family:"bebas";
+        margin: 10px 15px 10px 0;
+    }
+    #mc_embed_signup input{
+        border: 1px solid #7a4068;
+        color:black; /* color when typing */
+        font-family: "Karbon";
+		}
+		/* Style the Submission Button 
+		button#mc-embedded-subscribe{
+				position:absolute;
+				right:-57%;
+				bottom:11%;
+		}*/ 
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+<div id="mc_embed_signup">
+    <form action="//www.us15.list-manage.com/subscribe/post?u=1a05e1e9821077a0ac6ff6b52&amp;id=9eee928d8b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div>
+            <div class="mc-field-group">
+                <input type="email" autocomplete="off" placeholder="Enter your email" name="EMAIL" class="required email"  id="mce-EMAIL">
+                
+                <button type="submit" value="SEND" name="SEND" id="mc-embedded-subscribe" class="button">SEND</button>
+            </div>
+        </div>
+        
+        <div>   
+            <!-- Error messages -->
+            <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            
+            <!-- What does this do? -->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1a05e1e9821077a0ac6ff6b52_9eee928d8b" tabindex="-1" value=""></div>
+        </div>
+    </form>
+</div>
+
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+						<img src="/img/Icons/facebook_icon.png" id ="social-icon">
+            <img src="/img/Icons/twitter_icon.png" id = "social-icon" style= "margin-left:20px">
+        </div>
+				<div class="col-sm-2 col-xs-offset-1"> 
+            <h3 class="footertitle">Come visit us</h3>
+						<p><a href="https://www.google.com/maps?rlz=1C5CHFA_enUS739US740&q=111+cummington+mall&biw=1259&bih=750&um=1&ie=UTF-8&sa=X&ved=0ahUKEwipuvK7z9fVAhVI4YMKHT4HDi8Q_AUICigB" id ="footer-navigation-link">Hariri Institute, 111 Cummington Street, Boston, MA, 02215</a>
+						<p id = "footer-navigation-link">Monday - Friday: 9AM -5PM</p>
+        </div>
+				<div class="col-sm-2 col-xs-offset-1"> 
+            <h3 class="footertitle">NAVIGATE</h3>
+            <ul style="padding:0;">
+							<li><a href="about.html" id = "footer-navigation-link">About</a></li>
+							<li><a href="team.html" id = "footer-navigation-link">Team</a></li>
+							<li><a href="partners.html" id = "footer-navigation-link">Partners</a></li>
+							<li><a href="news.html" id = "footer-navigation-link">News &#38; Events</a></li>
+						</ul>
+        </div>
+
+				
+    </div>
+            
+        <!-- Navigation
+        <div class="col-sm-5 col-sm-offset-1">
+            <p id="footertitle">Navigate</p>
+            <ul style="display:block;">
+                <li id="footer-navigation"><a href="about.html" id="footer-navigation-link">About</a></li>
+                <li id="footer-navigation"><a href="partner.html" id="footer-navigation-link">Partners</a></li>
+                <li id="footer-navigation"><a href="team.html" id="footer-navigation-link">Team</a></li>
+                <li id="footer-navigation"><a href="resources.html" id="footer-navigation-link">Resources</a></li>
+                <li id="footer-navigation"><a href="news.html" id="footer-navigation-link">News and Events</a></li>
+            </ul>
+        </div>
+    <div class="row">
+        <hr id="footer">
+        
+        <p id="footer-core-information"> buspark@bu.edu • <a href="https://www.google.com/maps?rlz=1C5CHFA_enUS739US740&q=111+cummington+mall&biw=1259&bih=750&um=1&ie=UTF-8&sa=X&ved=0ahUKEwipuvK7z9fVAhVI4YMKHT4HDi8Q_AUICigB" id ="footer-navigation-link">Hariri Institute, 111 Cummington Street, Boston, MA, 02215</a> • <img src="/img/Icons/bu_logo_icon.png" width="50" height="20" style="padding-left:5px;"></p>
+        
+        <hr id="footer" style="padding-bottom:30px">
+    </div> 
+		-->
+</footer>
+    
+    <!--Finally you made it to the bottom of the page, congrats-->
+</html>

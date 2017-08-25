@@ -534,7 +534,10 @@ hr#footer {
 
 /* News */
 /* "Services Blocks" based on: https://bootsnipp.com/snippets/featured/services-blocks */
-
+#blog-description{
+  font-size:14px;
+  padding:0px;
+}
 .box-content h1 {
   font-size:16px;
 }
