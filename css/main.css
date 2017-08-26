@@ -10,6 +10,10 @@
   position: relative;
   left: 30%;
   width: 100vw;
+  font-size:70px;
+  white-space: nowrap;
+  font-family:"bebas";
+  padding-top:51px;
 }
 
 .hero {
@@ -22,9 +26,19 @@
   position: relative;
 }
 
-@media(max-width:500px) {
+img#code-is-cool {
+    margin-top:31px;
+    position: absolute;
+    margin-left:-450px;
+}
+
+@media(max-width:511px) {
   #hero-subtext {
-    width: 80vw;
-    left: 10vw;
+    font-size:100px;
+  }
+  #welcome-subtitle {
+    padding-bottom:40px;
+    padding-top:0px;
   }
 }
+

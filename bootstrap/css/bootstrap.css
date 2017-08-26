@@ -258,25 +258,6 @@ h1#case-study {
 }
 
 
-/* Home Page */
-#welcome-title {
-    font-size:100px;
-    white-space: nowrap;
-    font-family:"bebas";
-    padding:0px;
-}
-#welcome-subtitle {
-    font-size:70px;
-    white-space: nowrap;
-    font-family:"bebas";
-    padding-top:51px;
-}
-img#code-is-cool {
-    margin-top:31px;
-    position: absolute;
-    margin-left:-450px;
-}
-
 /* About Page */
 
 /* Styling Buttons */
@@ -396,7 +377,7 @@ p#quote {
 
 /* Background images for individual slides */
 .home-carousel .slides .slide-1 {
-  background-image: url("../../img/Headers/team_header_home_cut.png"); 
+  background-image: url("../../img/Headers/team_header_home_cut copy_blue.png"); 
 }
 .home-carousel .slides .slide-2 {
   background-image: url("../../img/Headers/resource-header-2.jpg");
