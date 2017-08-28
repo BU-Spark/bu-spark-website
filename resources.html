@@ -18,27 +18,29 @@ title: BU Spark! - Resources
 </div>
 
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+    var slideIndex = 1;
+    showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
 </script>
 
+<br>
+
 <div class="container-fluid">
-    <div id="consultation" class="row">
+    <div class="row body-block">
         <div class="col-sm-offset-1 col-sm-10">
             <div class="col-sm-6">
                 <h1>Reserve a Space</h1>
@@ -46,9 +48,7 @@ function showDivs(n) {
                 <p id="project-description">Spark! Conference Room: A space for our community of innovators to meet with their teammates and mentors. Advanced level access to space is limited to individuals engaged formally in a Spark! program or through leaders on the Ignite Student </p>
             </div>
         </div>
-    </div>
 
-    <div id="consultation" class="row">
         <div class="col-sm-offset-1 col-sm-10">
             <div class="col-sm-4">
                 <h1 id="project-name">Spark! Conference Room</h1>
@@ -56,12 +56,14 @@ function showDivs(n) {
                 <p id="project-description">A space for our community of innovators to meet with their teammates and mentors. Advanced level access to space is limited to individuals engaged formally in a Spark! program or through leaders on the Ignite Student </p>
                 <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
             </div>
+            
             <div class="col-sm-4">
                 <h1 id="project-name">Spark! Innovator Co-Working Space</h1>
                 <hr class="sub-title-seperation">
                 <p id="project-description">A coworking space in the BU Spark! office that our community of innovators and their team members can reserve to work on their projects.  Spark! Innovators can access desk space, lockers, or reserve the conference room or lounge for a community event. You can apply on our website for access to this space!</p>
                 <button id ="program-button"><a href="" id="program-button-link">Sign Up</a></button>
             </div>
+            
             <div class="col-sm-4">
                 <h1 id="project-name">Spark! Collaboratory</h1>
                 <hr class="sub-title-seperation">
@@ -74,7 +76,7 @@ function showDivs(n) {
     <br>
     <br>
 
-    <div id="consultation" class="row body-block highlight">
+    <div class="row body-block highlight">
         <div class="col-sm-offset-1 col-sm-10">
             <div class="w3-content w3-display-container">
               <img class="mySlides" src="img/Assets/involved.jpg">
@@ -91,15 +93,11 @@ function showDivs(n) {
     <!-- Consultation -->
     <div class="row body-block" id="space">
         <br>
-        <div class="col-sm-offset-1 col-sm-10">
-            <!-- Image half of container -->
-            
-            <!-- Text half of container: Load this dynamically on click -->
+        <div class="col-sm-offset-1 col-sm-10">            
             <h1 id="consultation">Request a Consultation</h1>
             <hr class="title-seperation">
             <p id="description">Spark! hosts a variety of consulting options to answer any questions you may have regarding your project. To request a consultation, fill out the form below to pick between our three consulting areas.</p>
 
-            <!-- Text half of container: Load this dynamically on click -->
             <div class = "row">
                 <div class="col-sm-4">
                     <h1 id="project-name">General Consultation</h1>
