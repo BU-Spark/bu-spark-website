@@ -580,6 +580,11 @@ hr#footer {
 
 /* News */
 /* "Services Blocks" based on: https://bootsnipp.com/snippets/featured/services-blocks */
+
+/* Individual Blog Post */
+.author {
+  font-family:"bebas";
+}
 #blog-description{
   font-size:14px;
   padding:0px;
