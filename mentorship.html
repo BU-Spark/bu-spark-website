@@ -1,6 +1,6 @@
 ---
 layout: default
-title: BU Spark! - Partners
+title: BU Spark! - Mentorship
 ---
 
 
@@ -14,6 +14,8 @@ $(document).ready(function(){
     $("#mentorshipfaq-description-5").hide();
     $("#mentorshipfaq-description-6").hide();
     $("#mentorshipfaq-description-7").hide();
+    $("#mentorshipfaq-description-8").hide();
+    $("#mentorshipfaq-description-9").hide();
 
     $("#mentorshipfaq-question-1").click(function(){
         $("#mentorshipfaq-description-1").toggle();
@@ -43,6 +45,12 @@ $(document).ready(function(){
         $("#mentorshipfaq-description-7").toggle();
     });
 
+    $("#mentorshipfaq-question-8").click(function(){
+        $("#mentorshipfaq-description-8").toggle();
+
+    });    $("#mentorshipfaq-question-9").click(function(){
+        $("#mentorshipfaq-description-9").toggle();
+    });
 
 });
 </script>
@@ -79,97 +87,131 @@ $(document).ready(function(){
                 <div class="col-sm-4">
                     <h1 id="project-name">Spark! Innovation Coach</h1>
                     <hr class="sub-title-seperation">
-                    <p id="project-description">Serves as the primary mentor for a student innovator or team throughout their product creation journey. Coaches are asked to check in with their teams on a weekly basis (in-person or virtually). </p>
-                    <button id ="program-button"><a href="" id="program-button-link">Apply</a></button>
+                    <div id="project-description">
+                        <p>Serves as the primary mentor for a student innovator or team throughout their product creation journey. Coaches are asked to check in with their teams on a weekly basis (in-person or virtually).</p>
+                        <button id ="program-button"><a href="" id="program-button-link">Apply</a></button>
+                    </div>
                 </div>
 
                 <div class="col-sm-4">
                     <h1 id="project-name">Spark! Innovation Specialist</h1>
                     <hr class="sub-title-seperation">
-                    <p id="project-description">Offers deep expertise in a particular topic, technology area, or programming language. Specialists are asked to make at least two hours per month (in-person or virtually) available to advise different student teams.</p>
-                    <button id ="program-button"><a href="" id="program-button-link">Apply</a></button>
+                    <div id="project-description">
+                        <p>Offers deep expertise in a particular topic, technology area, or programming language. Specialists are asked to make at least two hours per month (in-person or virtually) available to advise different student teams.</p>
+                        <button id ="program-button"><a href="" id="program-button-link">Apply</a></button>
+                    </div>
                 </div>
 
             </div>
 
             <div class="row">
 
-                        <h1 id="project-name">FAQ</h1>
-                        <hr class="sub-title-seperation">
+                <h1 id="project-name">FAQ</h1>
+                <hr class="sub-title-seperation">
 
-                        <!--Q1-->
-                        <button id ="mentorshipfaq-question-1">What is the time commitment?</button>
-                        <p id="mentorshipfaq-description-1" >For Spark! Innovation Coaches, we recommend weekly check-ins (approximately 30-60 minutes per week) with your students, totaling 3-5 hours per month.
-                        <br>
-                        <br>
-                        For Spark! Innovation Specialists, we ask that you set aside at least 2 hours per month to for students to schedule help sessions from you. You may divide this time how you like. We will assist you with the scheduling process.</p>
+            </div>
 
-                        <!--Q2-->
-                        <button id ="mentorshipfaq-question-2">Are there any specific requirements to be a Spark! Innovation Specialist?</button>
-                        <p id="mentorshipfaq-description-2">We recommend that mentors have at least 2 years of experience with a specific library or language to be selected, or experience with the latest innovations or newer technologies. For web and mobile application mentors, mentors should have experience creating the majority of at least one professional quality application. Otherwise, a few years’ working experience with any skill should be sufficient for mentoring.</p>
+            <!--Q1-->
+            <div class="row">
+                <button id ="mentorshipfaq-question-1">What is the time commitment?</button>
+                <div id="mentorshipfaq-description-1">
+                    <p>For Spark! Innovation Coaches, we recommend weekly check-ins (approximately 30-60 minutes per week) with your students, totaling 3-5 hours per month.
 
-                        <!--Q3-->
-                        <button id ="mentorshipfaq-question-3">Do I need to be currently working in the tech industry to be a Spark! mentor?</button>
-                        <p id="mentorshipfaq-description-3">No, you do not. Industry experience is actually not a direct requirement: university students may also be mentors if they have the appropriate skillsets. Furthermore, If you are seeking to mentor students as a non-technical specialist, such as in Design, UX/UI, Communications or Marketing, it is not required to have experience with the tech industry.</p>
+                    <br>
+                    <br>
+                    For Spark! Innovation Specialists, we ask that you set aside at least 2 hours per month to for students to schedule help sessions from you. You may divide this time how you like. We will assist you with the scheduling process.</p>
+                </div>
 
-                        <!--Q4-->
-                        <button id ="mentorshipfaq-question-4">What if I’m unable to answer some of the questions on the mentor application form?</button>
-                        <p id="mentorshipfaq-description-4">No problem, indicate in the application where you have questions and we’ll contact you to clarify any missing information. If you need assistance or have any questions, you can email us at buspark@bu.edu or schedule a meeting with us <a href="ttps://buspark.acuityscheduling.com/">here.</a></p>
+            </div>
 
-                        <!--Q5-->
-                        <button id ="mentorshipfaq-question-5">What are some of the expectations for Spark! mentors?</button>
-                        <p id="mentorshipfaq-description-5">Mentors should:
+            <!--Q2-->
+            <div class="row">
+                <button id ="mentorshipfaq-question-2">Are there any specific requirements to be a Spark! Innovation Specialist?</button>
+                <div id="mentorshipfaq-description-2">
+                    <p>We recommend that mentors have at least 2 years of experience with a specific library or language to be selected, or experience with the latest innovations or newer technologies. For web and mobile application mentors, mentors should have experience creating the majority of at least one professional quality application. Otherwise, a few years’ working experience with any skill should be sufficient for mentoring.</p>
+                </div>
+            </div>
 
-                            <ul>
-                                <li>Be a sounding board for ideas/improvements</li>
+            <!--Q3-->
+            <div class="row">
+                <button id ="mentorshipfaq-question-3">Do I need to be currently working in the tech industry to be a Spark! mentor?</button>
+                <div id="mentorshipfaq-description-3">
+                    <p>No, you do not. Industry experience is actually not a direct requirement: university students may also be mentors if they have the appropriate skillsets. Furthermore, If you are seeking to mentor students as a non-technical specialist, such as in Design, UX/UI, Communications or Marketing, it is not required to have experience with the tech industry.</p>
+                </div>
+            </div>
 
-                                <li>Maintain positive, constructive, and relevant relationship</li>
+            <!--Q4-->
+            <div class="row">
+                <button id="mentorshipfaq-question-4">What if I’m unable to answer some of the questions on the mentor application form?</button>
+                <div id="mentorshipfaq-description-4">
+                    <p>No problem, indicate in the application where you have questions and we’ll contact you to clarify any missing information. If you need assistance or have any questions, you can email us at buspark@bu.edu or schedule a meeting with us <a href="ttps://buspark.acuityscheduling.com/">here.</a></p>
+                </div>
+            </div>
 
-                                <li>Be responsive to students and able to set aside time to meet with student mentees (virtually or in-person)</li>
+            <!--Q5-->
+            <div class="row">
+                <button id="mentorshipfaq-question-5">What are some of the expectations for Spark! mentors?</button>
+                <div id="mentorshipfaq-description-5">
+                    <p>Mentors should:</p>
+                        <ul>
+                            <li>Be a sounding board for ideas/improvements</li>
 
-                                <li>Be constructive in their critiques</li>
+                            <li>Maintain positive, constructive, and relevant relationship</li>
 
-                                <li>Not seek a formal business partnership with the students</li>
+                            <li>Be responsive to students and able to set aside time to meet with student mentees (virtually or in-person)</li>
 
-                                <li>Participate in a kick-off session (in person if you are local) and a final evaluation</li>
+                            <li>Be constructive in their critiques</li>
 
-                                <li>Mentors should not violate the CAS/CS Academic Integrity Policy. This is mainly common sense, but the full policy has been linked for your understanding.</li>
-                            </ul>
+                            <li>Not seek a formal business partnership with the students</li>
 
-                        Mentors should not violate the <a href="">CAS/CS Academic Integrity Policy.</a>This is mainly common sense, but the full policy has been linked for your understanding.
-                        </p>
+                            <li>Participate in a kick-off session (in person if you are local) and a final evaluation</li>
 
+                            <li>Mentors should not violate the CAS/CS Academic Integrity Policy. This is mainly common sense, but the full policy has been linked for your understanding.</li>
+                        </ul>
 
-                        <!--Q6-->
-                        <button id ="mentorshipfaq-question-6">What can I expect from the student/team I am mentoring?</button>
-                        <p id="mentorshipfaq-description-6">We are holding mentees to the following standards:
-                            <ul>
-                               <li>Ready to learn and willing to listen to constructive criticism</li>
-                                <li>Proactive in communicating and scheduling meetings with mentors</li>
-                                <li>Are respectful of mentors’ time and be understanding of mentors’ priorities.</li>
-                                <li>For each mentoring session, mentees should give updates on their project and come with specific questions</li>
-                            </ul>
-                        </p>
-
-                        <!--Q7-->
-                        <button id ="mentorshipfaq-question-4"> As a Spark! Innovation Coach, is it possible for me to mentor a different student or team than the one assigned to me?</button>
-                        <p id="mentorshipfaq-description-4">We ask that you please focus your time on the student or team assigned to you. However, if you have extra time and would like to give help to more students, we can facilitate this. In the event that a student or team ceases work on their project, you may be reassigned to another project.
-                        </p>
-
-                        <!--Q8-->
-                        <button id ="mentorshipfaq-question-4"> As a Spark! Innovation Coach, is it possible for me to mentor a different student or team than the one assigned to me?</button>
-                        <p id="mentorshipfaq-description-4">We ask that you please focus your time on the student or team assigned to you. However, if you have extra time and would like to give help to more students, we can facilitate this. In the event that a student or team ceases work on their project, you may be reassigned to another project.
-                        </p>
+                    <p>Mentors should not violate the <a href="">CAS/CS Academic Integrity Policy.</a>This is mainly common sense, but the full policy has been linked for your understanding.</p>
+                </div>
+            </div>
 
 
+            <!--Q6-->
+            <div class="row">
+                <button id ="mentorshipfaq-question-6">What can I expect from the student/team I am mentoring?</button>
+                <div id="mentorshipfaq-description-6">
+                    <p>We are holding mentees to the following standards:</p>
+                    <ul>
+                       <li>Ready to learn and willing to listen to constructive criticism</li>
+                        <li>Proactive in communicating and scheduling meetings with mentors</li>
+                        <li>Are respectful of mentors’ time and be understanding of mentors’ priorities.</li>
+                        <li>For each mentoring session, mentees should give updates on their project and come with specific questions</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!--Q7-->
+            <div class="row">
+                <button id ="mentorshipfaq-question-7"> As a Spark! Innovation Coach, is it possible for me to mentor a different student or team than the one assigned to me?</button>
+                <div id="mentorshipfaq-description-7">
+                    <p>We ask that you please focus your time on the student or team assigned to you. However, if you have extra time and would like to give help to more students, we can facilitate this. In the event that a student or team ceases work on their project, you may be reassigned to another project.</p>
+                </div>
+            </div>
+            
+            <!--Q8-->
+            <div class="row">
+                <button id ="mentorshipfaq-question-8">What happens if the student team ceases work or doesn’t finish their project?</button>
+                <div id="mentorshipfaq-description-8">
+                    <p>We hope that you will be able to help them guide their project to a “minimum viable product” (MVP) – however, we realize that students themselves must take the initiative to finish their projects. Your role is simply to advise them on their journey.</p>
+                </div>
+            </div>
 
-                    </div>
+            <!--Q9-->
+            <div class="row">
+                <button id ="mentorshipfaq-question-9">Am I entitled to the code the students develop?</button>
+                <div id="mentorshipfaq-description-9">
+                    <p>You should have access to the students’ code or parts of the code  if it will help you mentor them.  However, your role should remain advisory, rather than a direct role in building the project. </p>
                 </div>
             </div>
 
         </div>
     </div>
-
-    <br>
-    <br>
 </div>
