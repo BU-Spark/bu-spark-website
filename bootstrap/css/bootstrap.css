@@ -9,7 +9,7 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 
 @font-face {
-  font-family:"";
+  font-family:"Myriad";
   src: url("../../bootstrap/fonts/MyriadPro/MyriadPro-Regular.otf");
 }
 
@@ -385,7 +385,6 @@ h1#case-study {
 }
 
 /* Resources Page */
-
 #resource-button-white {
   color: black;
   background:white;
@@ -473,7 +472,7 @@ h1#case-study {
 /* Hero Image styling for each slide */
 .hero {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     z-index: 3;
     color: #fff;
@@ -487,7 +486,7 @@ h1#case-study {
 }
 
 .hero h1 {
-    font-size: 9vh;    
+    font-size: 6vw;    
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -502,7 +501,7 @@ h1#case-study {
     background-image: url("../../img/Logo/spark_logo_round.png");
 }
 #footer-navigation {
-    display:block;
+    display: block;
 }
 #footer-navigation-link{
     color:#00a897;
@@ -511,22 +510,22 @@ h1#case-study {
 }
 
 #footer-core-information{
-		text-align:center;
-		font-size:14px;
+		text-align: center;
+		font-size: 14px;
 }
 
 /* Footer */
-#social-icon {
-		width:40px;
-		height:40px;
-		margin-bottom: 20px;
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
 }
 #space{
     margin-top:30px;
 }
 hr#footer {
     padding-bottom: 10px;
-    margin:0px;
+    margin: 0px;
     color: #434343;
 }
 
