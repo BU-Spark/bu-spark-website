@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
-	<!-- Header -->
     <head>
+        <!-- Google Analytics - Global Site Tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97276108-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-97276108-2');
+        </script>
         <title>{{ page.title }}</title>
 
         <!-- Import Bootstrap Files -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <!-- Import JS and CSS -->
         <script src="{{site.baseurl}}/bootstrap/js/bootstrap.js"></script>
         <link href="{{site.baseurl}}/bootstrap/css/bootstrap.css" rel="stylesheet">
-        
-        <!-- import Bebas font -->
-        <!--        <link href='{{site.github.url}}/bootstrap/fonts/Bebas/BebasNeue.otf' rel='stylesheet' type='text/css'> -->
-        
+                
         <!-- include navbar from _includes folder -->
         {% include navbar.html %}
     </head>
 
-    <!-- Body: embed content from child pages. Consider making black background -->
+    <!-- Body: embed content from child pages -->
     <body>
         {{ content }}
     </body>
     
     <!-- Include footer from _includes folder -->
     {% include footer.html %}
-    
-    <!--Finally you made it to the bottom of the page, congrats-->
 </html>
