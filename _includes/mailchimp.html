@@ -11,15 +11,19 @@
         width:100%;
     }
     #mc_embed_signup .button {
+        width: 20%;
+        display: inline-block;
         background-color: #00a897;
         font-family:"bebas";
         margin: 10px 15px 10px 0;
     }
     #mc_embed_signup input{
+        width: 70%;
+        display: inline-block;
         border: 1px solid #7a4068;
         color:black; /* color when typing */
         font-family: "Karbon";
-		}
+    }
 		/* Style the Submission Button 
 		button#mc-embedded-subscribe{
 				position:absolute;
@@ -34,9 +38,11 @@
     <form action="//www.us15.list-manage.com/subscribe/post?u=1a05e1e9821077a0ac6ff6b52&amp;id=9eee928d8b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div>
             <div class="mc-field-group">
-                <input type="email" autocomplete="off" placeholder="Enter your email" name="EMAIL" class="required email"  id="mce-EMAIL">
+                <table>
+                    <tr><input type="email" autocomplete="off" placeholder="Enter your email" name="EMAIL" class="required email" id="mce-EMAIL" style="display:inline;"></tr>
                 
-                <button type="submit" value="SEND" name="SEND" id="mc-embedded-subscribe" class="button">SEND</button>
+                    <tr><button type="submit" value="SEND" name="SEND" id="mc-embedded-subscribe" class="button">SEND</button></tr>
+                </table>
             </div>
         </div>
         

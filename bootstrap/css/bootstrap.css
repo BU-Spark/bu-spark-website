@@ -500,21 +500,13 @@ h1#case-study {
 #nav-logo {
     background-image: url("../../img/Logo/spark_logo_round.png");
 }
-#footer-navigation {
-    display: block;
-}
-#footer-navigation-link{
-    color:#00a897;
-		text-align: left;
-		font-size: 14px;
-}
-
-#footer-core-information{
-		text-align: center;
-		font-size: 14px;
-}
 
 /* Footer */
+.footer-navigation-link {
+  color: #00a897;
+  text-align: left;
+  font-size: 14px;
+}
 .social-icon {
   width: 40px;
   height: 40px;
@@ -528,25 +520,18 @@ hr#footer {
     margin: 0px;
     color: #434343;
 }
-
-#footer-navigation {
-    text-align: left;
-    font-size:12px;
-    
-}
-.footertitle {
+.footer-title {
     font-family: "bebas";
     font-size: 24px;
     letter-spacing: 2px;
     text-align: left;
 }
-.footerstyle{
+.footer-style{
     background-color: black;
     color: white;
     font-family: "MyriadPro-Regular";
 }
 
-/* TODO: I'm no longer using this in footer. Are we using it elsewhere? */
 .icon {
     padding-top: 20px;
     padding-bottom: 70px;

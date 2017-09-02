@@ -1,31 +1,44 @@
-<footer class="container-fluid contact footerstyle">
-    <div class="row">
-        <div class="col-sm-2 col-xs-offset-1"> <!-- xs-offset allows for "padding" in mobile -->
-            <h3 class="footertitle">Subscribe</h3>
-            
-            {% include mailchimp.html %}
+<footer class="container-fluid footer-style">
+    
+    <br>
+    
+    <div>
+        <div class="row">
+            <div class="col-sm-4 col-xs-offset-1"> 
+                <h3 class="footer-title">Navigate</h3>
+                <ul style="padding:0;">
+                    <li><a href="{{site.baseurl}}/about.html" class="footer-navigation-link">About</a></li>
+                    <li><a href="{{site.baseurl}}/programs.html" class="footer-navigation-link">Programs</li>
+                    <li><a href="{{site.baseurl}}/resources.html" class="footer-navigation-link">Team</a></li>
+                    <li><a href="{{site.baseurl}}/partners.html" class="footer-navigation-link">Partners</a></li>
+                    <li><a href="{{site.baseurl}}/news.html" class="footer-navigation-link">News &#38; Events</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 col-xs-offset-2"> <!-- xs-offset allows for "padding" in mobile -->
+                <h3 class="footer-title">Subscribe To Our Newsletter</h3>
+
+                {% include mailchimp.html %}
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <hr id="footer">
+        
+        <div class="row" style="text-align:center;">
+            <a href="https://www.google.com/maps?rlz=1C5CHFA_enUS739US740&q=111+cummington+mall&biw=1259&bih=750&um=1&ie=UTF-8&sa=X&ved=0ahUKEwipuvK7z9fVAhVI4YMKHT4HDi8Q_AUICigB">Hariri Institute, 111 Cummington Street, Boston, MA, 02215</a> • Monday-Friday: 9AM-5PM
         </div>
         
-        <div class="col-sm-2 col-xs-offset-1"> 
-            <h3 class="footertitle">Visit</h3>
-            <p><a href="https://www.google.com/maps?rlz=1C5CHFA_enUS739US740&q=111+cummington+mall&biw=1259&bih=750&um=1&ie=UTF-8&sa=X&ved=0ahUKEwipuvK7z9fVAhVI4YMKHT4HDi8Q_AUICigB" id ="footer-navigation-link">Hariri Institute, 111 Cummington Street, Boston, MA, 02215</a>
-            <p id="footer-navigation-link">Monday - Friday: 9AM -5PM</p>
+        <div class="row" style="text-align:center;">
+            <a href="https://www.facebook.com/sparkbu/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/bu_spark" class="fa fa-twitter"></a>
+            <a href="mailto:buspark@bu.edu" class="fa fa-google"></a>
+            <a href="https://www.linkedin.com/company/11252925/" class="fa fa-linkedin"></a>
         </div>
-        
-        <div class="col-sm-2 col-xs-offset-1"> 
-            <h3 class="footertitle">Navigate</h3>
-            <ul style="padding:0;">
-                <li><a href="{{site.baseurl}}/about.html" id="footer-navigation-link">About</a></li>
-                <li><a href="{{site.baseurl}}/team.html" id="footer-navigation-link">Team</a></li>
-                <li><a href="{{site.baseurl}}/partners.html" id="footer-navigation-link">Partners</a></li>
-                <li><a href="{{site.baseurl}}/news.html" id="footer-navigation-link">News &#38; Events</a></li>
-            </ul>
-        </div>
-        
-        <div class="col-sm-2 col-xs-offset-1"> 
-            <h3 class="footertitle">Media</h3>
-            <img class="social-icon" src="{{site.baseurl}}/img/Icons/facebook_icon.png">
-            <img class="social-icon" src="{{site.baseurl}}/img/Icons/twitter_icon.png"style="margin-left:20px">
-        </div>	
     </div>
+    
+    <br>
+    
 </footer>
