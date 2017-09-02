@@ -1,19 +1,20 @@
 #anim-text {
-    border-bottom: 15px cyan solid;
+    border-bottom: 15px #00a896 solid;
     display: inline-block;
     line-height: 30px;
+    padding-bottom:10px;
 }
 
 #welcome-subtitle {
   text-align: left;
   overflow: visible;
   position: relative;
-  left: 30%;
+  left: 8%;
   width: 100vw;
-  font-size:70px;
+  font-size:38px;
   white-space: nowrap;
   font-family:"bebas";
-  padding-top:51px;
+  padding-top:115px;
 }
 
 .hero {
@@ -32,13 +33,65 @@ img#code-is-cool {
     margin-left:-450px;
 }
 
-@media(max-width:511px) {
+@media(min-width:480px) {
   #hero-subtext {
-    font-size:100px;
   }
+  img#code-is-cool {
+    margin-top:31px;
+    position: absolute;
+    margin-left:-290px;
+  }
+
   #welcome-subtitle {
-    padding-bottom:40px;
-    padding-top:0px;
+    font-size:61px;
+    padding-top:80px;
+    left: 38%;
   }
 }
+
+@media(min-width:767px) {
+  #hero-subtext {
+  }
+  img#code-is-cool {
+    margin-top:47px;
+    position: absolute;
+    margin-left:-311px;
+  }
+
+  #welcome-subtitle {
+    font-size:61px;
+    padding-top:84px;
+    left: 37%;
+  }
+}
+@media(min-width:991px) {
+
+  img#code-is-cool {
+    margin-top:67px;
+    position: absolute;
+    margin-left:-315px;
+  }
+
+  #welcome-subtitle {
+    font-size:61px;
+    padding-top:100px;
+    left: 36%;
+  }
+}
+
+@media(min-width:1199px) {
+
+  img#code-is-cool {
+    margin-top:59px;
+    position: absolute;
+    margin-left:-370px;
+  }
+
+  #welcome-subtitle {
+    font-size:61px;
+    padding-top:96px;
+    left: 34%;
+  }
+}
+
 

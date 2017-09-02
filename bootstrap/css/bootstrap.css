@@ -8,6 +8,11 @@ font-family: "Karbon";
 src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 
+@font-face {
+  font-family:"";
+  src: url("../../bootstrap/fonts/MyriadPro/MyriadPro-Regular.otf");
+}
+
 /* Start Custom CSS Down Under #Australian? */
 
 * {box-sizing:border-box}
@@ -117,7 +122,15 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
   font-size: 18px;
 }
 
+/* Project Matchiing Platform */
+
+
 /* Team Page */
+
+/* Styling Title, so that it goes onto one line */
+#fellow-name {
+  white-space: nowrap;
+}
 /* Styling Sections with Only One Headshot */
 #single-headshot {
 	border-radius:50%;
@@ -174,8 +187,17 @@ img#microsoft-profile-1 {
 #icon-left-title {
   margin-right:10px;
 }
-/* Styling FAQ questions Programs Page*/
-#faq-question-1, #faq-question-2, #project-faq-question-1, #project-faq-question-2 {
+/* Styling FAQ questions on Fellowship Page*/
+#faq-question-1,
+#faq-question-2,
+#faq-question-3,
+#faq-question-4,
+#faq-question-5,
+#faq-question-6,
+#faq-question-7,
+#faq-question-8,
+#faq-question-9,
+#faq-question-10 {
   margin-top:10px;
   margin-bottom:10px;
   font-size:16px;
@@ -185,6 +207,51 @@ img#microsoft-profile-1 {
   letter-spacing:2px;
   border: 2px black;
 }
+
+/* Styling FAQ questions on 491 Page*/
+#projectfaq-question-1,
+#projectfaq-question-2,
+#projectfaq-question-3,
+#projectfaq-question-4,
+#projectfaq-question-5,
+#projectfaq-question-6,
+#projectfaq-question-7,
+#projectfaq-question-8,
+#projectfaq-question-9,
+#projectfaq-question-10 {
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:16px;
+  background-color: #00a897;
+  color:white;
+  font-family:bebas;
+  letter-spacing:2px;
+  border: 2px black;
+}
+
+/* Styling FAQ questions on Mentorship Page*/
+#mentorshipfaq-question-1,
+#mentorshipfaq-question-2,
+#mentorshipfaq-question-3,
+#mentorshipfaq-question-4,
+#mentorshipfaq-question-5,
+#mentorshipfaq-question-6,
+#mentorshipfaq-question-7,
+#mentorshipfaq-question-8,
+#mentorshipfaq-question-9,
+#mentorshipfaq-question-10 {
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:16px;
+  background-color: #00a897;
+  color:white;
+  font-family:bebas;
+  letter-spacing:2px;
+  border: 2px black;
+}
+
+
+
 
 /* Styling the Sub Headers s*/
 p#subsectiontitle-1 {
@@ -284,13 +351,12 @@ h1#case-study {
     margin-right:100px;
 }
 
-#quote {
+.quote {
   background-image:url("../../img/break.png");
-  width:100%;
   height:100%;
 }
 
-p#quote {
+.quote p {
   color:white;
   font-size:26px;
   padding-top:50px;
@@ -377,7 +443,7 @@ p#quote {
 
 /* Background images for individual slides */
 .home-carousel .slides .slide-1 {
-  background-image: url("../../img/Headers/team_header_home_cut copy_blue.png"); 
+  background-image: url("../../img/Headers/team_header_home_cut all_image.png"); 
 }
 .home-carousel .slides .slide-2 {
   background-image: url("../../img/Headers/resource-header-2.jpg");
@@ -413,7 +479,6 @@ p#quote {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
       -webkit-transform: translate3d(-50%,-50%,0);
          -moz-transform: translate3d(-50%,-50%,0);
           -ms-transform: translate3d(-50%,-50%,0);
@@ -479,7 +544,7 @@ hr#footer {
 .footerstyle{
     background-color: black;
     color: white;
-    font-family: "Raleway";
+    font-family: "MyriadPro-Regular";
 }
 
 /* TODO: I'm no longer using this in footer. Are we using it elsewhere? */
@@ -3525,6 +3590,10 @@ select[multiple].input-lg {
   color: #737373;
 }
 @media (min-width: 768px) {
+
+  /*Causing Chaos Again Lawrence with no e */
+  img
+
   .form-inline .form-group {
     display: inline-block;
     margin-bottom: 0;

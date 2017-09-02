@@ -9,9 +9,14 @@ $(document).ready(function(){
 
     $("#faq-description-1").hide();
     $("#faq-description-2").hide();
-    $("#project-faq-description-1").hide();
-    $("#project-faq-description-2").hide();
-
+    $("#faq-description-3").hide();
+    $("#faq-description-4").hide();
+    $("#faq-description-5").hide();
+    $("#faq-description-6").hide();
+    $("#faq-description-7").hide();
+    $("#faq-description-8").hide();
+    $("#faq-description-9").hide();
+    $("#faq-description-10").hide();
 
     $("#faq-question-1").click(function(){
         $("#faq-description-1").toggle();
@@ -21,14 +26,40 @@ $(document).ready(function(){
         $("#faq-description-2").toggle();
     });
 
-    $("#project-faq-question-1").click(function(){
-        $("#project-faq-description-1").toggle();
+    $("#faq-question-3").click(function(){
+        $("#faq-description-3").toggle();
     });
 
-    $("#project-faq-question-2").click(function(){
-        $("#project-faq-description-2").toggle();
+    $("#faq-question-4").click(function(){
+        $("#faq-description-4").toggle();
     });
+
+    $("#faq-question-5").click(function(){
+        $("#faq-description-5").toggle();
+    });
+
+    $("#faq-question-6").click(function(){
+        $("#faq-description-6").toggle();
+    });
+
+    $("#faq-question-7").click(function(){
+        $("#faq-description-7").toggle();
+    });
+
+    $("#faq-question-8").click(function(){
+        $("#faq-description-8").toggle();
+    });
+
+    $("#faq-question-9").click(function(){
+        $("#faq-description-9").toggle();
+    });
+
+    $("#faq-question-10").click(function(){
+        $("#faq-description-10").toggle();
+    });
+
 });
+
 </script>
 
 <!-- Carousel with one image to function as a header image -->
@@ -48,32 +79,33 @@ $(document).ready(function(){
 <div class="row body-block">
     <div class="col-sm-offset-1 col-sm-10">
         <div class="col-sm-8">
-            <h1><img src="img/Icons/fellowship_icon.png" width="50" height="50" id="icon-left-title">BU Spark! Fellowship</h1>
+            <h1><img src="img/Icons/build_icon.png" width="50" height="50" id="icon-left-title">BU Spark! Fellowship</h1>
             <hr class="title-seperation">
-            <p id="project-description">The Spark! Fellowship is dedicated to catalyzing Boston University student innovators who are passionate about solving a problem (or creating an opportunity) and committed to building a technological solution. The program aims to provide students a collaborative co-working space in which they can build out their solution.</p>
+            <p id="project-description">The Spark! Fellowship is dedicated to catalyzing Boston University student innovators who are passionate about solving a problem (or creating an opportunity) and committed to building a technological solution. The program aims to provide students a collaborative co-working space in which they can build out their solution. Look below, for the resources we provide each of our students participating in the Fellowship program.</p>
              <button id="program-button"><a href="" id="program-button-link">Apply</a></button>
         </div>
-        
+        <!--Insert an image next to the title 
         <div class="col-sm-4 hidden-xs">
             <img id ="program-image-example" src="img/Assets/fiona_working_beanie.jpg" width="270" height="200">
         </div>
+        -->
     </div>
 
     <div class="col-sm-offset-1 col-sm-10">
         <div class="col-sm-4">
             <h1 id="project-name">One-on-One Mentorship</h1>
             <hr class="sub-title-seperation">
-            <p id="project-description">Projects are typically focused on one technical skill. A student team typically works for 50-80 hours over the course of a 6-8 week period as part of a class assignment. Technical focus determined by the class assignment and varies by semester</p>
+            <p id="project-description">N/A</p>
         </div>
         <div class="col-sm-4">
             <h1 id="project-name">Co-Working Space</h1>
             <hr class="sub-title-seperation">
-            <p id="project-description">Scope and technical focus driven by project partner. Past projects range from app development, evaluation of machine learning models, and creating a image filtering microservice.</p>
+            <p id="project-description">N/A</p>
         </div>
         <div class="col-sm-4">
             <h1 id="project-name">Semester Stipend</h1>
             <hr class="sub-title-seperation">
-            <p id="project-description">"Sumbit a project that can be project on in 24 hours. Help us provide prizes and event costs for sponsored hackathons, such as BostonHacks, Hack the Gap, or SheHacks Boston."</p>
+            <p id="project-description">N/A</p>
         </div>
     </div>
 </div>
@@ -83,13 +115,89 @@ $(document).ready(function(){
         <div class="col-sm-6">
             <h1 id="project-name">FAQ</h1>
             <hr class="sub-title-seperation">
-            <!---Cause Chaos Here-->
+
+            <!--- Q1 -->
             <button id ="faq-question-1">What are the relevant dates I need to know?</button>
-            <p id="faq-description-1" >Rolling Admissions, Complete First Round Interviews (Monday, July 31st), Application Decision Released (Monday, July 31st), Program Begins (Monday, September, 18th), Program Ends (Tuesday, December 12th)
+            <p id="faq-description-1" >
+                <ul>
+                    <li>Rolling Admissions</li>
+                    <li> Complete First Round Interviews (Monday, July 31st)</li>
+                    <li> Application Decision Released (Monday, July 31st)</li>
+                    <li>Program Begins (Monday, September, 18th)</li>
+                    <li>Program Ends (Tuesday, December 12th)</li>
+                </ul>
             </p>
+
+            <!--- Q2 -->
             <button id ="faq-question-2">What is the format of the program?</button>
-            <p id="faq-description-2">The Spark! Fellowship is an internship program that will be held between September 18th to December 12th. Fellows will have access to the following: One-on-one mentoring, group activities with other members of the Spark! Innovation community, support to launch a crowdfunding project, and priority access to our collaborative coworking space (111 Cummington Mall, Boston, MA, 02215, Room 150A).
+            <p id="faq-description-2">The Spark! Fellowship is an internship program that will be held between September 18th to December 12th. Fellows will have access to the following: 
+                <ul>
+                    <li>One-on-one mentoring</li>
+                    <li>Group activities with other members of the Spark! Innovation community</li>
+                    <li>Support to launch a crowdfunding project</li>
+                    <li>Priority access to our collaborative coworking space (111 Cummington Mall, Boston, MA, 02215, Room 150A)</li>
+                </ul>
             </p>
+
+            <!--- Q3 -->
+            <button id ="faq-question-3">What are the requirements of the program?</button>
+            <p id="faq-description-3">The Spark! Fellowship is an internship program that will be held between September 18th to December 12th. Fellows will have access to the following: 
+                <ul>
+                    <li>Fill out mentor and resource request application</li>
+                    <li>Sign Spark! (Open Source) Community Citizenship Agreement</li>
+                    <li>Fill out monthly progress report and a final evaluation form at the conclusion of the program</li>
+                    <li>Fellows must work a minimum of 5 hours a week for $15 per hour</li>
+                    <li>Fellows can work either in the BU Spark! office or complete their work remotely</li>
+                    <li>Fellows must participate in a weekly community check-in and check in with their mentors on a weekly basis</li>
+                    <li>Fellows must also attend required workshops to learn the necessary skills, tools, and knowledge to complete product creation journey</li>
+                    <li>At the end of the fellowship, fellows are expected will be asked to submit a minimum two-page summary describing their experience as a fellow, specifically details about what they learned, challenges they faced and in depth description of what they built and how.</li>
+                </ul>
+            </p>
+
+            <!--- Q4 -->
+            <button id ="faq-question-4">Who can apply?</button>
+            <p id="faq-description-4">The Spark! Fellowship is an internship program that will be held between September 18th to December 12th. Fellows will have access to the following: 
+                <ul>
+                    <li>Applicant must currently be enrolled at Boston University</li>
+                    <li>All undergraduate and graduate students are eligible</li>
+                    <li>Applicant must already have a defined innovation idea that is based on the development of a technology</li>
+                    <li>Applicants with non-technical majors are welcome to apply, but must be prepared to learn all the technical skills necessary to build a prototype/ MVP</li>
+                    <li>Must be available to work a minimum of 5 hours a week (100 hours required total) as well as meet with mentor(s) and BU Spark community once a week</li>
+                </ul>
+            </p>
+
+            <!--- Q5 -->
+            <button id ="faq-question-5">Can I take classes and also participate in the Fellowship program?</button>
+            <p id="faq-description-5">Yes, we have scheduled our events and workshops to avoid with school based conflicts to the best of our ability.
+            </p>
+
+
+            <!--- Q6 -->
+            <button id ="faq-question-6">What are the academic requirements of the program?</button>
+            <p id="faq-description-6">Applicant(s) must not be under academic probation at Boston University.
+            </p>
+
+
+            <!--- Q7-->
+            <button id ="faq-question-7">What are the legal requirements of the program?</button>
+            <p id="faq-description-7">Applicant(s)/Owner(s) must have an active project or a well formulated innovation idea. If the owner(s) have an active project or venture it must follow legal practices, including, but not limited to acquiring revenue in a legal matter (e.g. selling products or services). If a student does not have an active project or venture , but an innovation idea, the idea must be consistent with legal practices, including, but not limited to, acquiring revenue in a legal matter (e.g. selling products or service).
+            </p>
+
+            <!--- Q8-->
+            <button id ="faq-question-8">Does BU Spark! take any equity of my project?</button>
+            <p id="faq-description-8">BU Spark! takes no equity, we just want permission to showcase your project on our website and promotional materials.
+            </p>
+
+            <!--- Q9-->
+            <button id ="faq-question-9">Can I have teammates?</button>
+            <p id="faq-description-9">BU Spark! supports and encourages students working on a team. We will work with students on a case by case basis to discuss how payments will be distributed among team members.
+            </p>
+
+             <!--- Q10-->
+            <button id ="faq-question-10">I have further questions... who should I contact?</button>
+            <p id="faq-description-10">For any additional questions, please feel free to email the Program Coordinator, Fiona Whittington at fionaw@bu.edu.
+            </p>
+
         </div>
     </div>
 </div>
