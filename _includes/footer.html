@@ -1,29 +1,31 @@
 <footer class="container-fluid footer-style">
-    
-    <br>
-    
+
     <div>
         <div class="row">
-            <div class="col-sm-4 col-xs-offset-1"> 
-                <h3 class="footer-title">Navigate</h3>
-                <ul style="padding:0;">
-                    <li><a href="{{site.baseurl}}/about.html" class="footer-navigation-link">About</a></li>
-                    <li><a href="{{site.baseurl}}/programs.html" class="footer-navigation-link">Programs</a></li>
-                    <li><a href="{{site.baseurl}}/resources.html" class="footer-navigation-link">Team</a></li>
-                    <li><a href="{{site.baseurl}}/partners.html" class="footer-navigation-link">Partners</a></li>
-                    <li><a href="{{site.baseurl}}/news.html" class="footer-navigation-link">News &#38; Events</a></li>
-                </ul>
-            </div>
-
-            <div class="col-sm-4 col-xs-offset-1"> <!-- xs-offset allows for "padding" in mobile -->
+            <!-- Margins and xs-offset allows for vertical and horizontal "padding" repsectively in mobile -->
+            <div class="col-sm-3 col-xs-offset-1" style="margin-top:30px; margin-bottom:30px;">
                 <h3 class="footer-title">Subscribe To Our Newsletter</h3>
 
                 {% include mailchimp.html %}
             </div>
+            
+            <div class="col-sm-4" style="text-align:center; margin-top:30px; margin-bottom:30px;"> <!-- xs-offset allows for "padding" in mobile -->
+                <a href="{{site.baseurl}}/">
+                    <img src="img/Logo/spark_logo_round.png" style="width:35%;">
+                </a>
+            </div>
+            
+            <div class="col-sm-3 col-xs-offset-1" style="margin-top:30px; margin-bottom:30px;"> 
+                <h3 class="footer-title">Navigate</h3>
+                <ul style="padding:0;">
+                    <li><a href="{{site.baseurl}}/about.html" class="footer-navigation-link">About</a></li>
+                    <li><a href="{{site.baseurl}}/programs.html" class="footer-navigation-link">Programs</a></li>
+                    <li><a href="{{site.baseurl}}/resources.html" class="footer-navigation-link">Resources</a></li>
+                    <li><a href="{{site.baseurl}}/partners.html" class="footer-navigation-link">Partners</a></li>
+                    <li><a href="{{site.baseurl}}/news.html" class="footer-navigation-link">News &#38; Opportunities</a></li>
+                </ul>
+            </div>
         </div>
-
-        <br>
-        <br>
 
         <hr id="footer">
         
