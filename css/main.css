@@ -23,8 +23,9 @@
 
 #hero-subtext {
   width: 50vw;
-  left: 25vw;
+  left: 34vw;
   position: relative;
+  text-align:left;
 }
 
 img#code-is-cool {

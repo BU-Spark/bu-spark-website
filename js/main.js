@@ -2,7 +2,7 @@ $(document).ready(function() {
   
   //Author: Lucas Watson <http://lkwatson.me>
   
-  var wordList = ["ignite ideas.","explore projects.","launch projects."];
+  var wordList = ["ignite ideas.","explore projects.","launch products."];
   var index = 0; //incrementer for Hero text
   var currentWord = "";
   var wordTime = 5000; //How long each word is shown for
