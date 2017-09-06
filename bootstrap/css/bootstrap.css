@@ -15,6 +15,24 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 
 /* Start Custom CSS Down Under #Australian? */
 
+.welcome h1 {
+  height: 4vmax;
+  letter-spacing: -2px;
+}
+
+.intro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.intro h1 {
+  font-size: 4vmax;
+}
+
+.intro p {
+  font-size: 22px;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -25,10 +43,10 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 
 .mySlides {
-    display: none;
-    width:650px;
-    height:450px;
-    margin-top:20px;
+  display: none;
+  width:650px;
+  height:450px;
+  margin-top:20px;
 }
 
 /* Next & previous buttons */
@@ -114,12 +132,21 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 /* STANDARD body block in all pages */
 .body-block {
   min-height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .body-block h1 {
-  font-size: 7vh;
+  font-size: 4vmax;
+}
+.body-block h2 {
+  font-size: 2vmax;
+  font-weight: bolder;
+}
+.body-block p-header {
+  font-size: 1.5vmax;
 }
 .body-block p {
-  font-size: 18px;
+  font-size: 1.385vmax;
 }
 
 /* Project Matchiing Platform */
@@ -259,9 +286,6 @@ p#subsectiontitle-1 {
   font-family:"bebas";
   letter-spacing: 2px;
   width:50%;
-}
-#project-name {
-  font-size:24px;
 }
 
 /* Styling Buttons*/
@@ -486,7 +510,7 @@ h1#case-study {
 }
 
 .hero h1 {
-    font-size: 6vw;    
+    font-size: 5.5vmax;    
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -633,6 +657,7 @@ hr#footer {
 /* Read More Button */
 .btn-read {
   background-color: #00a897;
+  background-color: #00a897;
   color: #fff;
 }
 .btn-read:hover {
@@ -718,7 +743,7 @@ h1 {
     margin: .67em 0;
     font-size: 2em;
     font-family: "bebas";
-    letter-spacing:2px;
+    letter-spacing: 2px;
 }
 mark {
   color: #000;
@@ -3690,6 +3715,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  background-color: white;
 }
 .btn:focus,
 .btn:active:focus,
@@ -3703,6 +3729,7 @@ select[multiple].input-lg {
 .btn:hover,
 .btn:focus,
 .btn.focus {
+  background-color: #d0d0d0;
   color: #333;
   text-decoration: none;
 }

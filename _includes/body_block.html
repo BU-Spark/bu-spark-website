@@ -1,0 +1,54 @@
+<div class="row body-block">
+    <!-- Two column 2:1 layout -->
+    <div class="col-sm-offset-1 col-sm-10">
+        <div class="col-sm-8">
+            <h1>{{ include.title }}</h1>
+            <hr class="title-seperation">
+            <p>{{ include.paragraph-text }}</p>
+        </div>
+
+        <div class="col-sm-4 hidden-xs">
+            <img id="program-image-example" src="{{ include.image }}">
+        </div>
+    </div>
+    
+    <!-- Three column layout -->
+    <div class="col-sm-offset-1 col-sm-10">
+        
+        <!-- First include block -->
+        <div class="col-sm-4">
+            <h1>{{ include.subtitle-1 }}</h1>
+            <hr class="sub-title-seperation">
+            <p>
+                {{ include.paragraph-1 }}
+                <br>
+                <br>
+                <a href="{{ include.button-1 }}" target="_blank">Subscribe</a> {{ include.action-1 }}
+            </p>
+        </div>
+        
+        <!-- Second include block -->
+        <div class="col-sm-4">
+            <h1>{{ include.subtitle-2 }}</h1>
+            <hr class="sub-title-seperation">
+            <p>
+                {{ include.paragraph-2 }}
+                <br>
+                <br>
+                <a href="{{ include.button-2 }}" target="_blank">Subscribe</a> {{ include.action-2 }}
+            </p>
+        </div>
+        
+        <!-- Third include block -->
+        <div class="col-sm-4">
+            <h1>{{ include.subtitle-3 }}</h1>
+            <hr class="sub-title-seperation">
+            <p>
+                {{ include.paragraph-3 }}
+                <br>
+                <br>
+                <a href="{{ include.button-3 }}" target="_blank">Subscribe</a> {{ include.action-3 }}
+            </p>
+        </div>
+    </div>
+</div>
