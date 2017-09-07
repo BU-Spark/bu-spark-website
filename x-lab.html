@@ -24,6 +24,7 @@ $(document).ready(function(){
     $("#project-faq-description-13").hide();
     $("#project-faq-description-14").hide();
     $("#project-faq-description-15").hide();
+    $("#project-faq-description-16").hide();
 
 
     $("#faq-question-1").click(function(){
@@ -93,6 +94,10 @@ $(document).ready(function(){
     $("#project-faq-question-15").click(function(){
         $("#project-faq-description-15").toggle();
     });
+
+    $("#project-faq-question-16").click(function(){
+        $("#project-faq-description-16").toggle();
+    });
 });
 </script>
 
@@ -152,154 +157,180 @@ $(document).ready(function(){
     <br>
     <br>
 
-    <div id="consultation" class="row">
+    <div class="row">
         <div class="col-sm-offset-1 col-sm-10">
-            <div class="col-sm-6">
+            <div class="row">
                 <h1>FAQ</h1>
                 <hr class="sub-title-seperation">
+            </div>
                 <!---Cause Chaos Here-->
 
                 <!-- Q1 -->
                 <div class="row">
-                <button id ="project-faq-question-1">What are the costs?</button>
-                <div id="project-faq-description-1">
-                    <p>There are a variety of options for getting your projects completed. Your project may be completed by a student team who will work on your project as part of a required class assignment, at no cost. These projects tend to be focused on a few specific technical areas and must be completed during the specified time. <br>
-                    <br>
-                    Alternatively, you may elect to have your project completed as a student consulting project, on a fee for service basis. These projects have greater flexibility regarding scope and timing as well as the range of technical expertise required. The primary requirements are funding and designation of a point person from the organization who can oversee the work of the student team.
-                    <br>
-                    <br>Finally, we are seeking App development projects from nonprofits that must be submitted by September 1st. These projects do not require compensation.</p>
+                    <button id ="project-faq-question-1">What are the costs?</button>
+                    <div id="project-faq-description-1">
+                        <p>There are a variety of options for getting your projects completed. Your project may be completed by a student team who will work on your project as part of a required class assignment, at no cost. These projects tend to be focused on a few specific technical areas and must be completed during the specified time. <br>
+                        <br>
+                        Alternatively, you may elect to have your project completed as a student consulting project, on a fee for service basis. These projects have greater flexibility regarding scope and timing as well as the range of technical expertise required. The primary requirements are funding and designation of a point person from the organization who can oversee the work of the student team.
+                        <br>
+                        <br>Finally, we are seeking App development projects from nonprofits that must be submitted by September 1st. These projects do not require compensation.</p>
+                    </div>
                 </div>
 
                 <!-- Q2 -->
-                <button id="project-faq-question-2">What types of projects does BU Spark! accept?</button>
-                <div id="project-faq-description-2">
-                    <p>We are interested in all projects from all sectors. Last semester we received 32 project applications from 25 different organizations, including non-profits, faculty research, startups, local government, and global companies.
-                    <br>
-                    <br>
-                    For the Fall 2017 semester, we are specifically offering the option for projects to be completed as part of a Machine Learning, Android App Development, or Data Science class project.
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-2">What types of projects does BU Spark! accept?</button>
+                    <div id="project-faq-description-2">
+                        <p>We are interested in all projects from all sectors. Last semester we received 32 project applications from 25 different organizations, including non-profits, faculty research, startups, local government, and global companies.
+                        <br>
+                        <br>
+                        For the Fall 2017 semester, we are specifically offering the option for projects to be completed as part of a Machine Learning, Android App Development, or Data Science class project.
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Q3 -->
-                <button id="project-faq-question-3">What are the deadlines for project proposals?</button>
-                <div id="project-faq-description-3">
-                    <p>For consulting projects, there is no deadline. The project timeline is entire up to you, and so does not fall into the university semester calendar. Summer consulting projects are welcome as well!
-                    <br>
-                    <br>
-                    For class projects, proposals must be submitted by September 1st for the Fall Semester, and <b>January 15th<b> for the Spring Semester.
-                    <br>
-                    <br>
-                    Finally, we are seeking App development projects from nonprofits that must be submitted by <b>September 1st<b>. These projects do not require compensation.
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-3">What are the deadlines for project proposals?</button>
+                    <div id="project-faq-description-3">
+                        <p>For consulting projects, there is no deadline. The project timeline is entire up to you, and so does not fall into the university semester calendar. Summer consulting projects are welcome as well! For class projects, proposals must be submitted by September 1st for the Fall Semester, and <b>January 15th</b> for the Spring Semester. Finally, we are seeking App development projects from nonprofits that must be submitted by <b>September 1st</b>. These projects do not require compensation.
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Q4 -->
-                <button id="project-faq-question-4">Can you guarantee that my project will be matched to a team of students?</button>
-                <div id="project-faq-description-4">
-                    <p> No, we can’t guarantee that projects will be matched. We will do our best to help you scope projects that fit within the requirements of the chosen track, fall within the skillset of our student community, and present a compelling opportunity to students. We will also publicize with our student community, but we are unable to make any guarantees that the projects will be adopted. Incentives and access to mentors always help!
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-4">Can you guarantee that my project will be matched to a team of students?</button>
+                    <div id="project-faq-description-4">
+                        <p> No, we can’t guarantee that projects will be matched. We will do our best to help you scope projects that fit within the requirements of the chosen track, fall within the skillset of our student community, and present a compelling opportunity to students. We will also publicize with our student community, but we are unable to make any guarantees that the projects will be adopted. Incentives and access to mentors always help!
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Q5 -->
-                <button id="project-faq-question-5">What if I’m unable to answer some of the questions on the project proposal form?</button>
-                <div id="project-faq-description-5">
-                    <p>No problem, indicate in the application where you have questions and we’ll contact you to clarify any missing information. If you need assistance or have any questions, you can email us at buspark@bu.edu or schedule a meeting with us here: <a href="https://buspark.acuityscheduling.com/" target="_blank">https://buspark.acuityscheduling.com/</a>
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-5">What if I’m unable to answer some of the questions on the project proposal form?</button>
+                    <div id="project-faq-description-5">
+                        <p>No problem, indicate in the application where you have questions and we’ll contact you to clarify any missing information. If you need assistance or have any questions, you can email us at buspark@bu.edu or schedule a meeting with us here: <a href="https://buspark.acuityscheduling.com/" target="_blank">https://buspark.acuityscheduling.com/</a>
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Q6 -->
-                <button id="project-faq-question-6">What are the requirements for serving as a project mentor?</button>
-                <div id="project-faq-description-6">
-                    <p>At minimum, we need a point person in the partner organization with the context necessary to provide direction to student on the expected project outcomes. The mentor does not necessarily need to be technical, but it is important that this individual can provide  a reasonable amount of time to guide the students through the project.
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-6">What are the requirements for serving as a project mentor?</button>
+                    <div id="project-faq-description-6">
+                        <p>At minimum, we need a point person in the partner organization with the context necessary to provide direction to student on the expected project outcomes. The mentor does not necessarily need to be technical, but it is important that this individual can provide  a reasonable amount of time to guide the students through the project.
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Q7 -->
-                <button id="project-faq-question-7">Who Owns the IP? What about NDAs? </button>
-                <div id="project-faq-description-7">
-                    <p>Any arrangement can be made between your organization and your student team. We encourage our partners to allow the students to retain ownership or use of the methodologies they develop for your project under an open source licensing agreement. However, we understand that you may want ownership of the specific application or analysis completed on your behalf to remain proprietary or non-disclosed. We also understand you may want to own the IP/ methodologies developed by the students. In short, we encourage your organization to communicate your expected terms for this partnership in advance and we will recruit the student team accordingly. 
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-7">Who Owns the IP? What about NDAs? </button>
+                    <div id="project-faq-description-7">
+                        <p>Any arrangement can be made between your organization and your student team. We encourage our partners to allow the students to retain ownership or use of the methodologies they develop for your project under an open source licensing agreement. However, we understand that you may want ownership of the specific application or analysis completed on your behalf to remain proprietary or non-disclosed. We also understand you may want to own the IP/ methodologies developed by the students. In short, we encourage your organization to communicate your expected terms for this partnership in advance and we will recruit the student team accordingly. 
+                        </p>
+                    </div>
                 </div>
 
                  <!-- Q8 -->
-                <button id="project-faq-question-8">Can I get the code the students develop?</button>
-                <div id="project-faq-description-8">
-                    <p>Yes, we have created a Github repository where the code from all student projects will be uploaded. We can give you access to this repository. Alternatively, if there is sensitive information you would not like to be uploaded to Github, students can send you this part of their code separately.
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-8">Can I get the code the students develop?</button>
+                    <div id="project-faq-description-8">
+                        <p>Yes, we have created a Github repository where the code from all student projects will be uploaded. We can give you access to this repository. Alternatively, if there is sensitive information you would not like to be uploaded to Github, students can send you this part of their code separately.
+                        </p>
+                    </div>
                 </div>
 
                  <!-- Q9 -->
-                <button id="project-faq-question-9">Will BU Spark! provide a legal agreement?</button>
-                <div id="project-faq-description-9">
-                    <p>Yes, we have template agreements that can be used and adapted based on the required terms. BU Spark! cannot sign agreements on behalf of students, so this agreement will be between your organization and the students, with no legal liability to BU Spark!
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-9">Will BU Spark! provide a legal agreement?</button>
+                    <div id="project-faq-description-9">
+                        <p>Yes, we have template agreements that can be used and adapted based on the required terms. BU Spark! cannot sign agreements on behalf of students, so this agreement will be between your organization and the students, with no legal liability to BU Spark!
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Q10 -->
-                <button id="project-faq-question-10">What happens if the student team doesn’t finish my project?</button>
-                <div id="project-faq-description-10">
-                    <p>We hope you will always be satisfied with the outputs from the partnership. However, there is always a risk that the volume of work may exceed the capacity of the students from either a time or technical skill perspective. The best way to mitigate against this risk is to work in close collaboration with BU Spark! and your student team to accurately scope the project before you get started. You will need to communicate regularly with students your top priorities for the project. 
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-10">What happens if the student team doesn’t finish my project?</button>
+                    <div id="project-faq-description-10">
+                        <p>We hope you will always be satisfied with the outputs from the partnership. However, there is always a risk that the volume of work may exceed the capacity of the students from either a time or technical skill perspective. The best way to mitigate against this risk is to work in close collaboration with BU Spark! and your student team to accurately scope the project before you get started. You will need to communicate regularly with students your top priorities for the project. 
+                        </p>
+                    </div>
                 </div>
 
                  <!-- Q11 -->
-                <button id="project-faq-question-11">What happens if the quality of the work by the student team does not meet expectations?</button>
-                <div id="project-faq-description-11">
-                    <p>We will try our best  to make sure this does not happen and we do our best to make sure students are vetted before they are matched to the client project. There will be several mid-project assessments and deadlines during the projects as well in which will allow you to correct for quality. If you are having challenges with the student team - either in terms of regular communications or work quality - please let BU Spark! know. This is an experiential learning opportunity for students and you will have an opportunity to complete a final evaluation so BU Spark! and the students can learn from the engagement.
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-11">What happens if the quality of the work by the student team does not meet expectations?</button>
+                    <div id="project-faq-description-11">
+                        <p>We will try our best  to make sure this does not happen and we do our best to make sure students are vetted before they are matched to the client project. There will be several mid-project assessments and deadlines during the projects as well in which will allow you to correct for quality. If you are having challenges with the student team - either in terms of regular communications or work quality - please let BU Spark! know. This is an experiential learning opportunity for students and you will have an opportunity to complete a final evaluation so BU Spark! and the students can learn from the engagement.
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Q12 -->
-                <button id="project-faq-question-12">What are the requirements for class projects?</button>
-                <div id="project-faq-description-12">
-                    <p>There are several requirements for class projects, including:
-                    <br>
-                    <br>
-                    1. At the beginning of the semester, we ask that someone from your organization participate in an informal presentation to students, during which you will give a 10-minute overview of your organization, your proposed project, and answer any questions students may have about the project 
-                    <br>
-                    <br>
-                    2. Provide any key data or documentation necessary for students to facilitate completion of their project
-                    <br>
-                    <br>
-                    3. Provide a mentor(s): You or someone from your organization will serve as an advisor to the student team(s) assigned to your project to make sure they are on track and meeting your brief. Ideally, the mentor would complete weekly check-ins with the student teams either in-person or virtually during the eight week period when students are actively working on the project.
-                    <br>
-                    <br>
-                    4. If possible, participate in an end-of-semester poster presentation event: Students present their finished projects to the class and partners
-                    5. Complete an evaluation form for the student team and provide feedback on the Spark! Partner Projects program
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-12">What are the requirements for class projects?</button>
+                    <div id="project-faq-description-12">
+                        <p>There are several requirements for class projects, including:
+                        <br>
+                        <br>
+                        1. At the beginning of the semester, we ask that someone from your organization participate in an informal presentation to students, during which you will give a 10-minute overview of your organization, your proposed project, and answer any questions students may have about the project 
+                        <br>
+                        <br>
+                        2. Provide any key data or documentation necessary for students to facilitate completion of their project
+                        <br>
+                        <br>
+                        3. Provide a mentor(s): You or someone from your organization will serve as an advisor to the student team(s) assigned to your project to make sure they are on track and meeting your brief. Ideally, the mentor would complete weekly check-ins with the student teams either in-person or virtually during the eight week period when students are actively working on the project.
+                        <br>
+                        <br>
+                        4. If possible, participate in an end-of-semester poster presentation event: Students present their finished projects to the class and partners
+                        5. Complete an evaluation form for the student team and provide feedback on the Spark! Partner Projects program
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Q13 -->
-                <button id="project-faq-question-13">What types of projects can be completed as part of the class projects?</button>
-                <div id="project-faq-description-13">
-                    <p>The class projects vary every semester depending and have specific requirements. You may visit our website for more information. Examples of projects done in the past are:
-                    <br>
-                    <br>
-                    1. Data collection and analytics on the popularity of two types of Converse sneakers based on Twitter 
-                    <br>
-                    <br>
-                    2. Analysis of Boston Police Dept’s crime and policing data for the ACLU of Massachusetts to examine the fairness of policing behaviors across different regions.
-                    </p>
+                <div class="row">
+                    <button id="project-faq-question-13">What types of projects can be completed as part of the class projects?</button>
+                    <div id="project-faq-description-13">
+                        <p>The class projects vary every semester depending and have specific requirements. You may visit our website for more information. Examples of projects done in the past are:
+                        <br>
+                        <br>
+                        1. Data collection and analytics on the popularity of two types of Converse sneakers based on Twitter 
+                        <br>
+                        <br>
+                        2. Analysis of Boston Police Dept’s crime and policing data for the ACLU of Massachusetts to examine the fairness of policing behaviors across different regions.
+                        </p>
+                    </div>
                 </div>
 
                 <!-- Q14 -->
-                <button id="project-faq-question-13">What do I need to prepare for the presentation of my project to students?</button>
-                <div id="project-faq-description-13">
-                    <p>Expect 5 minutes to describe your organization and project, and 5 minutes for Q&#38;A from the class.</p>
+                <div class="row">
+                    <button id="project-faq-question-14">What do I need to prepare for the presentation of my project to students?</button>
+                    <div id="project-faq-description-14">
+                        <p>Expect 5 minutes to describe your organization and project, and 5 minutes for Q&#38;A from the class.</p>
+                    </div>
                 </div>
 
-                <!-- Q14 -->
-                <button id="project-faq-question-14">What if I am unable to attend the presentations to students or am not based in Boston?</button>
-                <div id="project-faq-description-14">
-                    <p>If you can’t be there in person, you can present via Skype or simply record a video of your presentation. The initial presentations are not required, but will greatly enhance your chances of getting your project matched.
-                    </p>
+                <!-- Q15 -->
+                <div class="row">
+                    <button id="project-faq-question-15">What if I am unable to attend the presentations to students or am not based in Boston?</button>
+                    <div id="project-faq-description-15">
+                        <p>If you can’t be there in person, you can present via Skype or simply record a video of your presentation. The initial presentations are not required, but will greatly enhance your chances of getting your project matched.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Q14 -->
-                <button id="project-faq-question-15">Do I need to prepare anything for the Poster Presentation Session? What if I won’t be able to attend the Poster/ Final Presentation Session?</button>
-                <div id="project-faq-description-15">
-                    <p>No, you do not. If you wish, you may have the students present their final work to you at a different time. This will need to be scheduled by mid-semester. Students will also submit a final report to accompany the end-of-semester presentation.
-                    </p>
+                <!-- Q16 -->
+                <div class="row">
+                    <button id="project-faq-question-16">Do I need to prepare anything for the Poster Presentation Session? What if I won’t be able to attend the Poster/ Final Presentation Session?</button>
+                    <div id="project-faq-description-16">
+                        <p>No, you do not. If you wish, you may have the students present their final work to you at a different time. This will need to be scheduled by mid-semester. Students will also submit a final report to accompany the end-of-semester presentation.
+                        </p>
+                    </div>
                 </div>
 
                 <!---End Chaos Here-->
@@ -309,5 +340,3 @@ $(document).ready(function(){
     
     <br>
     <br>
-  
-</div>
