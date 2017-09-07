@@ -214,6 +214,33 @@ img#microsoft-profile-1 {
 #icon-left-title {
   margin-right:10px;
 }
+
+/* Styling FAQ questions on X-Lab Page*/
+#project-faq-question-1,
+#project-faq-question-2,
+#project-faq-question-3,
+#project-faq-question-4,
+#project-faq-question-5,
+#project-faq-question-6,
+#project-faq-question-7,
+#project-faq-question-8,
+#project-faq-question-9,
+#project-faq-question-10,
+#project-faq-question-11,
+#project-faq-question-12,
+#project-faq-question-13,
+#project-faq-question-14,
+#project-faq-question-15 {
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:16px;
+  background-color: #00a897;
+  color:white;
+  font-family:bebas;
+  letter-spacing:2px;
+  border: 2px black;
+}
+
 /* Styling FAQ questions on Fellowship Page*/
 #faq-question-1,
 #faq-question-2,
@@ -290,23 +317,20 @@ p#subsectiontitle-1 {
 
 /* Styling Buttons*/
 #program-button {
-  color: black;
-  background:transparent;
-  border-color:black;
+  color: white;
+  background: #00A99E;
+  border-color:#00A99E;
   font-family:"bebas",arial;
   letter-spacing: 2px;
+  border-radius:12%;
+  padding:5px;
+  text-decoration: none;
 }
 
 #program-button:hover {
-  background-color: #00b0a1;
+  background-color: #008980;
 }
 
-#program-button-link {
-  color: black;
-}
-#program-button-link:hover {
-  color: white;
-}
 /* Styling the Dividers*/
 
 .sub-title-seperation {
@@ -410,22 +434,18 @@ h1#case-study {
 
 /* Resources Page */
 #resource-button-white {
-  color: black;
+  color: #00a897;
   background:white;
-  border-color:black;
+  border-color:white;
   font-family:"bebas",arial;
   letter-spacing: 2px;
+  border-radius:12%;
+  padding:5px;
+  text-decoration: none;
 }
 
-#resource-button:hover {
+#resource-button-white:hover {
   background-color: black;
-}
-
-#resource-button-link {
-  color: black;
-}
-#resource-button-link:hover {
-  color: #00b0a1;
 }
 
 .highlight {
@@ -3716,7 +3736,6 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  background-color: white;
 }
 .btn:focus,
 .btn:active:focus,
