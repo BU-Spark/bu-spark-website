@@ -3,7 +3,7 @@ function changeName(name) {
         case "fiona":
                 document.getElementById("person").innerHTML = "Fiona Whittington";
                 document.getElementById("person-title").innerHTML = "Head of Student Innovation";
-                document.getElementById("description").innerHTML = "Fiona is a sophomore at Boston University studying advertising and computer science. She is currently the President & Founder of Girls Who Code BU, Vice President of the Global App Initiative and Boston University Representative for InnovateEDU. She is passionate about science, technology, communications and travel. Her dream job would combine her interests in science and technology and her passion for design and innovation with the goal of bettering communities around the world.";
+                document.getElementById("description").innerHTML = "Fiona Whittington is a junior at Boston University studying computer science and advertising. She is the Director of SheHacks and Hack The Gap, President of Girls Who Code, Head of Student Innovation at BU Spark and member of the BU Machine Intelligence Community. She is passionate about science, technology, communications, and travel. Her dream job would be to combine her interests in science and technology with her passion for design and innovation with the goal of bettering communities around the world. In her free time, Fiona enjoys running on along the Charles River, studying the stock market, and experimenting with mixed reality technologies.";
                 break;
 
         case "lawrence":
@@ -111,8 +111,8 @@ function changeName(name) {
 
         case "council-fiona":
             document.getElementById("council-name").innerHTML = "Fiona Whittington";
-            document.getElementById("club-title").innerHTML = "Head of the Ignite Student Council";
-            document.getElementById("council-description").innerHTML = "Fiona is a rising Junior at Boston University studying advertising and computer science. She is currently the President & Founder of Girls Who Code BU, Vice President of the Global App Initiative and Boston University Representative for InnovateEDU. She is passionate about science, technology, communications and travel. Her dream job would combine her interests in science and technology and her passion for design and innovation with the goal of bettering communities around the world.";
+            document.getElementById("club-title").innerHTML = "Head of the Ignite Leadership Council";
+            document.getElementById("council-description").innerHTML = "Fiona Whittington is a junior at Boston University studying computer science and advertising. She is the Director of SheHacks and Hack The Gap, President of Girls Who Code, Head of Student Innovation at BU Spark and member of the BU Machine Intelligence Community. She is passionate about science, technology, communications, and travel. Her dream job would be to combine her interests in science and technology with her passion for design and innovation with the goal of bettering communities around the world. In her free time, Fiona enjoys running on along the Charles River, studying the stock market, and experimenting with mixed reality technologies.";
             break;
 
         case "council-lawrence":
@@ -173,6 +173,21 @@ function changeName(name) {
             document.getElementById("council-name").innerHTML = "Ryan Chen";
             document.getElementById("club-title").innerHTML = "PC Gaming Club";
             document.getElementById("council-description").innerHTML = "Ryan is a senior at Boston University studying computer science. He is the current president of the PC Gaming Club and participates in various other clubs on campus. He has a wide range of interests, from music composition and cooking to snowboarding and esports. While fortunate enough to have visited many amazing places in his youth, he hopes to continue travelling after graduation now that he has a greater appreciation for culture.";
+            break;
+        case "natalie":
+            document.getElementById("council-name").innerHTML = "Natalie Pienkowska";
+            document.getElementById("club-title").innerHTML = "Global App Initiative";
+            document.getElementById("council-description").innerHTML = "Natalie Pienkowska is a proud New Yorker that is going into her sophomore year at Boston University. She is currently studying Computer Science and Business Administration. In addition to venerating Mother Earth on a daily basis, her hobbies consist of reading books on psychology, watching videos of Elon Musk, and playing with her cat (although she has a severe cat allergy).";
+            break;
+        case "warren":
+            document.getElementById("council-name").innerHTML = "Warren Partridge";
+            document.getElementById("club-title").innerHTML = "Global App Initiative";
+            document.getElementById("council-description").innerHTML = "Warren is a sophomore at Boston University studying computer science. He is Vice President of the Global App Initiative and Head of Mentoring Resources at BostonHacks. In his spare time, he enjoys running long distances, sketching on the esplanade, and making cool tech gadgets.";
+            break;
+        case "mariana":
+            document.getElementById("council-name").innerHTML = "Mariana Garces Dematté";
+            document.getElementById("club-title").innerHTML = "MakeBU";
+            document.getElementById("council-description").innerHTML = "Mariana is a sophomore Computer Science major and Visual Arts minor, and currently holds the position of Vice-President for MakeBU. When she is not doing school work she is reading or painting.";
             break;
         default:
             document.getElementById("person").innerHTML = "STAFF";
