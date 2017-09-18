@@ -165,17 +165,23 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 
 /* Styling Professional Titles*/
-#person-title{
+#person-title {
 	font-size:24px;
 }
 /* Styling Project Titles*/
-#project-title{
+#project-title {
+  font-size:24px;
+  color:black;
+}
+
+/* Styling Innovation Venture Titles*/
+#innovation-venture-name {
   font-size:24px;
   color:white;
 }
 
 /* Styling Club Titles*/
-#club-title{
+#club-title {
   font-size:24px;
 }
 
@@ -204,7 +210,7 @@ img#microsoft-profile-1 {
   margin-bottom:20px;
 }
 /* Styling the Programs Page s*/
-.program-image-example {
+#program-image-example {
   margin-top:35px;
   border-radius:50%;
   width:50%;
