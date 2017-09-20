@@ -188,6 +188,14 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 
 /* Partner Page */
 
+p.caption {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  text-align:center !important;
+  overflow:nowrap !important;
+}
+
 /* Case Studies Section */
 /* Styling the Partner Logos*/
 .partner-logo {
@@ -424,10 +432,15 @@ h1#case-study {
   background-image:url("../../img/break.png");
 }
 
+.attribute {
+  font-style: normal !important;
+  text-align: right !important;
+  padding-top:0 !important;
+  margin-top:0 !important;
+}
+
 .quote img {
-  text-align: right;
   margin-top: 30px;
-  margin-bottom: 30px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -435,11 +448,11 @@ h1#case-study {
 
 .quote p {
   margin-top: 30px;
-  margin-bottom: 30px;
   color: white;
   font-size: 22px;
   text-align: left;
   overflow: wrap;
+  font-style: italic;
 }
 /* Icon Styles*/
 #icon {
