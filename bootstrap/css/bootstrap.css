@@ -444,6 +444,7 @@ h1#case-study {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  text-align:right;
 }
 
 .quote p {
