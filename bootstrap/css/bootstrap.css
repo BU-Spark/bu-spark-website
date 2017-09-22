@@ -26,7 +26,9 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
 }
 
 .intro h1 {
-  font-size: 4vmax;
+  font-size: 3.5vmax;
+  font-family: "Karbon";
+  letter-spacing: -1px;
 }
 
 .intro p {
@@ -136,16 +138,19 @@ src: url("../../bootstrap/fonts/Karbon/Karbon-Regular.otf");
   margin-bottom: 30px;
 }
 .body-block h1 {
-  font-size: 3.9vmax;
+  font-size: 3.5vmax;
+  font-family: "Karbon";
+  letter-spacing: -1px;
 }
 .body-block h2 {
-  font-size: 30px;
+  font-size: 24px;
+  letter-spacing: -1px;
 }
 .body-block p-header {
   font-size: 1.5vmax;
 }
 .body-block p {
-  font-size: 20px;
+  font-size: 19px;
 }
 
 /* Project Matchiing Platform */
@@ -540,6 +545,11 @@ h1#case-study {
   text-align: center;
 }
 
+.home-title {
+  margin: -15px;
+  padding: -15px;
+}
+
 /* Hero Image styling for each slide */
 .hero {
     position: absolute;
@@ -564,7 +574,6 @@ h1#case-study {
 .hero p {
     font-size: 1.5vmax;
     font-weight: bold;
-    white-space:nowrap;
 }
 
 /* Footer */
@@ -686,19 +695,15 @@ hr#footer {
 }
 
 /* Call to Action button */
-.btn.sharp {
+.btn-sharp {
   border-radius: 0;
-  color: #fff;
-}
-.btn-sharp.outline {
-  border: 2px solid #ffffff;
-  color: #000;
-  background-color: #fff;
-}
-.btn-sharp:hover {
   color: black;
-  background-color: #fff;
-  border-color: #fff;
+  background-color: white;
+}
+
+.btn-sharp:hover {
+  color: #00a897;
+  background-color: #00a897;
 }
 
 /* Read More Button */
@@ -4720,7 +4725,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 #nav-logo {
-  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   max-height: 90px;
   max-width: 90px;"
 }
@@ -5095,7 +5103,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
-    float: none;
     width: auto;
     margin-top: 0;
     background-color: transparent;

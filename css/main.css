@@ -2,7 +2,7 @@
     border-bottom: 10px #00a896 solid;
     display: inline-block;
     line-height: 30px;
-    padding-bottom:20px;
+    padding: 20px;
 }
 
 #welcome-subtitle {
@@ -16,9 +16,6 @@
   padding-top: 115px;
 }
 
-.hero {
-  left: 50%;
-}
 
 #hero-subtext {
   width: 50vw;
@@ -40,6 +37,7 @@ img#code-is-cool {
     margin-top:31px;
     position: absolute;
     margin-left:-290px;
+    overflow: wrap;
   }
 
   #welcome-subtitle {
