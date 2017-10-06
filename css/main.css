@@ -30,7 +30,7 @@ img#code-is-cool {
     margin-left:-450px;
 }
 
-@media(min-width:480px) {
+@media(max-width: 768px) {
   #hero-subtext {
   }
   img#code-is-cool {
@@ -45,9 +45,14 @@ img#code-is-cool {
     padding-top:80px;
     left:38%;
   }
+  #anim-text {
+    padding: 10px;
+    border-bottom: 5px #00a896 solid
+    
+  }
 }
 
-@media(min-width:767px) {
+@media(max-width:991px) {
   #hero-subtext {
   }
   img#code-is-cool {
@@ -61,9 +66,14 @@ img#code-is-cool {
     padding-top:84px;
     left: 37%;
   }
+  #anim-text {
+    padding: 8px;
+    border-bottom: 5px #00a896 solid
+    
+  }
 }
 
-@media(min-width:991px) {
+@media(min-width:992px) {
 
   img#code-is-cool {
     margin-top:67px;

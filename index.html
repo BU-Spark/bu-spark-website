@@ -2,14 +2,15 @@
 layout: default
 title: BU Spark! - Home
 ---
+
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"1a05e1e9821077a0ac6ff6b52","lid":"9eee928d8b"}) })</script>
+
 <script src="{{site.baseurl}}/js/main.js"></script>
 <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
 
 <!-- Carousel Documentation: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
 <!-- Carousels require for carousel controls to function properly. -->
 <!-- slide class adds animation, data-ride="carousel" makes animation begin on page load -->
-
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"1a05e1e9821077a0ac6ff6b52","lid":"9eee928d8b"}) })</script>
 
 <div id="homeCarousel" class="carousel home-carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -18,16 +19,96 @@ title: BU Spark! - Home
             <div class="hero">
                 <hgroup>
                     <h1 class="home-title">BU Spark! helps you </h1><br>
-                    <h1 class="home-title"> <span id="anim-text">ignite ideas</span> </h1>
+                    <h1 class="home-title"> <span id="anim-text">ignite ideas</span></h1>
 
                     <br>
                     <p style="overflow: wrap;">BU Spark! is an initiative to support student-driven innovation in computer science, engineering, and related disciplines.</p>
-                    <a class="btn btn-sharp" href="{{site.baseurl}}/about">Learn More</a> <!-- custom classes btn-sharp, outline -->
                 </hgroup>
             </div>
         </div>
     </div>
 </div>
 
+<img src="img/Home/scroll_down.png">
+<!--Icon made by Freepik from www.flaticon.com -->
+
 <!--                    <img src="img/Home/code-is-cool.png" width=180 height=180 id="code-is-cool">-->
+
+<div class="container-fluid">
+    <div class="row intro">
+        <div class="col-sm-offset-1 col-sm-8">
+            <h1 id="mission">Our Mission</h1>
+            <hr class="title-seperation">
+            <p>BU Spark! is an initiative to support student-driven innovation in computer science,<br> engineering, and related disciplines. Housed at Boston University’s Hariri Institute for Computing, BU Spark aims to help students realize their potential by providing access to resources, knowledge, and expert networks to support their innovation journeys. </p>
+        </div>
+    </div>
+
+    <div class="row body-block" style="background-color:#d9eadf;">
+        <div class="col-sm-offset-1 col-sm-10">
+            <h1>Begin your Innovation Journey</h1>
+            <hr class="title-seperation">
+            <p>In a prestigious university setting like Boston University, there is no shortage of good ideas. Through BU Spark!, you can engage with fellow students to take their innovations to the next level or complete projects on behalf of an external partner.</p>
+            <img src="img/About/spark_journey.png" style="width:85vw;">
+        </div>
+    </div>
+
+    <!-- Start A Project! -->
+    <div class="row body-block">
+        <div class="col-sm-offset-1 col-sm-10">
+            <h1 id="resource start"><a id="start">Start a Project</a></h1>
+            <hr class="title-seperation">
+            <p id="description">Maybe you have an idea for an innovative new app for students. Perhaps you are pondering the possibility of creating a technology product to help those in need. Regardless if it helps 10 or 10,000 people, BU Spark! will strive to help realize your ideas. </p>
+        
+            <div class="col-sm-6">
+                <h2 id="project-name"><img src="img/Icons/build_icon.png" width="50" height="50" id="icon-left-title">Fellowship Program</h2>
+                <hr class="title-seperation">
+                <p id="description">The Fellowship program aims to provide you with a collaborative co-working space, access to mentors, and skill building to help ignite your ideas. A limited number of paid internships are available each semester for the Fellowship program, so sign up today!</p>
+
+                <a href="{{site.baseurl}}/fellowship" class="program-button">Learn More</a>
+            </div>
+
+            <div class="col-sm-6">
+                <h2 id="project-name"><img src="img/Icons/build_icon.png" width="50" height="50" id="icon-left-title">CS491: BU Spark! Innovation Ventures</h2>
+                <hr class="title-seperation">
+                <p id="description"> BU Spark! Innovation Ventures aims to provide a structured process and technical support for students to work independently to advance an original venture project of their own creation. The self-directed study will be accompanied by instructional components that will cover key topics relevant to product development, including user-centered design and project management. Students applying to this course must have a project concept in mind, or already in development, as well as the technical skills to execute on their vision.</p>
+
+                <a href="{{site.baseurl}}/projects" class="program-button">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row quote">
+        <div class="col-sm-offset-1 col-sm-10">
+            <div class="col-sm-2 col-xs-offset-1" style="text-align:right">
+                <img src="img/Headshots/makeeba_mccreary.jpg">
+                <!--
+                <p class="caption">Makeeba McCreary</p>
+                <p class="caption">Chief of Staff, Boston Public Schools</p>
+                -->
+            </div>
+
+            <div class="col-sm-8 col-xs-offset-1">
+                <p>"BU Spark! gave me the tools, knowledge, and skills I needed to pursue my passion for technology and dance. The team at BU Spark! is incredibly supportive, passionate, and fun to work with.</p>
+                <p class="attribute">~ Makeeba McCreary, Boston Public Schools</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Join A Project! -->
+    <div class="row body-block">
+        <div class="col-sm-offset-1 col-sm-10">
+            <h1 id="resource start"><a id="join" id="innovation-link">Join a Project</a></h1>
+            <hr class="title-seperation">
+            <p id="description">Sometimes, the best way to learn is through experience. BU Spark! is driven to provide you a comprehensive, hands-on approach in pursuing technology projects.</p>
+            
+            <div class="col-sm-6">
+                <h2 id="project-name"><img src="img/Icons/x-lab_icon.png" width="50" height="50" id="icon-left-title">Spark! X-Lab</h2>
+                <hr class="title-seperation">
+                <p id="description">BU Spark! hosts experiential learning courses that are designed to match you with a project and teach you the skills necessary to see that project come to life.</p>
+                
+                <a class="program-button" href="{{site.baseurl}}/projects">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
 
